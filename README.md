@@ -1,2 +1,2 @@
 # L-Essor
-A AI Campus Innovation Hub
+An AI Campus Innovation Hub
