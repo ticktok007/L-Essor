@@ -1,0 +1,141 @@
+vocab_id,sector,phrase_type,phrase
+VOC00001,HealthTech,problem,Rural patients travel 80+ km for specialist consultations.
+VOC00002,HealthTech,problem,Paper-based health records cause critical diagnostic delays.
+VOC00003,HealthTech,problem,60% of chronic disease patients miss follow-up appointments.
+VOC00004,HealthTech,problem,Mental health support is inaccessible in Tier-2 cities.
+VOC00005,HealthTech,solution,AI-powered triage chatbot triages patients before specialist consult.
+VOC00006,HealthTech,solution,Unified digital health record accessible across providers.
+VOC00007,HealthTech,solution,Automated follow-up reminders via WhatsApp and IVR.
+VOC00008,HealthTech,solution,On-demand video therapy with licensed clinical psychologists.
+VOC00009,HealthTech,customer,Primary healthcare centres in semi-urban districts.
+VOC00010,HealthTech,customer,District hospitals seeking digital transformation.
+VOC00011,HealthTech,customer,Corporate HR teams managing employee wellness.
+VOC00012,HealthTech,customer,Health-insurance companies reducing claims via preventive care.
+VOC00013,HealthTech,moat,Proprietary symptom-to-disease ML model trained on 2M Indian records.
+VOC00014,HealthTech,moat,Exclusive partnerships with 40 district hospitals.
+VOC00015,HealthTech,moat,WhatsApp-native UX requiring zero app download.
+VOC00016,HealthTech,moat,ABDM-compliant data layer ensuring regulatory fit.
+VOC00017,HealthTech,traction,"Serving 3,200 patients/month across 6 districts."
+VOC00018,HealthTech,traction,Integrated with 14 PHCs; 91% patient satisfaction.
+VOC00019,HealthTech,traction,₹6L MRR; 22% month-over-month growth.
+VOC00020,HealthTech,technology,ABDM-compliant FHIR APIs
+VOC00021,HealthTech,technology,CNN-based X-ray diagnostic model
+VOC00022,HealthTech,technology,NLP symptom extraction
+VOC00023,HealthTech,technology,Federated learning for privacy-preserving analytics
+VOC00024,EdTech,problem,First-generation learners cannot afford quality JEE/NEET coaching.
+VOC00025,EdTech,problem,College placement rates drop below 40% for non-metro engineering graduates.
+VOC00026,EdTech,problem,Upskilling programmes have 70% dropout rates due to poor engagement.
+VOC00027,EdTech,problem,School teachers lack tools to identify slow learners early.
+VOC00028,EdTech,solution,Affordable live-cohort JEE prep with AI-adaptive mock tests.
+VOC00029,EdTech,solution,Industry-linked micro-credential programmes with guaranteed interviews.
+VOC00030,EdTech,solution,Gamified skill tracks with peer accountability pods.
+VOC00031,EdTech,solution,AI-based learning-gap detector embedded in existing school LMS.
+VOC00032,EdTech,customer,Class 11–12 students in Tier-2 and Tier-3 cities.
+VOC00033,EdTech,customer,Engineering graduates seeking IT placements.
+VOC00034,EdTech,customer,Working professionals upskilling for data science roles.
+VOC00035,EdTech,customer,Government school teachers in rural districts.
+VOC00036,EdTech,moat,Vernacular content library in 6 Indian languages.
+VOC00037,EdTech,moat,"Placement-outcome data from 8,000 alumni powering job-match algorithm."
+VOC00038,EdTech,moat,Partnerships with 120 companies for direct hiring.
+VOC00039,EdTech,moat,Adaptive engine built on 4 years of proprietary learning-path data.
+VOC00040,EdTech,traction,"4,500 active learners; 78% course completion rate."
+VOC00041,EdTech,traction,180 placement partners; ₹3.2L MRR.
+VOC00042,EdTech,traction,3 state government pilots covering 900 schools.
+VOC00043,EdTech,technology,Adaptive learning engine
+VOC00044,EdTech,technology,NLP-based doubt resolution
+VOC00045,EdTech,technology,Video-compression for low-bandwidth delivery
+VOC00046,EdTech,technology,Proctored online assessment
+VOC00047,FinTech,problem,60% of MSMEs are rejected by formal credit channels due to thin credit files.
+VOC00048,FinTech,problem,Gig workers have no access to micro-insurance products.
+VOC00049,FinTech,problem,Rural households lose 20% of savings to informal money lenders.
+VOC00050,FinTech,problem,B2B invoice settlement delays strangle MSME cash flow.
+VOC00051,FinTech,solution,"Alternative credit scoring using GST, UPI, and utility payment history."
+VOC00052,FinTech,solution,Pay-per-use micro-insurance embedded at point of gig-work assignment.
+VOC00053,FinTech,solution,NBFC-backed savings and credit product distributed via SHGs.
+VOC00054,FinTech,solution,Automated invoice discounting platform integrated with Tally and Zoho Books.
+VOC00055,FinTech,customer,MSMEs with annual turnover under ₹5Cr.
+VOC00056,FinTech,customer,Food-delivery and ride-share gig workers.
+VOC00057,FinTech,customer,Self-Help Groups in rural Maharashtra and Tamil Nadu.
+VOC00058,FinTech,customer,Small manufacturers needing working-capital liquidity.
+VOC00059,FinTech,moat,Bureau-plus-alternative-data underwriting model with 3.2% NPA at 18 months.
+VOC00060,FinTech,moat,Insurance regulator (IRDAI) sandbox approval for micro-insurance product.
+VOC00061,FinTech,moat,Co-lending partnership with 2 scheduled commercial banks.
+VOC00062,FinTech,moat,Real-time GST data integration via NIC API.
+VOC00063,FinTech,traction,₹12Cr loan book; 3.2% NPA; 900 active borrowers.
+VOC00064,FinTech,traction,"18,000 gig workers insured; claim TAT 4 hours."
+VOC00065,FinTech,traction,₹4L MRR; NBFC partnership signed.
+VOC00066,FinTech,technology,Account aggregator framework
+VOC00067,FinTech,technology,RBI-compliant data localisation
+VOC00068,FinTech,technology,ML-based fraud detection
+VOC00069,FinTech,technology,GST analytics pipeline
+VOC00070,AgriTech,problem,Smallholder farmers receive 30% of consumer price for produce.
+VOC00071,AgriTech,problem,Crop losses from pest infestation average 18% due to late detection.
+VOC00072,AgriTech,problem,Agricultural credit is unavailable without land-title collateral.
+VOC00073,AgriTech,problem,Post-harvest losses exceed 25% in perishable supply chains.
+VOC00074,AgriTech,solution,FPO-linked direct market platform eliminating 3 layers of commission agents.
+VOC00075,AgriTech,solution,Satellite and drone imagery with ML pest-detection alerting farmers 10 days early.
+VOC00076,AgriTech,solution,Warehouse receipt financing using stored grain as collateral.
+VOC00077,AgriTech,solution,IoT-enabled cold-chain monitoring with real-time temperature alerts.
+VOC00078,AgriTech,customer,Smallholder farmers with 1–5 acres in Karnataka and Tamil Nadu.
+VOC00079,AgriTech,customer,FPOs managing 500+ farmer members.
+VOC00080,AgriTech,customer,Food processing companies needing traceable raw material supply.
+VOC00081,AgriTech,customer,State agriculture departments running subsidy programmes.
+VOC00082,AgriTech,moat,"Ground-truth crop-disease dataset from 12,000 farm visits."
+VOC00083,AgriTech,moat,Exclusive tie-up with 3 state warehousing corporations.
+VOC00084,AgriTech,moat,Soil health card integration via government API.
+VOC00085,AgriTech,moat,Last-mile network of 200 village-level tech entrepreneurs.
+VOC00086,AgriTech,traction,"6,000 farmer onboardings; ₹2.8Cr GMV in season 1."
+VOC00087,AgriTech,traction,18 FPOs; 90-day pilot with state horticulture board.
+VOC00088,AgriTech,traction,₹1.2Cr MRR; 14% post-harvest loss reduction reported by pilot farmers.
+VOC00089,AgriTech,technology,Multispectral satellite imagery
+VOC00090,AgriTech,technology,IoT soil sensors
+VOC00091,AgriTech,technology,Blockchain traceability
+VOC00092,AgriTech,technology,Feature phone USSD interface
+VOC00093,CleanTech,problem,Commercial rooftops capture less than 8% of viable solar potential.
+VOC00094,CleanTech,problem,"Municipal solid waste processing costs ₹1,800/tonne yet yields no revenue."
+VOC00095,CleanTech,problem,EV charging deserts exist across National Highway corridors.
+VOC00096,CleanTech,problem,Industrial units lack real-time visibility into energy wastage.
+VOC00097,CleanTech,solution,Asset-light rooftop solar leasing model with zero upfront cost for SMEs.
+VOC00098,CleanTech,solution,Waste-to-compost and RDF platform connecting municipalities with cement plants.
+VOC00099,CleanTech,solution,Modular fast-charging hubs deployed at highway dhabas via franchise model.
+VOC00100,CleanTech,solution,IoT energy-monitoring dashboard with ML anomaly detection for factories.
+VOC00101,CleanTech,customer,"SMEs with rooftop area over 2,000 sq ft."
+VOC00102,CleanTech,customer,Municipal corporations processing 50–200 TPD of waste.
+VOC00103,CleanTech,customer,Highway dhaba and hotel chains.
+VOC00104,CleanTech,customer,Manufacturing units with monthly electricity bill above ₹5L.
+VOC00105,CleanTech,moat,DISCOM-agnostic net-metering integration across 9 states.
+VOC00106,CleanTech,moat,Proprietary RDF quality-certification accepted by 4 cement majors.
+VOC00107,CleanTech,moat,FAME-II subsidy pass-through reducing charger capex 40%.
+VOC00108,CleanTech,moat,Energy-savings performance contract with guaranteed ROI.
+VOC00109,CleanTech,traction,3.2 MW solar deployed; ₹1.8Cr ARR.
+VOC00110,CleanTech,traction,8 municipality contracts; 120 TPD waste processed.
+VOC00111,CleanTech,traction,42 charging points live; ₹90L revenue in Q1.
+VOC00112,CleanTech,traction,34 factory clients; average 18% energy cost reduction.
+VOC00113,CleanTech,technology,IoT power monitoring
+VOC00114,CleanTech,technology,SCADA integration
+VOC00115,CleanTech,technology,Digital twin for energy simulation
+VOC00116,CleanTech,technology,Satellite rooftop area detection
+VOC00117,DeepTech,problem,Quality inspection on manufacturing lines misses 12% of defects using manual visual checks.
+VOC00118,DeepTech,problem,Indian-language voice interfaces fail below 70% accuracy on regional dialects.
+VOC00119,DeepTech,problem,"Predictive maintenance alerts arrive after failure, not before."
+VOC00120,DeepTech,problem,Medical imaging diagnosis queues in public hospitals average 11 days.
+VOC00121,DeepTech,solution,Edge-deployed computer vision model for zero-defect PCB and textile inspection.
+VOC00122,DeepTech,solution,Dialect-aware ASR model fine-tuned on 900 hours of regional audio.
+VOC00123,DeepTech,solution,Vibration-sensor ML pipeline predicting motor failures 72 hours ahead.
+VOC00124,DeepTech,solution,AI radiology assistant prioritising critical findings in chest X-rays within 30 seconds.
+VOC00125,DeepTech,customer,Automotive Tier-1 suppliers with high-volume assembly lines.
+VOC00126,DeepTech,customer,State government digital-service kiosks serving non-literate citizens.
+VOC00127,DeepTech,customer,Heavy industry plants with critical rotating machinery.
+VOC00128,DeepTech,customer,Public district hospitals with radiology departments.
+VOC00129,DeepTech,moat,Proprietary dataset of 480K labelled defect images across 6 product categories.
+VOC00130,DeepTech,moat,Patented dialect normalisation layer improving WER by 34%.
+VOC00131,DeepTech,moat,Physics-informed ML model reducing false-positive maintenance alerts by 60%.
+VOC00132,DeepTech,moat,CDSCO medical device registration in progress; CE mark filed.
+VOC00133,DeepTech,traction,Deployed at 3 Tier-1 auto plants; 0.3% defect escape rate.
+VOC00134,DeepTech,traction,1.2M voice transactions/month at government kiosks.
+VOC00135,DeepTech,traction,8 plants; prevented 14 unplanned shutdowns in 6 months.
+VOC00136,DeepTech,traction,Pilot at 4 district hospitals; 94% radiologist agreement rate.
+VOC00137,DeepTech,technology,Edge inference on NVIDIA Jetson
+VOC00138,DeepTech,technology,Transformer-based ASR
+VOC00139,DeepTech,technology,FFT vibration analytics
+VOC00140,DeepTech,technology,DICOM-compliant imaging pipeline

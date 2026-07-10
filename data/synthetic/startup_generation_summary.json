@@ -1,0 +1,13 @@
+{
+  "project": "Campus Innovation & Engagement Intelligence Hub",
+  "phase": "1 \u2014 Synthetic Data Foundation",
+  "seed": 42,
+  "generated_files": {
+    "startup_vocabulary_bank.csv": 140,
+    "startup_profiles.csv": 120,
+    "startup_founder_links.csv": 328,
+    "startup_funding_timeline.csv": 518
+  },
+  "total_records": 1106,
+  "note": "Entirely synthetic data. No real PII. Safe for build and demo."
+}

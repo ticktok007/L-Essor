@@ -1,0 +1,329 @@
+link_id,startup_id,founder_profile_id,founder_role,founder_title,ownership_band,is_primary_contact
+FL00001,STA00001,STU-0112,CEO,Co-Founder & CEO,30–40%,yes
+FL00002,STA00002,STU-0024,COO,Co-Founder & COO,20–25%,yes
+FL00003,STA00002,STU-0052,CEO,Founder & CEO,20–25%,no
+FL00004,STA00002,ALU-0042,CFO,Co-Founder & CFO,20–25%,no
+FL00005,STA00002,ALU-0180,CPO,Co-Founder & CPO,30–40%,no
+FL00006,STA00003,ALU-0001,CPO,Co-Founder & Head of Product,30–40%,yes
+FL00007,STA00003,STU-0260,Lead Scientist,Co-Founder & Chief Scientist,40–50%,no
+FL00008,STA00003,STU-0079,COO,Co-Founder & Head of Operations,15–20%,no
+FL00009,STA00003,STU-0166,Head of Engineering,Co-Founder & Engineering Lead,10–15%,no
+FL00010,STA00004,STU-0293,COO,Co-Founder & Head of Operations,15–20%,yes
+FL00011,STA00004,ALU-0105,Lead Scientist,Co-Founder & Chief Scientist,10–15%,no
+FL00012,STA00005,STU-0200,Head of Engineering,Co-Founder & Engineering Lead,25–30%,yes
+FL00013,STA00006,STU-0215,CEO,Founder & CEO,20–25%,yes
+FL00014,STA00007,STU-0069,CMO,Co-Founder & Head of Growth,10–15%,yes
+FL00015,STA00007,STU-0140,CEO,Founder & CEO,30–40%,no
+FL00016,STA00008,STU-0103,Lead Scientist,Co-Founder & Research Lead,20–25%,yes
+FL00017,STA00008,STU-0115,CPO,Co-Founder & CPO,40–50%,no
+FL00018,STA00008,ALU-0085,CTO,Founder & CTO,10–15%,no
+FL00019,STA00008,ALU-0165,CMO,Co-Founder & Head of Growth,40–50%,no
+FL00020,STA00009,STU-0156,Head of Engineering,Co-Founder & Engineering Lead,15–20%,yes
+FL00021,STA00009,ALU-0120,COO,Co-Founder & Head of Operations,25–30%,no
+FL00022,STA00009,STU-0262,Lead Scientist,Co-Founder & Research Lead,40–50%,no
+FL00023,STA00009,STU-0146,CTO,Co-Founder & Head of Technology,40–50%,no
+FL00024,STA00010,STU-0078,CTO,Co-Founder & CTO,25–30%,yes
+FL00025,STA00010,STU-0110,Head of Engineering,Co-Founder & Engineering Lead,25–30%,no
+FL00026,STA00010,ALU-0139,CMO,Co-Founder & Head of Growth,25–30%,no
+FL00027,STA00010,STU-0216,CEO,Founder & CEO,30–40%,no
+FL00028,STA00011,ALU-0137,CEO,Founder & CEO,40–50%,yes
+FL00029,STA00011,STU-0260,COO,Co-Founder & Head of Operations,10–15%,no
+FL00030,STA00011,ALU-0028,CFO,Co-Founder & CFO,20–25%,no
+FL00031,STA00012,STU-0265,CMO,Co-Founder & CMO,10–15%,yes
+FL00032,STA00012,ALU-0126,CTO,Co-Founder & Head of Technology,15–20%,no
+FL00033,STA00013,ALU-0046,COO,Co-Founder & Head of Operations,10–15%,yes
+FL00034,STA00013,STU-0141,Head of Engineering,Co-Founder & Engineering Lead,10–15%,no
+FL00035,STA00013,ALU-0179,CFO,Co-Founder & CFO,40–50%,no
+FL00036,STA00013,STU-0007,CMO,Co-Founder & Head of Growth,25–30%,no
+FL00037,STA00014,STU-0283,COO,Co-Founder & COO,15–20%,yes
+FL00038,STA00014,ALU-0116,CEO,Founder & CEO,20–25%,no
+FL00039,STA00014,STU-0148,CTO,Co-Founder & Head of Technology,20–25%,no
+FL00040,STA00014,STU-0120,Head of Engineering,Co-Founder & Engineering Lead,40–50%,no
+FL00041,STA00015,STU-0241,Lead Scientist,Co-Founder & Research Lead,25–30%,yes
+FL00042,STA00015,ALU-0172,CPO,Co-Founder & CPO,15–20%,no
+FL00043,STA00015,ALU-0178,COO,Co-Founder & Head of Operations,20–25%,no
+FL00044,STA00015,STU-0233,CFO,Co-Founder & CFO,20–25%,no
+FL00045,STA00016,ALU-0131,Lead Scientist,Co-Founder & Research Lead,25–30%,yes
+FL00046,STA00016,ALU-0121,Head of Engineering,Co-Founder & Engineering Lead,25–30%,no
+FL00047,STA00016,STU-0197,CMO,Co-Founder & CMO,30–40%,no
+FL00048,STA00017,STU-0041,CPO,Co-Founder & Head of Product,30–40%,yes
+FL00049,STA00017,STU-0255,Head of Engineering,Co-Founder & Engineering Lead,15–20%,no
+FL00050,STA00018,STU-0159,CTO,Founder & CTO,10–15%,yes
+FL00051,STA00018,ALU-0188,CFO,Co-Founder & CFO,10–15%,no
+FL00052,STA00018,ALU-0192,COO,Co-Founder & Head of Operations,15–20%,no
+FL00053,STA00018,STU-0277,CPO,Co-Founder & Head of Product,30–40%,no
+FL00054,STA00019,STU-0120,COO,Co-Founder & Head of Operations,15–20%,yes
+FL00055,STA00020,STU-0246,CEO,Founder & CEO,25–30%,yes
+FL00056,STA00020,STU-0252,Head of Engineering,Co-Founder & Engineering Lead,10–15%,no
+FL00057,STA00020,ALU-0156,CTO,Co-Founder & CTO,10–15%,no
+FL00058,STA00021,STU-0288,CPO,Co-Founder & Head of Product,40–50%,yes
+FL00059,STA00021,ALU-0091,CEO,Founder & CEO,40–50%,no
+FL00060,STA00021,ALU-0154,CTO,Founder & CTO,20–25%,no
+FL00061,STA00022,ALU-0029,CFO,Co-Founder & CFO,40–50%,yes
+FL00062,STA00022,ALU-0135,Head of Engineering,Co-Founder & Engineering Lead,10–15%,no
+FL00063,STA00022,ALU-0154,CTO,Co-Founder & CTO,10–15%,no
+FL00064,STA00022,ALU-0055,CPO,Co-Founder & CPO,20–25%,no
+FL00065,STA00023,ALU-0191,Head of Engineering,Co-Founder & Engineering Lead,15–20%,yes
+FL00066,STA00023,STU-0040,CPO,Co-Founder & CPO,30–40%,no
+FL00067,STA00023,STU-0179,CFO,Co-Founder & CFO,40–50%,no
+FL00068,STA00023,STU-0053,CTO,Co-Founder & CTO,20–25%,no
+FL00069,STA00024,ALU-0073,CTO,Founder & CTO,40–50%,yes
+FL00070,STA00024,STU-0171,Lead Scientist,Co-Founder & Chief Scientist,30–40%,no
+FL00071,STA00024,STU-0180,Head of Engineering,Co-Founder & Engineering Lead,40–50%,no
+FL00072,STA00025,ALU-0094,CEO,Co-Founder & CEO,25–30%,yes
+FL00073,STA00025,ALU-0193,CFO,Co-Founder & CFO,15–20%,no
+FL00074,STA00025,STU-0159,Head of Engineering,Co-Founder & Engineering Lead,15–20%,no
+FL00075,STA00025,ALU-0119,COO,Co-Founder & Head of Operations,25–30%,no
+FL00076,STA00026,STU-0270,CFO,Co-Founder & CFO,25–30%,yes
+FL00077,STA00026,ALU-0012,Lead Scientist,Co-Founder & Research Lead,20–25%,no
+FL00078,STA00026,STU-0183,CPO,Co-Founder & CPO,20–25%,no
+FL00079,STA00027,ALU-0191,Head of Engineering,Co-Founder & Engineering Lead,25–30%,yes
+FL00080,STA00027,STU-0255,CPO,Co-Founder & Head of Product,20–25%,no
+FL00081,STA00027,ALU-0022,CFO,Co-Founder & CFO,10–15%,no
+FL00082,STA00028,ALU-0102,CPO,Co-Founder & Head of Product,40–50%,yes
+FL00083,STA00028,STU-0059,COO,Co-Founder & COO,40–50%,no
+FL00084,STA00029,STU-0063,CFO,Co-Founder & CFO,15–20%,yes
+FL00085,STA00029,ALU-0007,CTO,Founder & CTO,30–40%,no
+FL00086,STA00029,ALU-0120,Head of Engineering,Co-Founder & Engineering Lead,30–40%,no
+FL00087,STA00029,STU-0159,CEO,Founder & CEO,40–50%,no
+FL00088,STA00030,STU-0042,CEO,Co-Founder & CEO,40–50%,yes
+FL00089,STA00030,ALU-0167,Lead Scientist,Co-Founder & Chief Scientist,30–40%,no
+FL00090,STA00030,STU-0255,CMO,Co-Founder & Head of Growth,40–50%,no
+FL00091,STA00031,STU-0073,Lead Scientist,Co-Founder & Chief Scientist,10–15%,yes
+FL00092,STA00031,ALU-0158,CPO,Co-Founder & Head of Product,15–20%,no
+FL00093,STA00032,ALU-0019,CFO,Co-Founder & CFO,30–40%,yes
+FL00094,STA00033,ALU-0005,CMO,Co-Founder & Head of Growth,20–25%,yes
+FL00095,STA00033,STU-0214,Head of Engineering,Co-Founder & Engineering Lead,40–50%,no
+FL00096,STA00034,ALU-0050,CMO,Co-Founder & CMO,20–25%,yes
+FL00097,STA00034,ALU-0058,CFO,Co-Founder & CFO,20–25%,no
+FL00098,STA00034,STU-0251,Lead Scientist,Co-Founder & Research Lead,25–30%,no
+FL00099,STA00034,ALU-0074,CPO,Co-Founder & CPO,30–40%,no
+FL00100,STA00035,ALU-0167,Lead Scientist,Co-Founder & Chief Scientist,20–25%,yes
+FL00101,STA00036,STU-0235,CFO,Co-Founder & CFO,40–50%,yes
+FL00102,STA00036,STU-0173,CTO,Founder & CTO,30–40%,no
+FL00103,STA00037,ALU-0176,CPO,Co-Founder & Head of Product,40–50%,yes
+FL00104,STA00037,ALU-0095,CEO,Co-Founder & CEO,15–20%,no
+FL00105,STA00037,ALU-0040,COO,Co-Founder & Head of Operations,40–50%,no
+FL00106,STA00037,ALU-0107,Lead Scientist,Co-Founder & Research Lead,30–40%,no
+FL00107,STA00038,STU-0236,COO,Co-Founder & Head of Operations,15–20%,yes
+FL00108,STA00038,STU-0058,CPO,Co-Founder & CPO,40–50%,no
+FL00109,STA00039,STU-0131,Head of Engineering,Co-Founder & Engineering Lead,20–25%,yes
+FL00110,STA00040,ALU-0098,CFO,Co-Founder & CFO,30–40%,yes
+FL00111,STA00040,ALU-0079,Head of Engineering,Co-Founder & Engineering Lead,20–25%,no
+FL00112,STA00041,STU-0078,COO,Co-Founder & COO,15–20%,yes
+FL00113,STA00042,ALU-0176,COO,Co-Founder & COO,40–50%,yes
+FL00114,STA00042,STU-0048,Lead Scientist,Co-Founder & Research Lead,25–30%,no
+FL00115,STA00043,STU-0175,COO,Co-Founder & Head of Operations,20–25%,yes
+FL00116,STA00043,ALU-0116,CEO,Founder & CEO,15–20%,no
+FL00117,STA00043,ALU-0111,CMO,Co-Founder & CMO,40–50%,no
+FL00118,STA00044,ALU-0142,CTO,Co-Founder & CTO,30–40%,yes
+FL00119,STA00044,ALU-0099,CFO,Co-Founder & CFO,20–25%,no
+FL00120,STA00044,ALU-0200,CMO,Co-Founder & CMO,40–50%,no
+FL00121,STA00045,ALU-0046,Lead Scientist,Co-Founder & Research Lead,20–25%,yes
+FL00122,STA00045,ALU-0148,CPO,Co-Founder & CPO,20–25%,no
+FL00123,STA00045,ALU-0101,CMO,Co-Founder & Head of Growth,10–15%,no
+FL00124,STA00046,STU-0125,CTO,Co-Founder & Head of Technology,15–20%,yes
+FL00125,STA00046,STU-0170,CFO,Co-Founder & CFO,25–30%,no
+FL00126,STA00046,ALU-0162,CPO,Co-Founder & CPO,15–20%,no
+FL00127,STA00046,ALU-0008,Head of Engineering,Co-Founder & Engineering Lead,25–30%,no
+FL00128,STA00047,STU-0197,CPO,Co-Founder & Head of Product,25–30%,yes
+FL00129,STA00047,ALU-0107,Head of Engineering,Co-Founder & Engineering Lead,25–30%,no
+FL00130,STA00047,STU-0290,CTO,Co-Founder & CTO,15–20%,no
+FL00131,STA00048,ALU-0137,CEO,Founder & CEO,30–40%,yes
+FL00132,STA00048,STU-0166,CFO,Co-Founder & CFO,20–25%,no
+FL00133,STA00049,ALU-0083,Lead Scientist,Co-Founder & Research Lead,20–25%,yes
+FL00134,STA00049,STU-0290,CMO,Co-Founder & Head of Growth,20–25%,no
+FL00135,STA00049,STU-0024,Head of Engineering,Co-Founder & Engineering Lead,40–50%,no
+FL00136,STA00050,STU-0266,CPO,Co-Founder & Head of Product,10–15%,yes
+FL00137,STA00050,ALU-0031,CEO,Founder & CEO,40–50%,no
+FL00138,STA00050,ALU-0019,COO,Co-Founder & COO,25–30%,no
+FL00139,STA00051,STU-0201,COO,Co-Founder & Head of Operations,40–50%,yes
+FL00140,STA00051,STU-0254,CEO,Founder & CEO,10–15%,no
+FL00141,STA00051,ALU-0164,CPO,Co-Founder & CPO,30–40%,no
+FL00142,STA00052,ALU-0179,CTO,Founder & CTO,40–50%,yes
+FL00143,STA00052,STU-0030,Lead Scientist,Co-Founder & Chief Scientist,10–15%,no
+FL00144,STA00053,ALU-0146,CEO,Co-Founder & CEO,20–25%,yes
+FL00145,STA00054,ALU-0073,CTO,Founder & CTO,20–25%,yes
+FL00146,STA00054,ALU-0003,CEO,Founder & CEO,15–20%,no
+FL00147,STA00055,ALU-0024,CPO,Co-Founder & CPO,15–20%,yes
+FL00148,STA00055,ALU-0180,Lead Scientist,Co-Founder & Research Lead,25–30%,no
+FL00149,STA00056,STU-0111,CMO,Co-Founder & Head of Growth,15–20%,yes
+FL00150,STA00056,STU-0183,CEO,Founder & CEO,30–40%,no
+FL00151,STA00057,ALU-0052,CPO,Co-Founder & CPO,40–50%,yes
+FL00152,STA00057,STU-0196,Lead Scientist,Co-Founder & Research Lead,25–30%,no
+FL00153,STA00057,ALU-0089,CFO,Co-Founder & CFO,25–30%,no
+FL00154,STA00058,ALU-0045,Lead Scientist,Co-Founder & Research Lead,10–15%,yes
+FL00155,STA00058,STU-0120,CEO,Co-Founder & CEO,10–15%,no
+FL00156,STA00059,ALU-0019,CPO,Co-Founder & CPO,20–25%,yes
+FL00157,STA00059,ALU-0067,CEO,Co-Founder & CEO,10–15%,no
+FL00158,STA00059,STU-0193,CMO,Co-Founder & CMO,40–50%,no
+FL00159,STA00060,ALU-0098,CPO,Co-Founder & Head of Product,15–20%,yes
+FL00160,STA00061,STU-0230,CPO,Co-Founder & CPO,15–20%,yes
+FL00161,STA00061,STU-0065,CTO,Co-Founder & CTO,25–30%,no
+FL00162,STA00061,ALU-0052,CEO,Co-Founder & CEO,30–40%,no
+FL00163,STA00061,ALU-0187,CFO,Co-Founder & CFO,10–15%,no
+FL00164,STA00062,STU-0124,CTO,Founder & CTO,25–30%,yes
+FL00165,STA00062,ALU-0046,CFO,Co-Founder & CFO,30–40%,no
+FL00166,STA00063,ALU-0164,CFO,Co-Founder & CFO,20–25%,yes
+FL00167,STA00063,ALU-0049,CPO,Co-Founder & CPO,30–40%,no
+FL00168,STA00063,STU-0207,CTO,Co-Founder & Head of Technology,20–25%,no
+FL00169,STA00064,STU-0182,CTO,Co-Founder & CTO,40–50%,yes
+FL00170,STA00064,ALU-0108,Lead Scientist,Co-Founder & Research Lead,20–25%,no
+FL00171,STA00064,ALU-0119,COO,Co-Founder & COO,25–30%,no
+FL00172,STA00065,STU-0117,Head of Engineering,Co-Founder & Engineering Lead,40–50%,yes
+FL00173,STA00065,STU-0012,CTO,Co-Founder & Head of Technology,30–40%,no
+FL00174,STA00065,STU-0188,CPO,Co-Founder & CPO,25–30%,no
+FL00175,STA00065,STU-0025,CMO,Co-Founder & CMO,40–50%,no
+FL00176,STA00066,STU-0090,CEO,Co-Founder & CEO,20–25%,yes
+FL00177,STA00066,ALU-0110,COO,Co-Founder & COO,10–15%,no
+FL00178,STA00067,ALU-0004,CMO,Co-Founder & CMO,40–50%,yes
+FL00179,STA00067,ALU-0133,Lead Scientist,Co-Founder & Chief Scientist,25–30%,no
+FL00180,STA00068,ALU-0030,CFO,Co-Founder & CFO,40–50%,yes
+FL00181,STA00068,STU-0175,CTO,Founder & CTO,40–50%,no
+FL00182,STA00068,ALU-0180,COO,Co-Founder & COO,10–15%,no
+FL00183,STA00069,ALU-0156,Head of Engineering,Co-Founder & Engineering Lead,20–25%,yes
+FL00184,STA00069,ALU-0076,COO,Co-Founder & Head of Operations,15–20%,no
+FL00185,STA00069,ALU-0155,CTO,Co-Founder & Head of Technology,40–50%,no
+FL00186,STA00070,ALU-0176,Head of Engineering,Co-Founder & Engineering Lead,30–40%,yes
+FL00187,STA00070,STU-0129,CEO,Co-Founder & CEO,30–40%,no
+FL00188,STA00070,STU-0189,CMO,Co-Founder & CMO,40–50%,no
+FL00189,STA00071,STU-0259,CPO,Co-Founder & CPO,25–30%,yes
+FL00190,STA00071,ALU-0024,CFO,Co-Founder & CFO,15–20%,no
+FL00191,STA00072,ALU-0105,COO,Co-Founder & Head of Operations,25–30%,yes
+FL00192,STA00072,ALU-0111,Head of Engineering,Co-Founder & Engineering Lead,10–15%,no
+FL00193,STA00073,STU-0157,Head of Engineering,Co-Founder & Engineering Lead,40–50%,yes
+FL00194,STA00073,ALU-0055,CFO,Co-Founder & CFO,40–50%,no
+FL00195,STA00073,STU-0083,CMO,Co-Founder & CMO,15–20%,no
+FL00196,STA00073,ALU-0050,Lead Scientist,Co-Founder & Chief Scientist,15–20%,no
+FL00197,STA00074,ALU-0129,Head of Engineering,Co-Founder & Engineering Lead,40–50%,yes
+FL00198,STA00074,STU-0264,CTO,Co-Founder & CTO,25–30%,no
+FL00199,STA00074,STU-0290,CPO,Co-Founder & CPO,40–50%,no
+FL00200,STA00075,ALU-0006,CPO,Co-Founder & CPO,10–15%,yes
+FL00201,STA00075,STU-0069,CTO,Co-Founder & Head of Technology,30–40%,no
+FL00202,STA00075,STU-0029,CEO,Co-Founder & CEO,20–25%,no
+FL00203,STA00076,STU-0091,CPO,Co-Founder & Head of Product,30–40%,yes
+FL00204,STA00076,STU-0273,CFO,Co-Founder & CFO,10–15%,no
+FL00205,STA00077,ALU-0168,CEO,Co-Founder & CEO,40–50%,yes
+FL00206,STA00077,ALU-0105,Lead Scientist,Co-Founder & Research Lead,10–15%,no
+FL00207,STA00078,ALU-0163,CPO,Co-Founder & CPO,10–15%,yes
+FL00208,STA00078,STU-0242,Lead Scientist,Co-Founder & Research Lead,10–15%,no
+FL00209,STA00078,ALU-0057,CEO,Founder & CEO,10–15%,no
+FL00210,STA00078,STU-0197,Head of Engineering,Co-Founder & Engineering Lead,30–40%,no
+FL00211,STA00079,STU-0100,CMO,Co-Founder & Head of Growth,25–30%,yes
+FL00212,STA00079,STU-0134,CFO,Co-Founder & CFO,25–30%,no
+FL00213,STA00080,STU-0253,CTO,Co-Founder & Head of Technology,10–15%,yes
+FL00214,STA00080,STU-0247,Lead Scientist,Co-Founder & Research Lead,30–40%,no
+FL00215,STA00080,ALU-0148,COO,Co-Founder & Head of Operations,25–30%,no
+FL00216,STA00080,ALU-0102,CPO,Co-Founder & CPO,30–40%,no
+FL00217,STA00081,ALU-0125,CPO,Co-Founder & Head of Product,20–25%,yes
+FL00218,STA00081,STU-0204,CFO,Co-Founder & CFO,40–50%,no
+FL00219,STA00081,STU-0111,CTO,Founder & CTO,25–30%,no
+FL00220,STA00082,STU-0068,Lead Scientist,Co-Founder & Chief Scientist,10–15%,yes
+FL00221,STA00082,ALU-0084,CEO,Founder & CEO,25–30%,no
+FL00222,STA00082,ALU-0141,CFO,Co-Founder & CFO,15–20%,no
+FL00223,STA00083,STU-0176,Lead Scientist,Co-Founder & Research Lead,20–25%,yes
+FL00224,STA00083,ALU-0096,Head of Engineering,Co-Founder & Engineering Lead,40–50%,no
+FL00225,STA00084,ALU-0063,CTO,Co-Founder & CTO,10–15%,yes
+FL00226,STA00084,ALU-0177,CFO,Co-Founder & CFO,20–25%,no
+FL00227,STA00084,STU-0081,CEO,Founder & CEO,10–15%,no
+FL00228,STA00085,ALU-0105,CMO,Co-Founder & Head of Growth,10–15%,yes
+FL00229,STA00085,STU-0023,CEO,Co-Founder & CEO,15–20%,no
+FL00230,STA00085,STU-0055,CTO,Founder & CTO,15–20%,no
+FL00231,STA00086,STU-0093,CTO,Co-Founder & Head of Technology,25–30%,yes
+FL00232,STA00086,ALU-0169,CFO,Co-Founder & CFO,30–40%,no
+FL00233,STA00086,ALU-0091,Head of Engineering,Co-Founder & Engineering Lead,30–40%,no
+FL00234,STA00086,ALU-0106,COO,Co-Founder & Head of Operations,40–50%,no
+FL00235,STA00087,STU-0117,Head of Engineering,Co-Founder & Engineering Lead,40–50%,yes
+FL00236,STA00087,ALU-0014,Lead Scientist,Co-Founder & Research Lead,30–40%,no
+FL00237,STA00087,ALU-0139,CEO,Co-Founder & CEO,20–25%,no
+FL00238,STA00087,STU-0079,CFO,Co-Founder & CFO,40–50%,no
+FL00239,STA00088,STU-0031,CMO,Co-Founder & Head of Growth,15–20%,yes
+FL00240,STA00088,ALU-0014,Lead Scientist,Co-Founder & Research Lead,40–50%,no
+FL00241,STA00089,STU-0298,COO,Co-Founder & COO,15–20%,yes
+FL00242,STA00089,STU-0221,CPO,Co-Founder & CPO,40–50%,no
+FL00243,STA00089,STU-0163,Head of Engineering,Co-Founder & Engineering Lead,30–40%,no
+FL00244,STA00089,STU-0095,Lead Scientist,Co-Founder & Research Lead,15–20%,no
+FL00245,STA00090,ALU-0117,CTO,Co-Founder & CTO,15–20%,yes
+FL00246,STA00090,ALU-0189,CFO,Co-Founder & CFO,30–40%,no
+FL00247,STA00090,STU-0098,CMO,Co-Founder & Head of Growth,25–30%,no
+FL00248,STA00091,STU-0092,CPO,Co-Founder & CPO,25–30%,yes
+FL00249,STA00091,ALU-0187,COO,Co-Founder & Head of Operations,20–25%,no
+FL00250,STA00091,STU-0061,Lead Scientist,Co-Founder & Chief Scientist,15–20%,no
+FL00251,STA00091,ALU-0004,CEO,Founder & CEO,25–30%,no
+FL00252,STA00092,STU-0154,CEO,Founder & CEO,20–25%,yes
+FL00253,STA00092,STU-0219,CMO,Co-Founder & CMO,20–25%,no
+FL00254,STA00093,ALU-0066,COO,Co-Founder & COO,20–25%,yes
+FL00255,STA00093,ALU-0197,CPO,Co-Founder & CPO,10–15%,no
+FL00256,STA00093,ALU-0088,Lead Scientist,Co-Founder & Research Lead,40–50%,no
+FL00257,STA00094,STU-0174,CMO,Co-Founder & Head of Growth,40–50%,yes
+FL00258,STA00094,STU-0293,CFO,Co-Founder & CFO,15–20%,no
+FL00259,STA00094,STU-0158,Head of Engineering,Co-Founder & Engineering Lead,40–50%,no
+FL00260,STA00094,ALU-0106,CEO,Co-Founder & CEO,25–30%,no
+FL00261,STA00095,ALU-0164,CEO,Co-Founder & CEO,20–25%,yes
+FL00262,STA00095,STU-0147,CPO,Co-Founder & Head of Product,30–40%,no
+FL00263,STA00095,ALU-0172,CMO,Co-Founder & CMO,20–25%,no
+FL00264,STA00096,STU-0229,Head of Engineering,Co-Founder & Engineering Lead,20–25%,yes
+FL00265,STA00096,STU-0274,CPO,Co-Founder & CPO,25–30%,no
+FL00266,STA00097,ALU-0103,CMO,Co-Founder & Head of Growth,15–20%,yes
+FL00267,STA00097,STU-0281,CFO,Co-Founder & CFO,25–30%,no
+FL00268,STA00097,STU-0175,COO,Co-Founder & COO,40–50%,no
+FL00269,STA00098,ALU-0098,Head of Engineering,Co-Founder & Engineering Lead,30–40%,yes
+FL00270,STA00099,ALU-0099,Head of Engineering,Co-Founder & Engineering Lead,15–20%,yes
+FL00271,STA00099,ALU-0155,CTO,Co-Founder & CTO,30–40%,no
+FL00272,STA00100,ALU-0075,CFO,Co-Founder & CFO,10–15%,yes
+FL00273,STA00100,ALU-0187,Head of Engineering,Co-Founder & Engineering Lead,10–15%,no
+FL00274,STA00100,ALU-0149,Lead Scientist,Co-Founder & Chief Scientist,30–40%,no
+FL00275,STA00101,STU-0161,CFO,Co-Founder & CFO,40–50%,yes
+FL00276,STA00101,STU-0007,CEO,Founder & CEO,10–15%,no
+FL00277,STA00101,STU-0229,Head of Engineering,Co-Founder & Engineering Lead,15–20%,no
+FL00278,STA00102,ALU-0046,COO,Co-Founder & Head of Operations,10–15%,yes
+FL00279,STA00102,ALU-0056,CTO,Co-Founder & Head of Technology,40–50%,no
+FL00280,STA00102,ALU-0184,CEO,Founder & CEO,10–15%,no
+FL00281,STA00103,ALU-0159,CEO,Co-Founder & CEO,15–20%,yes
+FL00282,STA00103,STU-0008,Head of Engineering,Co-Founder & Engineering Lead,40–50%,no
+FL00283,STA00104,ALU-0046,Lead Scientist,Co-Founder & Chief Scientist,40–50%,yes
+FL00284,STA00104,STU-0187,CEO,Founder & CEO,15–20%,no
+FL00285,STA00104,ALU-0086,CMO,Co-Founder & Head of Growth,10–15%,no
+FL00286,STA00104,STU-0276,CTO,Co-Founder & CTO,15–20%,no
+FL00287,STA00105,STU-0057,CMO,Co-Founder & Head of Growth,25–30%,yes
+FL00288,STA00105,STU-0176,COO,Co-Founder & COO,20–25%,no
+FL00289,STA00105,STU-0088,Head of Engineering,Co-Founder & Engineering Lead,10–15%,no
+FL00290,STA00106,STU-0286,COO,Co-Founder & COO,40–50%,yes
+FL00291,STA00106,ALU-0056,Head of Engineering,Co-Founder & Engineering Lead,20–25%,no
+FL00292,STA00106,STU-0047,CPO,Co-Founder & CPO,25–30%,no
+FL00293,STA00107,ALU-0125,CFO,Co-Founder & CFO,25–30%,yes
+FL00294,STA00107,ALU-0116,Head of Engineering,Co-Founder & Engineering Lead,40–50%,no
+FL00295,STA00107,STU-0097,Lead Scientist,Co-Founder & Research Lead,10–15%,no
+FL00296,STA00108,STU-0248,CMO,Co-Founder & Head of Growth,20–25%,yes
+FL00297,STA00108,STU-0076,Lead Scientist,Co-Founder & Research Lead,20–25%,no
+FL00298,STA00108,STU-0083,COO,Co-Founder & Head of Operations,15–20%,no
+FL00299,STA00109,ALU-0079,CFO,Co-Founder & CFO,30–40%,yes
+FL00300,STA00109,STU-0228,CEO,Founder & CEO,25–30%,no
+FL00301,STA00110,ALU-0132,CTO,Co-Founder & Head of Technology,30–40%,yes
+FL00302,STA00111,ALU-0037,CTO,Co-Founder & CTO,15–20%,yes
+FL00303,STA00111,ALU-0096,CFO,Co-Founder & CFO,25–30%,no
+FL00304,STA00111,STU-0053,COO,Co-Founder & COO,15–20%,no
+FL00305,STA00111,STU-0097,Lead Scientist,Co-Founder & Chief Scientist,25–30%,no
+FL00306,STA00112,ALU-0031,CEO,Founder & CEO,10–15%,yes
+FL00307,STA00112,ALU-0171,CTO,Co-Founder & CTO,10–15%,no
+FL00308,STA00112,STU-0103,CPO,Co-Founder & CPO,40–50%,no
+FL00309,STA00113,ALU-0109,CFO,Co-Founder & CFO,30–40%,yes
+FL00310,STA00113,ALU-0029,CTO,Founder & CTO,10–15%,no
+FL00311,STA00113,STU-0267,CMO,Co-Founder & CMO,25–30%,no
+FL00312,STA00113,ALU-0143,COO,Co-Founder & COO,10–15%,no
+FL00313,STA00114,ALU-0122,Head of Engineering,Co-Founder & Engineering Lead,25–30%,yes
+FL00314,STA00115,ALU-0170,COO,Co-Founder & Head of Operations,25–30%,yes
+FL00315,STA00115,ALU-0139,CFO,Co-Founder & CFO,30–40%,no
+FL00316,STA00116,ALU-0025,CFO,Co-Founder & CFO,20–25%,yes
+FL00317,STA00116,ALU-0090,CPO,Co-Founder & CPO,40–50%,no
+FL00318,STA00116,STU-0121,CTO,Co-Founder & Head of Technology,20–25%,no
+FL00319,STA00117,ALU-0013,CMO,Co-Founder & Head of Growth,30–40%,yes
+FL00320,STA00117,STU-0048,COO,Co-Founder & COO,30–40%,no
+FL00321,STA00117,ALU-0018,CPO,Co-Founder & Head of Product,25–30%,no
+FL00322,STA00118,STU-0082,CEO,Founder & CEO,15–20%,yes
+FL00323,STA00119,ALU-0056,COO,Co-Founder & COO,10–15%,yes
+FL00324,STA00119,STU-0141,CTO,Founder & CTO,25–30%,no
+FL00325,STA00119,STU-0252,CMO,Co-Founder & Head of Growth,40–50%,no
+FL00326,STA00120,STU-0121,CMO,Co-Founder & Head of Growth,15–20%,yes
+FL00327,STA00120,STU-0225,Lead Scientist,Co-Founder & Research Lead,40–50%,no
+FL00328,STA00120,STU-0141,COO,Co-Founder & COO,25–30%,no

@@ -1,0 +1,519 @@
+event_id,startup_id,event_date,event_type,stage_at_event,amount_in_inr,milestone_note
+EV000001,STA00001,2025-05-01,incubated,pre-seed,0,Joined Forge pre-incubation programme.
+EV000002,STA00001,2025-06-03,prototype_built,pre-seed,0,Working prototype demonstrated to 5 pilot users.
+EV000003,STA00002,2024-06-06,incubated,pre-seed,0,Joined Forge pre-incubation programme.
+EV000004,STA00002,2024-10-26,prototype_built,pre-seed,0,MVP built and tested internally.
+EV000005,STA00002,2025-04-11,demo_day,seed,0,Presented at Forge Demo Day; selected top-3 startup.
+EV000006,STA00002,2025-07-23,pilot_signed,seed,0,MoU executed with Jio Platforms for 3-month trial.
+EV000007,STA00002,2026-03-14,pre_seed_round,seed,1000000,₹10 raised at pre-seed from 2 investors.
+EV000008,STA00002,2026-06-08,product_launched,seed,0,Product launched on App Store and Play Store.
+EV000009,STA00003,2022-01-12,incubated,pre-seed,0,Selected for NIT Trichy cohort 2022.
+EV000010,STA00003,2022-03-18,prototype_built,pre-seed,0,MVP built and tested internally.
+EV000011,STA00003,2022-08-30,product_launched,bootstrapped,0,Public beta launched; 200 waitlist converts.
+EV000012,STA00003,2023-04-08,revenue_milestone,bootstrapped,2500000,₹25 ARR milestone crossed.
+EV000013,STA00004,2024-01-22,incubated,pre-seed,0,Selected for Forge cohort 2024.
+EV000014,STA00004,2024-03-23,grant_received,pre-seed,3000000,AIM-iCREATE grant of ₹30 awarded.
+EV000015,STA00004,2024-12-07,prototype_built,pre-seed,0,Working prototype demonstrated to 3 pilot users.
+EV000016,STA00005,2025-03-14,incubated,pre-seed,0,Joined IIMB pre-incubation programme.
+EV000017,STA00005,2025-05-12,prototype_built,pre-seed,0,MVP built and tested internally.
+EV000018,STA00006,2025-02-22,incubated,pre-seed,0,Joined CIIE.CO pre-incubation programme.
+EV000019,STA00006,2025-11-13,prototype_built,pre-seed,0,Hardware prototype passed bench tests.
+EV000020,STA00007,2024-02-23,incubated,pre-seed,0,Selected for Forge cohort 2024.
+EV000021,STA00007,2024-05-10,prototype_built,pre-seed,0,MVP built and tested internally.
+EV000022,STA00007,2024-10-21,demo_day,seed,0,Presented at CIIE.CO Demo Day; selected top-3 startup.
+EV000023,STA00007,2025-01-16,pilot_signed,seed,0,Pilot agreement signed with SBI.
+EV000024,STA00007,2025-05-01,pre_seed_round,seed,1000000,₹10 raised at pre-seed from 7 investors.
+EV000025,STA00007,2025-09-15,product_launched,seed,0,Public beta launched; 200 waitlist converts.
+EV000026,STA00008,2023-05-11,incubated,pre-seed,0,Admitted to NSRCEL incubation centre.
+EV000027,STA00008,2024-01-18,prototype_built,pre-seed,0,Hardware prototype passed bench tests.
+EV000028,STA00008,2024-06-26,product_launched,bootstrapped,0,Product launched on App Store and Play Store.
+EV000029,STA00008,2024-08-30,revenue_milestone,bootstrapped,1500000,Reached ₹15 MRR.
+EV000030,STA00009,2024-06-20,incubated,pre-seed,0,Selected for NSRCEL cohort 2024.
+EV000031,STA00009,2024-10-03,prototype_built,pre-seed,0,Working prototype demonstrated to 8 pilot users.
+EV000032,STA00009,2025-02-09,demo_day,seed,0,Showcased at Smart India Hackathon finals.
+EV000033,STA00009,2025-03-13,pilot_signed,seed,0,Pilot agreement signed with BPCL.
+EV000034,STA00009,2025-05-07,pre_seed_round,seed,5000000,Pre-seed round of ₹50 closed.
+EV000035,STA00009,2025-11-15,product_launched,seed,0,SaaS platform went live; 50 sign-ups on day one.
+EV000036,STA00010,2024-06-01,incubated,pre-seed,0,Joined T-Hub pre-incubation programme.
+EV000037,STA00010,2025-01-31,prototype_built,pre-seed,0,MVP built and tested internally.
+EV000038,STA00010,2025-11-05,demo_day,seed,0,Presented at CIIE.CO Demo Day; selected top-3 startup.
+EV000039,STA00010,2026-02-08,pilot_signed,seed,0,LOI received from 8 SME clients.
+EV000040,STA00010,2026-05-18,pre_seed_round,series-a,1000000,₹10 raised at pre-seed from 5 investors.
+EV000041,STA00010,2027-02-04,product_launched,seed,0,SaaS platform went live; 50 sign-ups on day one.
+EV000042,STA00010,2027-11-01,revenue_milestone,series-a,10000,First paying customer onboarded at ₹10/month.
+EV000043,STA00010,2027-12-16,seed_round,series-a,1000000,Seed round of ₹10 closed.
+EV000044,STA00010,2028-09-13,series_a_round,series-a,50000000,Series A of ₹5 closed.
+EV000045,STA00011,2026-06-27,incubated,pre-seed,0,Selected for Anna University cohort 2026.
+EV000046,STA00011,2027-03-31,prototype_built,pre-seed,0,Hardware prototype passed bench tests.
+EV000047,STA00012,2025-06-16,incubated,pre-seed,0,Joined IIT Madras pre-incubation programme.
+EV000048,STA00012,2025-11-06,grant_received,pre-seed,3000000,AIM-iCREATE grant of ₹30 awarded.
+EV000049,STA00012,2026-05-31,prototype_built,pre-seed,0,Hardware prototype passed bench tests.
+EV000050,STA00013,2024-04-15,incubated,pre-seed,0,Selected for Forge cohort 2024.
+EV000051,STA00013,2024-12-06,grant_received,pre-seed,500000,AIM-iCREATE grant of ₹5 awarded.
+EV000052,STA00013,2025-02-17,prototype_built,pre-seed,0,Working prototype demonstrated to 8 pilot users.
+EV000053,STA00014,2024-05-22,incubated,pre-seed,0,Admitted to IIMB incubation centre.
+EV000054,STA00014,2024-09-01,prototype_built,pre-seed,0,Working prototype demonstrated to 3 pilot users.
+EV000055,STA00014,2025-05-28,product_launched,bootstrapped,0,Public beta launched; 200 waitlist converts.
+EV000056,STA00014,2025-07-17,revenue_milestone,bootstrapped,3000000,₹30 ARR milestone crossed.
+EV000057,STA00015,2025-03-11,incubated,pre-seed,0,Admitted to IIT Madras incubation centre.
+EV000058,STA00015,2025-11-07,grant_received,pre-seed,1000000,Received ₹10 BIRAC BIG grant.
+EV000059,STA00015,2026-03-21,prototype_built,pre-seed,0,Hardware prototype passed bench tests.
+EV000060,STA00016,2022-05-24,incubated,pre-seed,0,Admitted to CIIE.CO incubation centre.
+EV000061,STA00016,2022-11-06,prototype_built,pre-seed,0,Working prototype demonstrated to 9 pilot users.
+EV000062,STA00016,2023-08-10,demo_day,seed,0,Pitched at T-Hub Investor Summit.
+EV000063,STA00016,2024-03-23,pilot_signed,seed,0,Pilot agreement signed with Indian Railways.
+EV000064,STA00016,2024-11-05,pre_seed_round,series-a,2000000,Pre-seed round of ₹20 closed.
+EV000065,STA00016,2025-01-25,product_launched,seed,0,Public beta launched; 200 waitlist converts.
+EV000066,STA00016,2025-04-03,revenue_milestone,series-a,5000000,₹50 ARR milestone crossed.
+EV000067,STA00016,2025-11-13,seed_round,series-a,3000000,₹30 seed investment from VC firm.
+EV000068,STA00016,2026-04-12,series_a_round,series-a,50000000,₹5 Series A led by institutional VC.
+EV000069,STA00017,2024-04-21,incubated,pre-seed,0,Selected for IIT Madras cohort 2024.
+EV000070,STA00017,2024-08-09,prototype_built,pre-seed,0,Working prototype demonstrated to 6 pilot users.
+EV000071,STA00017,2025-04-29,product_launched,bootstrapped,0,SaaS platform went live; 50 sign-ups on day one.
+EV000072,STA00017,2025-11-28,revenue_milestone,bootstrapped,1500000,Reached ₹15 MRR.
+EV000073,STA00018,2022-05-09,incubated,pre-seed,0,Admitted to T-Hub incubation centre.
+EV000074,STA00018,2022-07-16,prototype_built,pre-seed,0,Working prototype demonstrated to 7 pilot users.
+EV000075,STA00018,2022-09-30,demo_day,seed,0,Pitched at NIT Trichy Investor Summit.
+EV000076,STA00018,2023-03-13,pilot_signed,seed,0,LOI received from 2 SME clients.
+EV000077,STA00018,2023-09-26,pre_seed_round,series-a,3000000,Pre-seed round of ₹30 closed.
+EV000078,STA00018,2023-12-24,product_launched,seed,0,Product launched on App Store and Play Store.
+EV000079,STA00018,2024-05-22,revenue_milestone,series-a,1000000,Reached ₹10 MRR.
+EV000080,STA00018,2024-09-08,seed_round,series-a,3000000,₹30 seed investment from VC firm.
+EV000081,STA00018,2025-04-15,series_a_round,series-a,20000000,Series A of ₹2 closed.
+EV000082,STA00019,2026-05-01,incubated,pre-seed,0,Selected for NSRCEL cohort 2026.
+EV000083,STA00019,2026-06-13,prototype_built,pre-seed,0,Working prototype demonstrated to 4 pilot users.
+EV000084,STA00020,2024-02-09,incubated,pre-seed,0,Joined NSRCEL pre-incubation programme.
+EV000085,STA00020,2024-10-16,grant_received,pre-seed,5000000,Received ₹50 BIRAC BIG grant.
+EV000086,STA00020,2025-03-11,prototype_built,pre-seed,0,Hardware prototype passed bench tests.
+EV000087,STA00021,2025-01-19,incubated,pre-seed,0,Joined Forge pre-incubation programme.
+EV000088,STA00021,2025-08-16,prototype_built,pre-seed,0,MVP built and tested internally.
+EV000089,STA00021,2025-09-28,demo_day,seed,0,Showcased at Smart India Hackathon finals.
+EV000090,STA00021,2026-04-19,pilot_signed,seed,0,MoU executed with Titan Company for 3-month trial.
+EV000091,STA00021,2026-06-03,pre_seed_round,seed,3000000,Pre-seed round of ₹30 closed.
+EV000092,STA00021,2026-09-21,product_launched,seed,0,SaaS platform went live; 50 sign-ups on day one.
+EV000093,STA00022,2025-03-11,incubated,pre-seed,0,Admitted to CIIE.CO incubation centre.
+EV000094,STA00022,2025-10-21,grant_received,pre-seed,2500000,DST-NIDHI PRAYAS grant of ₹25 sanctioned.
+EV000095,STA00022,2025-11-29,prototype_built,pre-seed,0,Hardware prototype passed bench tests.
+EV000096,STA00023,2023-02-06,incubated,pre-seed,0,Joined Forge pre-incubation programme.
+EV000097,STA00023,2023-08-20,prototype_built,pre-seed,0,MVP built and tested internally.
+EV000098,STA00023,2024-02-21,demo_day,seed,0,Pitched at NIT Trichy Investor Summit.
+EV000099,STA00023,2024-11-08,pilot_signed,seed,0,Pilot agreement signed with Titan Company.
+EV000100,STA00023,2025-06-22,pre_seed_round,seed,2500000,₹25 raised at pre-seed from 9 investors.
+EV000101,STA00023,2026-04-04,product_launched,seed,0,Product launched on App Store and Play Store.
+EV000102,STA00024,2024-06-22,incubated,pre-seed,0,Selected for CIIE.CO cohort 2024.
+EV000103,STA00024,2025-04-17,grant_received,pre-seed,3000000,Received ₹30 BIRAC BIG grant.
+EV000104,STA00024,2025-10-22,prototype_built,pre-seed,0,Working prototype demonstrated to 4 pilot users.
+EV000105,STA00025,2021-05-17,incubated,pre-seed,0,Selected for Anna University cohort 2021.
+EV000106,STA00025,2022-02-17,prototype_built,pre-seed,0,Hardware prototype passed bench tests.
+EV000107,STA00025,2022-06-09,demo_day,seed,0,Pitched at NIT Trichy Investor Summit.
+EV000108,STA00025,2023-01-03,pilot_signed,seed,0,Pilot agreement signed with National Skill Development Corporation.
+EV000109,STA00025,2023-03-15,pre_seed_round,series-a,1000000,₹10 raised at pre-seed from 4 investors.
+EV000110,STA00025,2023-06-23,product_launched,seed,0,Product launched on App Store and Play Store.
+EV000111,STA00025,2023-07-25,revenue_milestone,series-a,30000,First paying customer onboarded at ₹30/month.
+EV000112,STA00025,2024-03-27,seed_round,series-a,5000000,Seed round of ₹50 closed.
+EV000113,STA00025,2024-08-26,series_a_round,series-a,10000000,₹1 Series A led by institutional VC.
+EV000114,STA00026,2025-02-24,incubated,pre-seed,0,Joined T-Hub pre-incubation programme.
+EV000115,STA00026,2025-09-22,grant_received,pre-seed,5000000,TIDE 2.0 grant of ₹50 disbursed.
+EV000116,STA00026,2025-12-30,prototype_built,pre-seed,0,Working prototype demonstrated to 2 pilot users.
+EV000117,STA00027,2025-04-20,incubated,pre-seed,0,Admitted to NIT Trichy incubation centre.
+EV000118,STA00027,2025-10-18,prototype_built,pre-seed,0,Hardware prototype passed bench tests.
+EV000119,STA00027,2025-12-08,product_launched,bootstrapped,0,Public beta launched; 200 waitlist converts.
+EV000120,STA00027,2026-02-14,revenue_milestone,bootstrapped,3000000,Reached ₹30 MRR.
+EV000121,STA00028,2026-02-16,incubated,pre-seed,0,Joined NSRCEL pre-incubation programme.
+EV000122,STA00028,2026-08-11,prototype_built,pre-seed,0,MVP built and tested internally.
+EV000123,STA00029,2024-06-16,incubated,pre-seed,0,Joined NIT Trichy pre-incubation programme.
+EV000124,STA00029,2024-08-22,prototype_built,pre-seed,0,Hardware prototype passed bench tests.
+EV000125,STA00029,2025-06-05,product_launched,bootstrapped,0,Product launched on App Store and Play Store.
+EV000126,STA00029,2025-09-25,revenue_milestone,bootstrapped,3000000,₹30 ARR milestone crossed.
+EV000127,STA00030,2026-03-16,incubated,pre-seed,0,Admitted to Forge incubation centre.
+EV000128,STA00030,2026-07-04,prototype_built,pre-seed,0,Hardware prototype passed bench tests.
+EV000129,STA00031,2025-02-27,incubated,pre-seed,0,Selected for Anna University cohort 2025.
+EV000130,STA00031,2025-11-23,grant_received,pre-seed,1500000,AIM-iCREATE grant of ₹15 awarded.
+EV000131,STA00031,2026-08-14,prototype_built,pre-seed,0,Working prototype demonstrated to 9 pilot users.
+EV000132,STA00032,2026-04-25,incubated,pre-seed,0,Joined NIT Trichy pre-incubation programme.
+EV000133,STA00032,2026-11-14,prototype_built,pre-seed,0,MVP built and tested internally.
+EV000134,STA00033,2025-06-21,incubated,pre-seed,0,Admitted to IIMB incubation centre.
+EV000135,STA00033,2025-10-16,grant_received,pre-seed,1000000,AIM-iCREATE grant of ₹10 awarded.
+EV000136,STA00033,2026-06-28,prototype_built,pre-seed,0,Hardware prototype passed bench tests.
+EV000137,STA00034,2025-06-18,incubated,pre-seed,0,Selected for NSRCEL cohort 2025.
+EV000138,STA00034,2025-08-27,grant_received,pre-seed,2000000,TIDE 2.0 grant of ₹20 disbursed.
+EV000139,STA00034,2026-02-11,prototype_built,pre-seed,0,MVP built and tested internally.
+EV000140,STA00035,2025-03-10,incubated,pre-seed,0,Joined IIMB pre-incubation programme.
+EV000141,STA00035,2025-07-07,prototype_built,pre-seed,0,Hardware prototype passed bench tests.
+EV000142,STA00036,2025-06-25,incubated,pre-seed,0,Admitted to T-Hub incubation centre.
+EV000143,STA00036,2025-09-11,prototype_built,pre-seed,0,Working prototype demonstrated to 6 pilot users.
+EV000144,STA00037,2023-06-27,incubated,pre-seed,0,Admitted to NIT Trichy incubation centre.
+EV000145,STA00037,2024-04-22,prototype_built,pre-seed,0,MVP built and tested internally.
+EV000146,STA00037,2025-02-04,demo_day,seed,0,Presented at T-Hub Demo Day; selected top-3 startup.
+EV000147,STA00037,2025-05-04,pilot_signed,seed,0,LOI received from 9 SME clients.
+EV000148,STA00037,2025-08-09,pre_seed_round,series-a,2000000,₹20 raised at pre-seed from 2 investors.
+EV000149,STA00037,2026-03-29,product_launched,seed,0,SaaS platform went live; 50 sign-ups on day one.
+EV000150,STA00037,2026-05-21,revenue_milestone,series-a,1500000,₹15 ARR milestone crossed.
+EV000151,STA00037,2026-07-06,seed_round,series-a,2000000,₹20 seed investment from VC firm.
+EV000152,STA00037,2027-03-22,series_a_round,series-a,120000000,₹12 Series A led by institutional VC.
+EV000153,STA00038,2023-04-20,incubated,pre-seed,0,Admitted to NIT Trichy incubation centre.
+EV000154,STA00038,2024-01-03,prototype_built,pre-seed,0,MVP built and tested internally.
+EV000155,STA00038,2024-05-31,demo_day,seed,0,Showcased at Smart India Hackathon finals.
+EV000156,STA00038,2024-12-11,pilot_signed,seed,0,Pilot agreement signed with Ola.
+EV000157,STA00038,2025-05-30,pre_seed_round,seed,2500000,Pre-seed round of ₹25 closed.
+EV000158,STA00038,2025-07-23,product_launched,seed,0,SaaS platform went live; 50 sign-ups on day one.
+EV000159,STA00039,2026-06-03,incubated,pre-seed,0,Selected for IIMB cohort 2026.
+EV000160,STA00039,2027-01-12,prototype_built,pre-seed,0,MVP built and tested internally.
+EV000161,STA00040,2024-05-16,incubated,pre-seed,0,Selected for IIMB cohort 2024.
+EV000162,STA00040,2025-01-12,prototype_built,pre-seed,0,Working prototype demonstrated to 6 pilot users.
+EV000163,STA00040,2025-09-12,product_launched,bootstrapped,0,SaaS platform went live; 50 sign-ups on day one.
+EV000164,STA00040,2026-06-24,revenue_milestone,bootstrapped,3000000,Reached ₹30 MRR.
+EV000165,STA00041,2026-05-15,incubated,pre-seed,0,Selected for Forge cohort 2026.
+EV000166,STA00041,2027-01-10,prototype_built,pre-seed,0,Working prototype demonstrated to 10 pilot users.
+EV000167,STA00042,2023-04-18,incubated,pre-seed,0,Selected for Anna University cohort 2023.
+EV000168,STA00042,2023-12-26,prototype_built,pre-seed,0,MVP built and tested internally.
+EV000169,STA00042,2024-05-21,product_launched,bootstrapped,0,Product launched on App Store and Play Store.
+EV000170,STA00042,2024-07-06,revenue_milestone,bootstrapped,30000,First paying customer onboarded at ₹30/month.
+EV000171,STA00043,2026-05-22,incubated,pre-seed,0,Selected for NIT Trichy cohort 2026.
+EV000172,STA00043,2026-09-07,prototype_built,pre-seed,0,Hardware prototype passed bench tests.
+EV000173,STA00044,2024-05-08,incubated,pre-seed,0,Joined CIIE.CO pre-incubation programme.
+EV000174,STA00044,2024-10-22,prototype_built,pre-seed,0,Hardware prototype passed bench tests.
+EV000175,STA00044,2025-04-11,product_launched,bootstrapped,0,SaaS platform went live; 50 sign-ups on day one.
+EV000176,STA00044,2026-01-19,revenue_milestone,bootstrapped,2500000,Reached ₹25 MRR.
+EV000177,STA00045,2023-05-07,incubated,pre-seed,0,Joined IIT Madras pre-incubation programme.
+EV000178,STA00045,2024-01-16,prototype_built,pre-seed,0,Hardware prototype passed bench tests.
+EV000179,STA00045,2024-06-17,demo_day,seed,0,Pitched at CIIE.CO Investor Summit.
+EV000180,STA00045,2025-03-03,pilot_signed,seed,0,LOI received from 2 SME clients.
+EV000181,STA00045,2025-10-03,pre_seed_round,series-a,500000,Pre-seed round of ₹5 closed.
+EV000182,STA00045,2026-05-25,product_launched,seed,0,SaaS platform went live; 50 sign-ups on day one.
+EV000183,STA00045,2026-10-15,revenue_milestone,series-a,3000000,Reached ₹30 MRR.
+EV000184,STA00045,2027-07-28,seed_round,series-a,1500000,Seed round of ₹15 closed.
+EV000185,STA00045,2027-10-09,series_a_round,series-a,30000000,Series A of ₹3 closed.
+EV000186,STA00046,2024-05-14,incubated,pre-seed,0,Selected for NSRCEL cohort 2024.
+EV000187,STA00046,2024-09-16,prototype_built,pre-seed,0,Hardware prototype passed bench tests.
+EV000188,STA00046,2025-07-13,demo_day,seed,0,Showcased at Smart India Hackathon finals.
+EV000189,STA00046,2026-02-06,pilot_signed,seed,0,MoU executed with Tamil Nadu e-Governance Agency for 3-month trial.
+EV000190,STA00046,2026-05-15,pre_seed_round,seed,500000,₹5 raised at pre-seed from 7 investors.
+EV000191,STA00046,2026-08-25,product_launched,seed,0,Public beta launched; 200 waitlist converts.
+EV000192,STA00047,2024-03-02,incubated,pre-seed,0,Selected for Forge cohort 2024.
+EV000193,STA00047,2024-12-18,grant_received,pre-seed,2500000,Received ₹25 BIRAC BIG grant.
+EV000194,STA00047,2025-08-30,prototype_built,pre-seed,0,MVP built and tested internally.
+EV000195,STA00048,2025-05-09,incubated,pre-seed,0,Joined CIIE.CO pre-incubation programme.
+EV000196,STA00048,2025-08-11,prototype_built,pre-seed,0,MVP built and tested internally.
+EV000197,STA00048,2026-03-30,product_launched,bootstrapped,0,SaaS platform went live; 50 sign-ups on day one.
+EV000198,STA00048,2026-06-06,revenue_milestone,bootstrapped,5000000,Reached ₹50 MRR.
+EV000199,STA00049,2025-04-01,incubated,pre-seed,0,Admitted to Forge incubation centre.
+EV000200,STA00049,2025-08-12,prototype_built,pre-seed,0,MVP built and tested internally.
+EV000201,STA00050,2024-01-24,incubated,pre-seed,0,Admitted to NSRCEL incubation centre.
+EV000202,STA00050,2024-05-01,grant_received,pre-seed,500000,DST-NIDHI PRAYAS grant of ₹5 sanctioned.
+EV000203,STA00050,2024-09-17,prototype_built,pre-seed,0,MVP built and tested internally.
+EV000204,STA00051,2025-01-12,incubated,pre-seed,0,Selected for CIIE.CO cohort 2025.
+EV000205,STA00051,2025-05-10,grant_received,pre-seed,5000000,AIM-iCREATE grant of ₹50 awarded.
+EV000206,STA00051,2025-09-27,prototype_built,pre-seed,0,Working prototype demonstrated to 8 pilot users.
+EV000207,STA00052,2025-04-04,incubated,pre-seed,0,Selected for Anna University cohort 2025.
+EV000208,STA00052,2025-07-13,prototype_built,pre-seed,0,MVP built and tested internally.
+EV000209,STA00053,2025-02-09,incubated,pre-seed,0,Admitted to IIT Madras incubation centre.
+EV000210,STA00053,2025-07-14,prototype_built,pre-seed,0,Working prototype demonstrated to 2 pilot users.
+EV000211,STA00054,2026-03-19,incubated,pre-seed,0,Selected for T-Hub cohort 2026.
+EV000212,STA00054,2026-07-27,prototype_built,pre-seed,0,MVP built and tested internally.
+EV000213,STA00055,2025-06-03,incubated,pre-seed,0,Joined CIIE.CO pre-incubation programme.
+EV000214,STA00055,2026-02-10,grant_received,pre-seed,1000000,DST-NIDHI PRAYAS grant of ₹10 sanctioned.
+EV000215,STA00055,2026-08-21,prototype_built,pre-seed,0,Hardware prototype passed bench tests.
+EV000216,STA00056,2024-01-22,incubated,pre-seed,0,Selected for CIIE.CO cohort 2024.
+EV000217,STA00056,2024-06-27,prototype_built,pre-seed,0,Working prototype demonstrated to 2 pilot users.
+EV000218,STA00056,2024-11-17,demo_day,seed,0,Presented at NIT Trichy Demo Day; selected top-3 startup.
+EV000219,STA00056,2025-01-24,pilot_signed,seed,0,Pilot agreement signed with BSNL.
+EV000220,STA00056,2025-08-11,pre_seed_round,seed,500000,Pre-seed round of ₹5 closed.
+EV000221,STA00056,2026-03-31,product_launched,seed,0,SaaS platform went live; 50 sign-ups on day one.
+EV000222,STA00057,2025-03-06,incubated,pre-seed,0,Admitted to NSRCEL incubation centre.
+EV000223,STA00057,2025-10-05,prototype_built,pre-seed,0,MVP built and tested internally.
+EV000224,STA00058,2023-05-16,incubated,pre-seed,0,Admitted to T-Hub incubation centre.
+EV000225,STA00058,2023-07-15,prototype_built,pre-seed,0,Working prototype demonstrated to 7 pilot users.
+EV000226,STA00058,2024-03-03,demo_day,seed,0,Showcased at Smart India Hackathon finals.
+EV000227,STA00058,2024-11-11,pilot_signed,seed,0,LOI received from 4 SME clients.
+EV000228,STA00058,2025-06-22,pre_seed_round,series-a,3000000,₹30 raised at pre-seed from 8 investors.
+EV000229,STA00058,2025-08-07,product_launched,seed,0,Product launched on App Store and Play Store.
+EV000230,STA00058,2026-05-18,revenue_milestone,series-a,10000,First paying customer onboarded at ₹10/month.
+EV000231,STA00058,2026-08-01,seed_round,series-a,2000000,₹20 seed investment from VC firm.
+EV000232,STA00058,2027-02-26,series_a_round,series-a,120000000,₹12 Series A led by institutional VC.
+EV000233,STA00059,2025-01-18,incubated,pre-seed,0,Admitted to IIT Madras incubation centre.
+EV000234,STA00059,2025-09-27,prototype_built,pre-seed,0,Working prototype demonstrated to 8 pilot users.
+EV000235,STA00059,2026-03-11,product_launched,bootstrapped,0,Public beta launched; 200 waitlist converts.
+EV000236,STA00059,2026-12-17,revenue_milestone,bootstrapped,30000,First paying customer onboarded at ₹30/month.
+EV000237,STA00060,2026-04-02,incubated,pre-seed,0,Selected for IIMB cohort 2026.
+EV000238,STA00060,2026-07-18,prototype_built,pre-seed,0,MVP built and tested internally.
+EV000239,STA00061,2024-04-18,incubated,pre-seed,0,Selected for Forge cohort 2024.
+EV000240,STA00061,2024-12-18,prototype_built,pre-seed,0,Working prototype demonstrated to 3 pilot users.
+EV000241,STA00061,2025-06-12,demo_day,seed,0,Showcased at Smart India Hackathon finals.
+EV000242,STA00061,2025-07-31,pilot_signed,seed,0,Pilot agreement signed with Apollo Hospitals.
+EV000243,STA00061,2026-02-15,pre_seed_round,series-a,500000,Pre-seed round of ₹5 closed.
+EV000244,STA00061,2026-08-19,product_launched,seed,0,SaaS platform went live; 50 sign-ups on day one.
+EV000245,STA00061,2027-02-18,revenue_milestone,series-a,2000000,Reached ₹20 MRR.
+EV000246,STA00061,2027-06-24,seed_round,series-a,1000000,₹10 seed investment from VC firm.
+EV000247,STA00061,2027-08-21,series_a_round,series-a,120000000,Series A of ₹12 closed.
+EV000248,STA00062,2022-05-12,incubated,pre-seed,0,Selected for NIT Trichy cohort 2022.
+EV000249,STA00062,2022-12-25,prototype_built,pre-seed,0,Working prototype demonstrated to 6 pilot users.
+EV000250,STA00062,2023-08-21,product_launched,bootstrapped,0,Public beta launched; 200 waitlist converts.
+EV000251,STA00062,2024-01-12,revenue_milestone,bootstrapped,2500000,₹25 ARR milestone crossed.
+EV000252,STA00063,2026-06-05,incubated,pre-seed,0,Joined NSRCEL pre-incubation programme.
+EV000253,STA00063,2027-01-19,prototype_built,pre-seed,0,MVP built and tested internally.
+EV000254,STA00064,2022-01-28,incubated,pre-seed,0,Joined IIMB pre-incubation programme.
+EV000255,STA00064,2022-09-10,prototype_built,pre-seed,0,MVP built and tested internally.
+EV000256,STA00064,2023-04-03,demo_day,seed,0,Pitched at T-Hub Investor Summit.
+EV000257,STA00064,2024-01-07,pilot_signed,seed,0,MoU executed with Apollo Hospitals for 3-month trial.
+EV000258,STA00064,2024-06-25,pre_seed_round,series-a,5000000,Pre-seed round of ₹50 closed.
+EV000259,STA00064,2024-09-29,product_launched,seed,0,Public beta launched; 200 waitlist converts.
+EV000260,STA00064,2024-10-31,revenue_milestone,series-a,20000,First paying customer onboarded at ₹20/month.
+EV000261,STA00064,2025-03-07,seed_round,series-a,3000000,Seed round of ₹30 closed.
+EV000262,STA00064,2025-09-12,series_a_round,series-a,80000000,Series A of ₹8 closed.
+EV000263,STA00065,2025-01-02,incubated,pre-seed,0,Joined CIIE.CO pre-incubation programme.
+EV000264,STA00065,2025-06-10,prototype_built,pre-seed,0,Hardware prototype passed bench tests.
+EV000265,STA00065,2025-08-30,demo_day,seed,0,Showcased at Smart India Hackathon finals.
+EV000266,STA00065,2026-06-17,pilot_signed,seed,0,LOI received from 9 SME clients.
+EV000267,STA00065,2026-10-26,pre_seed_round,seed,5000000,Pre-seed round of ₹50 closed.
+EV000268,STA00065,2027-04-25,product_launched,seed,0,Product launched on App Store and Play Store.
+EV000269,STA00066,2023-01-01,incubated,pre-seed,0,Admitted to T-Hub incubation centre.
+EV000270,STA00066,2023-03-19,prototype_built,pre-seed,0,Hardware prototype passed bench tests.
+EV000271,STA00066,2023-12-07,product_launched,bootstrapped,0,SaaS platform went live; 50 sign-ups on day one.
+EV000272,STA00066,2024-03-03,revenue_milestone,bootstrapped,10000,First paying customer onboarded at ₹10/month.
+EV000273,STA00067,2025-06-24,incubated,pre-seed,0,Admitted to CIIE.CO incubation centre.
+EV000274,STA00067,2025-08-20,prototype_built,pre-seed,0,Working prototype demonstrated to 4 pilot users.
+EV000275,STA00067,2025-10-27,demo_day,seed,0,Pitched at NSRCEL Investor Summit.
+EV000276,STA00067,2026-03-20,pilot_signed,seed,0,LOI received from 9 SME clients.
+EV000277,STA00067,2026-12-02,pre_seed_round,seed,500000,₹5 raised at pre-seed from 9 investors.
+EV000278,STA00067,2027-01-10,product_launched,seed,0,Product launched on App Store and Play Store.
+EV000279,STA00068,2025-02-16,incubated,pre-seed,0,Admitted to NSRCEL incubation centre.
+EV000280,STA00068,2025-06-22,grant_received,pre-seed,5000000,Received ₹50 BIRAC BIG grant.
+EV000281,STA00068,2025-09-15,prototype_built,pre-seed,0,Hardware prototype passed bench tests.
+EV000282,STA00069,2025-05-10,incubated,pre-seed,0,Joined IIMB pre-incubation programme.
+EV000283,STA00069,2025-11-04,prototype_built,pre-seed,0,MVP built and tested internally.
+EV000284,STA00069,2026-05-18,demo_day,seed,0,Showcased at Smart India Hackathon finals.
+EV000285,STA00069,2026-11-10,pilot_signed,seed,0,MoU executed with Apollo Hospitals for 3-month trial.
+EV000286,STA00069,2027-02-22,pre_seed_round,seed,3000000,Pre-seed round of ₹30 closed.
+EV000287,STA00069,2027-07-30,product_launched,seed,0,Product launched on App Store and Play Store.
+EV000288,STA00070,2025-02-10,incubated,pre-seed,0,Selected for Anna University cohort 2025.
+EV000289,STA00070,2025-09-21,prototype_built,pre-seed,0,Working prototype demonstrated to 4 pilot users.
+EV000290,STA00071,2023-02-22,incubated,pre-seed,0,Selected for IIMB cohort 2023.
+EV000291,STA00071,2023-11-22,prototype_built,pre-seed,0,MVP built and tested internally.
+EV000292,STA00071,2024-04-24,demo_day,seed,0,Presented at NIT Trichy Demo Day; selected top-3 startup.
+EV000293,STA00071,2024-10-15,pilot_signed,seed,0,Pilot agreement signed with Indian Railways.
+EV000294,STA00071,2025-04-14,pre_seed_round,seed,1500000,Pre-seed round of ₹15 closed.
+EV000295,STA00071,2025-05-17,product_launched,seed,0,Public beta launched; 200 waitlist converts.
+EV000296,STA00072,2024-04-22,incubated,pre-seed,0,Admitted to NIT Trichy incubation centre.
+EV000297,STA00072,2024-06-28,grant_received,pre-seed,2500000,TIDE 2.0 grant of ₹25 disbursed.
+EV000298,STA00072,2024-12-19,prototype_built,pre-seed,0,Hardware prototype passed bench tests.
+EV000299,STA00073,2023-06-26,incubated,pre-seed,0,Joined Forge pre-incubation programme.
+EV000300,STA00073,2023-12-21,prototype_built,pre-seed,0,MVP built and tested internally.
+EV000301,STA00073,2024-07-07,demo_day,seed,0,Pitched at NSRCEL Investor Summit.
+EV000302,STA00073,2024-11-13,pilot_signed,seed,0,MoU executed with Jio Platforms for 3-month trial.
+EV000303,STA00073,2025-06-17,pre_seed_round,series-a,2000000,₹20 raised at pre-seed from 5 investors.
+EV000304,STA00073,2026-02-25,product_launched,seed,0,SaaS platform went live; 50 sign-ups on day one.
+EV000305,STA00073,2026-11-10,revenue_milestone,series-a,5000000,₹50 ARR milestone crossed.
+EV000306,STA00073,2027-05-02,seed_round,series-a,2500000,Seed round of ₹25 closed.
+EV000307,STA00073,2028-02-15,series_a_round,series-a,80000000,Series A of ₹8 closed.
+EV000308,STA00074,2024-06-16,incubated,pre-seed,0,Selected for IIMB cohort 2024.
+EV000309,STA00074,2025-01-21,prototype_built,pre-seed,0,Working prototype demonstrated to 9 pilot users.
+EV000310,STA00074,2025-10-10,demo_day,seed,0,Presented at NSRCEL Demo Day; selected top-3 startup.
+EV000311,STA00074,2026-02-06,pilot_signed,seed,0,MoU executed with BPCL for 3-month trial.
+EV000312,STA00074,2026-09-16,pre_seed_round,seed,2500000,Pre-seed round of ₹25 closed.
+EV000313,STA00074,2026-10-19,product_launched,seed,0,Public beta launched; 200 waitlist converts.
+EV000314,STA00075,2025-02-17,incubated,pre-seed,0,Selected for NSRCEL cohort 2025.
+EV000315,STA00075,2025-11-03,prototype_built,pre-seed,0,MVP built and tested internally.
+EV000316,STA00076,2026-04-22,incubated,pre-seed,0,Admitted to CIIE.CO incubation centre.
+EV000317,STA00076,2026-11-27,prototype_built,pre-seed,0,Working prototype demonstrated to 7 pilot users.
+EV000318,STA00077,2025-02-14,incubated,pre-seed,0,Joined CIIE.CO pre-incubation programme.
+EV000319,STA00077,2025-08-04,prototype_built,pre-seed,0,MVP built and tested internally.
+EV000320,STA00078,2024-06-17,incubated,pre-seed,0,Selected for Forge cohort 2024.
+EV000321,STA00078,2024-10-28,grant_received,pre-seed,1000000,TIDE 2.0 grant of ₹10 disbursed.
+EV000322,STA00078,2024-12-15,prototype_built,pre-seed,0,Hardware prototype passed bench tests.
+EV000323,STA00079,2025-05-04,incubated,pre-seed,0,Joined NIT Trichy pre-incubation programme.
+EV000324,STA00079,2025-10-09,prototype_built,pre-seed,0,MVP built and tested internally.
+EV000325,STA00079,2026-06-30,demo_day,seed,0,Showcased at Smart India Hackathon finals.
+EV000326,STA00079,2027-02-10,pilot_signed,seed,0,LOI received from 8 SME clients.
+EV000327,STA00079,2027-09-08,pre_seed_round,seed,3000000,Pre-seed round of ₹30 closed.
+EV000328,STA00079,2028-03-31,product_launched,seed,0,Product launched on App Store and Play Store.
+EV000329,STA00080,2023-02-02,incubated,pre-seed,0,Joined IIT Madras pre-incubation programme.
+EV000330,STA00080,2023-09-21,prototype_built,pre-seed,0,MVP built and tested internally.
+EV000331,STA00080,2024-03-30,demo_day,seed,0,Showcased at Smart India Hackathon finals.
+EV000332,STA00080,2024-10-12,pilot_signed,seed,0,MoU executed with National Skill Development Corporation for 3-month trial.
+EV000333,STA00080,2025-07-10,pre_seed_round,seed,1500000,₹15 raised at pre-seed from 8 investors.
+EV000334,STA00080,2026-02-15,product_launched,seed,0,SaaS platform went live; 50 sign-ups on day one.
+EV000335,STA00081,2024-06-04,incubated,pre-seed,0,Selected for T-Hub cohort 2024.
+EV000336,STA00081,2024-11-12,prototype_built,pre-seed,0,Hardware prototype passed bench tests.
+EV000337,STA00081,2025-03-11,demo_day,seed,0,Pitched at Forge Investor Summit.
+EV000338,STA00081,2025-10-22,pilot_signed,seed,0,LOI received from 7 SME clients.
+EV000339,STA00081,2026-06-24,pre_seed_round,series-a,5000000,₹50 raised at pre-seed from 5 investors.
+EV000340,STA00081,2026-12-31,product_launched,seed,0,SaaS platform went live; 50 sign-ups on day one.
+EV000341,STA00081,2027-06-17,revenue_milestone,series-a,5000000,₹50 ARR milestone crossed.
+EV000342,STA00081,2027-10-19,seed_round,series-a,1000000,Seed round of ₹10 closed.
+EV000343,STA00081,2028-02-11,series_a_round,series-a,10000000,₹1 Series A led by institutional VC.
+EV000344,STA00082,2021-06-18,incubated,pre-seed,0,Admitted to CIIE.CO incubation centre.
+EV000345,STA00082,2021-12-23,prototype_built,pre-seed,0,Hardware prototype passed bench tests.
+EV000346,STA00082,2022-08-21,demo_day,seed,0,Pitched at IIT Madras Investor Summit.
+EV000347,STA00082,2023-03-15,pilot_signed,seed,0,MoU executed with Indian Railways for 3-month trial.
+EV000348,STA00082,2023-04-18,pre_seed_round,series-a,5000000,₹50 raised at pre-seed from 10 investors.
+EV000349,STA00082,2023-11-25,product_launched,seed,0,Product launched on App Store and Play Store.
+EV000350,STA00082,2024-07-05,revenue_milestone,series-a,10000,First paying customer onboarded at ₹10/month.
+EV000351,STA00082,2024-12-27,seed_round,series-a,2000000,₹20 seed investment from VC firm.
+EV000352,STA00082,2025-03-23,series_a_round,series-a,30000000,₹3 Series A led by institutional VC.
+EV000353,STA00083,2023-01-11,incubated,pre-seed,0,Admitted to NSRCEL incubation centre.
+EV000354,STA00083,2023-10-08,prototype_built,pre-seed,0,Working prototype demonstrated to 5 pilot users.
+EV000355,STA00083,2024-05-22,product_launched,bootstrapped,0,SaaS platform went live; 50 sign-ups on day one.
+EV000356,STA00083,2024-10-05,revenue_milestone,bootstrapped,2000000,₹20 ARR milestone crossed.
+EV000357,STA00084,2023-06-20,incubated,pre-seed,0,Selected for T-Hub cohort 2023.
+EV000358,STA00084,2023-09-12,prototype_built,pre-seed,0,Working prototype demonstrated to 5 pilot users.
+EV000359,STA00084,2023-10-22,demo_day,seed,0,Showcased at Smart India Hackathon finals.
+EV000360,STA00084,2024-07-26,pilot_signed,seed,0,LOI received from 4 SME clients.
+EV000361,STA00084,2025-02-19,pre_seed_round,seed,3000000,₹30 raised at pre-seed from 10 investors.
+EV000362,STA00084,2025-06-08,product_launched,seed,0,SaaS platform went live; 50 sign-ups on day one.
+EV000363,STA00085,2023-01-02,incubated,pre-seed,0,Joined Forge pre-incubation programme.
+EV000364,STA00085,2023-02-26,prototype_built,pre-seed,0,Hardware prototype passed bench tests.
+EV000365,STA00085,2023-11-22,product_launched,bootstrapped,0,Public beta launched; 200 waitlist converts.
+EV000366,STA00085,2024-05-06,revenue_milestone,bootstrapped,500000,Reached ₹5 MRR.
+EV000367,STA00086,2023-03-20,incubated,pre-seed,0,Admitted to NSRCEL incubation centre.
+EV000368,STA00086,2023-12-04,prototype_built,pre-seed,0,Hardware prototype passed bench tests.
+EV000369,STA00086,2024-06-05,demo_day,seed,0,Presented at T-Hub Demo Day; selected top-3 startup.
+EV000370,STA00086,2025-03-23,pilot_signed,seed,0,LOI received from 7 SME clients.
+EV000371,STA00086,2025-07-10,pre_seed_round,seed,1500000,Pre-seed round of ₹15 closed.
+EV000372,STA00086,2026-01-09,product_launched,seed,0,Product launched on App Store and Play Store.
+EV000373,STA00087,2021-06-13,incubated,pre-seed,0,Selected for CIIE.CO cohort 2021.
+EV000374,STA00087,2021-09-26,prototype_built,pre-seed,0,Working prototype demonstrated to 8 pilot users.
+EV000375,STA00087,2022-03-09,demo_day,seed,0,Presented at Anna University Demo Day; selected top-3 startup.
+EV000376,STA00087,2022-07-18,pilot_signed,seed,0,MoU executed with National Skill Development Corporation for 3-month trial.
+EV000377,STA00087,2022-12-31,pre_seed_round,series-a,1500000,₹15 raised at pre-seed from 7 investors.
+EV000378,STA00087,2023-07-27,product_launched,seed,0,Product launched on App Store and Play Store.
+EV000379,STA00087,2024-02-21,revenue_milestone,series-a,5000000,Reached ₹50 MRR.
+EV000380,STA00087,2024-07-19,seed_round,series-a,3000000,Seed round of ₹30 closed.
+EV000381,STA00087,2024-12-20,series_a_round,series-a,10000000,Series A of ₹1 closed.
+EV000382,STA00088,2025-01-03,incubated,pre-seed,0,Selected for T-Hub cohort 2025.
+EV000383,STA00088,2025-07-01,prototype_built,pre-seed,0,MVP built and tested internally.
+EV000384,STA00088,2025-09-14,demo_day,seed,0,Presented at IIT Madras Demo Day; selected top-3 startup.
+EV000385,STA00088,2026-03-19,pilot_signed,seed,0,MoU executed with Apollo Hospitals for 3-month trial.
+EV000386,STA00088,2026-10-15,pre_seed_round,seed,3000000,₹30 raised at pre-seed from 6 investors.
+EV000387,STA00088,2027-05-31,product_launched,seed,0,Product launched on App Store and Play Store.
+EV000388,STA00089,2025-06-01,incubated,pre-seed,0,Selected for Forge cohort 2025.
+EV000389,STA00089,2025-10-05,prototype_built,pre-seed,0,Working prototype demonstrated to 5 pilot users.
+EV000390,STA00089,2026-03-02,demo_day,seed,0,Presented at NIT Trichy Demo Day; selected top-3 startup.
+EV000391,STA00089,2026-12-14,pilot_signed,seed,0,LOI received from 9 SME clients.
+EV000392,STA00089,2027-03-24,pre_seed_round,seed,1000000,Pre-seed round of ₹10 closed.
+EV000393,STA00089,2027-11-20,product_launched,seed,0,Product launched on App Store and Play Store.
+EV000394,STA00090,2025-04-10,incubated,pre-seed,0,Selected for NSRCEL cohort 2025.
+EV000395,STA00090,2026-01-29,prototype_built,pre-seed,0,Working prototype demonstrated to 10 pilot users.
+EV000396,STA00090,2026-05-08,product_launched,bootstrapped,0,SaaS platform went live; 50 sign-ups on day one.
+EV000397,STA00090,2026-09-18,revenue_milestone,bootstrapped,500000,₹5 ARR milestone crossed.
+EV000398,STA00091,2025-04-18,incubated,pre-seed,0,Admitted to IIMB incubation centre.
+EV000399,STA00091,2026-01-05,grant_received,pre-seed,2000000,AIM-iCREATE grant of ₹20 awarded.
+EV000400,STA00091,2026-06-26,prototype_built,pre-seed,0,MVP built and tested internally.
+EV000401,STA00092,2024-04-05,incubated,pre-seed,0,Admitted to CIIE.CO incubation centre.
+EV000402,STA00092,2024-08-20,prototype_built,pre-seed,0,MVP built and tested internally.
+EV000403,STA00092,2025-04-25,product_launched,bootstrapped,0,Public beta launched; 200 waitlist converts.
+EV000404,STA00092,2026-02-15,revenue_milestone,bootstrapped,3000000,Reached ₹30 MRR.
+EV000405,STA00093,2025-05-20,incubated,pre-seed,0,Admitted to T-Hub incubation centre.
+EV000406,STA00093,2026-02-16,prototype_built,pre-seed,0,Working prototype demonstrated to 10 pilot users.
+EV000407,STA00094,2024-02-12,incubated,pre-seed,0,Selected for NSRCEL cohort 2024.
+EV000408,STA00094,2024-09-20,prototype_built,pre-seed,0,Working prototype demonstrated to 2 pilot users.
+EV000409,STA00094,2025-06-24,product_launched,bootstrapped,0,Public beta launched; 200 waitlist converts.
+EV000410,STA00094,2026-01-07,revenue_milestone,bootstrapped,10000,First paying customer onboarded at ₹10/month.
+EV000411,STA00095,2025-02-06,incubated,pre-seed,0,Selected for NIT Trichy cohort 2025.
+EV000412,STA00095,2025-09-03,prototype_built,pre-seed,0,MVP built and tested internally.
+EV000413,STA00096,2025-05-05,incubated,pre-seed,0,Admitted to Forge incubation centre.
+EV000414,STA00096,2026-01-30,grant_received,pre-seed,1000000,DST-NIDHI PRAYAS grant of ₹10 sanctioned.
+EV000415,STA00096,2026-06-02,prototype_built,pre-seed,0,MVP built and tested internally.
+EV000416,STA00097,2023-05-14,incubated,pre-seed,0,Selected for IIMB cohort 2023.
+EV000417,STA00097,2024-02-17,prototype_built,pre-seed,0,Working prototype demonstrated to 4 pilot users.
+EV000418,STA00097,2024-08-22,demo_day,seed,0,Pitched at CIIE.CO Investor Summit.
+EV000419,STA00097,2024-10-22,pilot_signed,seed,0,Pilot agreement signed with BSNL.
+EV000420,STA00097,2025-07-10,pre_seed_round,seed,2000000,₹20 raised at pre-seed from 6 investors.
+EV000421,STA00097,2026-01-11,product_launched,seed,0,SaaS platform went live; 50 sign-ups on day one.
+EV000422,STA00098,2025-02-22,incubated,pre-seed,0,Admitted to CIIE.CO incubation centre.
+EV000423,STA00098,2025-06-10,prototype_built,pre-seed,0,Hardware prototype passed bench tests.
+EV000424,STA00099,2024-04-28,incubated,pre-seed,0,Joined T-Hub pre-incubation programme.
+EV000425,STA00099,2025-01-30,grant_received,pre-seed,500000,TIDE 2.0 grant of ₹5 disbursed.
+EV000426,STA00099,2025-07-22,prototype_built,pre-seed,0,Hardware prototype passed bench tests.
+EV000427,STA00100,2021-01-22,incubated,pre-seed,0,Selected for Forge cohort 2021.
+EV000428,STA00100,2021-11-06,prototype_built,pre-seed,0,Working prototype demonstrated to 6 pilot users.
+EV000429,STA00100,2022-04-25,demo_day,seed,0,Pitched at Anna University Investor Summit.
+EV000430,STA00100,2023-01-08,pilot_signed,seed,0,MoU executed with Indian Railways for 3-month trial.
+EV000431,STA00100,2023-11-04,pre_seed_round,series-a,1500000,Pre-seed round of ₹15 closed.
+EV000432,STA00100,2024-06-17,product_launched,seed,0,Product launched on App Store and Play Store.
+EV000433,STA00100,2024-08-13,revenue_milestone,series-a,1500000,Reached ₹15 MRR.
+EV000434,STA00100,2025-05-13,seed_round,series-a,2000000,₹20 seed investment from VC firm.
+EV000435,STA00100,2025-08-25,series_a_round,series-a,50000000,₹5 Series A led by institutional VC.
+EV000436,STA00101,2025-06-10,incubated,pre-seed,0,Selected for NIT Trichy cohort 2025.
+EV000437,STA00101,2025-09-10,grant_received,pre-seed,500000,Received ₹5 BIRAC BIG grant.
+EV000438,STA00101,2026-02-16,prototype_built,pre-seed,0,Hardware prototype passed bench tests.
+EV000439,STA00102,2021-01-03,incubated,pre-seed,0,Admitted to IIT Madras incubation centre.
+EV000440,STA00102,2021-02-02,prototype_built,pre-seed,0,Working prototype demonstrated to 8 pilot users.
+EV000441,STA00102,2021-03-05,demo_day,seed,0,Showcased at Smart India Hackathon finals.
+EV000442,STA00102,2021-07-28,pilot_signed,seed,0,Pilot agreement signed with SBI.
+EV000443,STA00102,2022-03-20,pre_seed_round,series-a,3000000,Pre-seed round of ₹30 closed.
+EV000444,STA00102,2022-09-14,product_launched,seed,0,Public beta launched; 200 waitlist converts.
+EV000445,STA00102,2023-03-16,revenue_milestone,series-a,2000000,Reached ₹20 MRR.
+EV000446,STA00102,2023-11-25,seed_round,series-a,1000000,Seed round of ₹10 closed.
+EV000447,STA00102,2024-08-31,series_a_round,series-a,50000000,₹5 Series A led by institutional VC.
+EV000448,STA00103,2024-01-10,incubated,pre-seed,0,Admitted to NIT Trichy incubation centre.
+EV000449,STA00103,2024-10-20,prototype_built,pre-seed,0,MVP built and tested internally.
+EV000450,STA00103,2025-06-12,demo_day,seed,0,Pitched at IIMB Investor Summit.
+EV000451,STA00103,2025-12-30,pilot_signed,seed,0,Pilot agreement signed with BSNL.
+EV000452,STA00103,2026-04-23,pre_seed_round,series-a,1000000,₹10 raised at pre-seed from 8 investors.
+EV000453,STA00103,2026-08-11,product_launched,seed,0,Product launched on App Store and Play Store.
+EV000454,STA00103,2027-02-02,revenue_milestone,series-a,3000000,₹30 ARR milestone crossed.
+EV000455,STA00103,2027-07-20,seed_round,series-a,2000000,₹20 seed investment from VC firm.
+EV000456,STA00103,2028-04-30,series_a_round,series-a,30000000,Series A of ₹3 closed.
+EV000457,STA00104,2024-01-16,incubated,pre-seed,0,Joined Forge pre-incubation programme.
+EV000458,STA00104,2024-09-16,prototype_built,pre-seed,0,Working prototype demonstrated to 5 pilot users.
+EV000459,STA00104,2024-12-05,product_launched,bootstrapped,0,Product launched on App Store and Play Store.
+EV000460,STA00104,2025-09-02,revenue_milestone,bootstrapped,2000000,Reached ₹20 MRR.
+EV000461,STA00105,2025-04-28,incubated,pre-seed,0,Joined Forge pre-incubation programme.
+EV000462,STA00105,2025-06-04,prototype_built,pre-seed,0,MVP built and tested internally.
+EV000463,STA00106,2023-06-10,incubated,pre-seed,0,Admitted to IIT Madras incubation centre.
+EV000464,STA00106,2023-09-18,prototype_built,pre-seed,0,MVP built and tested internally.
+EV000465,STA00106,2024-05-02,demo_day,seed,0,Showcased at Smart India Hackathon finals.
+EV000466,STA00106,2024-09-15,pilot_signed,seed,0,LOI received from 7 SME clients.
+EV000467,STA00106,2024-11-10,pre_seed_round,seed,2000000,Pre-seed round of ₹20 closed.
+EV000468,STA00106,2025-03-09,product_launched,seed,0,Public beta launched; 200 waitlist converts.
+EV000469,STA00107,2024-01-13,incubated,pre-seed,0,Admitted to Anna University incubation centre.
+EV000470,STA00107,2024-04-27,grant_received,pre-seed,1000000,AIM-iCREATE grant of ₹10 awarded.
+EV000471,STA00107,2024-08-02,prototype_built,pre-seed,0,Hardware prototype passed bench tests.
+EV000472,STA00108,2023-02-27,incubated,pre-seed,0,Joined IIMB pre-incubation programme.
+EV000473,STA00108,2023-09-07,prototype_built,pre-seed,0,MVP built and tested internally.
+EV000474,STA00108,2023-10-24,demo_day,seed,0,Showcased at Smart India Hackathon finals.
+EV000475,STA00108,2024-02-14,pilot_signed,seed,0,LOI received from 4 SME clients.
+EV000476,STA00108,2024-11-04,pre_seed_round,series-a,1000000,₹10 raised at pre-seed from 9 investors.
+EV000477,STA00108,2025-05-01,product_launched,seed,0,Public beta launched; 200 waitlist converts.
+EV000478,STA00108,2026-01-31,revenue_milestone,series-a,10000,First paying customer onboarded at ₹10/month.
+EV000479,STA00108,2026-10-16,seed_round,series-a,500000,₹5 seed investment from VC firm.
+EV000480,STA00108,2027-03-08,series_a_round,series-a,10000000,₹1 Series A led by institutional VC.
+EV000481,STA00109,2025-03-06,incubated,pre-seed,0,Joined NIT Trichy pre-incubation programme.
+EV000482,STA00109,2025-09-07,prototype_built,pre-seed,0,Hardware prototype passed bench tests.
+EV000483,STA00109,2026-05-04,demo_day,seed,0,Showcased at Smart India Hackathon finals.
+EV000484,STA00109,2026-09-13,pilot_signed,seed,0,Pilot agreement signed with Apollo Hospitals.
+EV000485,STA00109,2027-03-17,pre_seed_round,seed,2500000,₹25 raised at pre-seed from 4 investors.
+EV000486,STA00109,2027-08-28,product_launched,seed,0,SaaS platform went live; 50 sign-ups on day one.
+EV000487,STA00110,2026-01-28,incubated,pre-seed,0,Selected for T-Hub cohort 2026.
+EV000488,STA00110,2026-08-28,prototype_built,pre-seed,0,Working prototype demonstrated to 2 pilot users.
+EV000489,STA00111,2024-04-03,incubated,pre-seed,0,Admitted to Forge incubation centre.
+EV000490,STA00111,2024-11-04,grant_received,pre-seed,5000000,DST-NIDHI PRAYAS grant of ₹50 sanctioned.
+EV000491,STA00111,2024-12-18,prototype_built,pre-seed,0,MVP built and tested internally.
+EV000492,STA00112,2026-03-01,incubated,pre-seed,0,Admitted to T-Hub incubation centre.
+EV000493,STA00112,2026-12-12,prototype_built,pre-seed,0,MVP built and tested internally.
+EV000494,STA00113,2022-03-16,incubated,pre-seed,0,Admitted to NSRCEL incubation centre.
+EV000495,STA00113,2022-11-09,prototype_built,pre-seed,0,Hardware prototype passed bench tests.
+EV000496,STA00113,2023-03-10,product_launched,bootstrapped,0,Product launched on App Store and Play Store.
+EV000497,STA00113,2024-01-01,revenue_milestone,bootstrapped,3000000,Reached ₹30 MRR.
+EV000498,STA00114,2026-05-09,incubated,pre-seed,0,Admitted to NIT Trichy incubation centre.
+EV000499,STA00114,2027-02-17,prototype_built,pre-seed,0,Working prototype demonstrated to 3 pilot users.
+EV000500,STA00115,2024-05-01,incubated,pre-seed,0,Admitted to Forge incubation centre.
+EV000501,STA00115,2025-01-12,prototype_built,pre-seed,0,Hardware prototype passed bench tests.
+EV000502,STA00115,2025-09-19,product_launched,bootstrapped,0,Product launched on App Store and Play Store.
+EV000503,STA00115,2026-06-16,revenue_milestone,bootstrapped,2500000,₹25 ARR milestone crossed.
+EV000504,STA00116,2025-05-03,incubated,pre-seed,0,Joined T-Hub pre-incubation programme.
+EV000505,STA00116,2025-11-15,grant_received,pre-seed,2000000,Received ₹20 BIRAC BIG grant.
+EV000506,STA00116,2026-08-12,prototype_built,pre-seed,0,MVP built and tested internally.
+EV000507,STA00117,2025-02-12,incubated,pre-seed,0,Admitted to NSRCEL incubation centre.
+EV000508,STA00117,2025-08-21,prototype_built,pre-seed,0,Working prototype demonstrated to 4 pilot users.
+EV000509,STA00117,2025-09-29,demo_day,seed,0,Showcased at Smart India Hackathon finals.
+EV000510,STA00117,2026-03-15,pilot_signed,seed,0,LOI received from 5 SME clients.
+EV000511,STA00117,2026-10-17,pre_seed_round,seed,1000000,₹10 raised at pre-seed from 8 investors.
+EV000512,STA00117,2027-04-28,product_launched,seed,0,Product launched on App Store and Play Store.
+EV000513,STA00118,2025-01-09,incubated,pre-seed,0,Selected for IIT Madras cohort 2025.
+EV000514,STA00118,2025-03-08,prototype_built,pre-seed,0,Working prototype demonstrated to 3 pilot users.
+EV000515,STA00119,2025-01-11,incubated,pre-seed,0,Joined IIMB pre-incubation programme.
+EV000516,STA00119,2025-08-14,prototype_built,pre-seed,0,Hardware prototype passed bench tests.
+EV000517,STA00120,2026-04-24,incubated,pre-seed,0,Selected for CIIE.CO cohort 2026.
+EV000518,STA00120,2026-10-04,prototype_built,pre-seed,0,MVP built and tested internally.
