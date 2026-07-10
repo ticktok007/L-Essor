@@ -1,0 +1,29 @@
+{
+  "project": "Campus Innovation & Engagement Intelligence Hub",
+  "phase": "1 \u2014 Synthetic Data Foundation",
+  "seed": 42,
+  "generated_files": {
+    "interaction_edges.csv": 500,
+    "competition_records.csv": 300,
+    "achievement_records.csv": 250
+  },
+  "graph_stats": {
+    "total_edges": 500,
+    "total_unique_nodes": 350,
+    "edge_type_counts": {
+      "club_membership": 133,
+      "mentor_mentee": 204,
+      "investor_founder": 163
+    },
+    "average_degree": 2.86,
+    "max_degree": 24,
+    "top_hub_nodes": [
+      "MEN-0077",
+      "INV-0049",
+      "MEN-0095",
+      "MEN-0096",
+      "MEN-0092"
+    ]
+  },
+  "note": "Entirely synthetic data. No real PII. Safe for build and demo."
+}
