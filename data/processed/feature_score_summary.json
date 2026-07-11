@@ -1,0 +1,80 @@
+{
+  "project": "Campus Innovation & Engagement Intelligence Hub",
+  "phase": "1 \u2014 Day 10",
+  "total_profiles": 305,
+  "average_ais": 14.78,
+  "average_grit": 14.51,
+  "top_ais_profiles": [
+    {
+      "profile_id": "STU-0053",
+      "ais_normalized": 100.0
+    },
+    {
+      "profile_id": "ALU-0024",
+      "ais_normalized": 86.99
+    },
+    {
+      "profile_id": "STU-0126",
+      "ais_normalized": 68.95
+    },
+    {
+      "profile_id": "STU-0141",
+      "ais_normalized": 64.37
+    },
+    {
+      "profile_id": "STU-0017",
+      "ais_normalized": 56.97
+    }
+  ],
+  "top_grit_profiles": [
+    {
+      "profile_id": "STU-0126",
+      "grit_normalized": 100.0
+    },
+    {
+      "profile_id": "ALU-0024",
+      "grit_normalized": 92.86
+    },
+    {
+      "profile_id": "STU-0141",
+      "grit_normalized": 82.14
+    },
+    {
+      "profile_id": "STU-0017",
+      "grit_normalized": 78.57
+    },
+    {
+      "profile_id": "ALU-0130",
+      "grit_normalized": 64.29
+    }
+  ],
+  "review_flag_counts": {
+    "needs_support": 298,
+    "high_potential": 1,
+    "steady_builder": 5,
+    "emerging_leader": 1
+  },
+  "scoring_notes": {
+    "AIS_weights": {
+      "win": 5.0,
+      "finalist": 2.0,
+      "leadership": 4.0,
+      "national": 3.0,
+      "regional": 1.5,
+      "campus": 0.5,
+      "breadth": 1.0
+    },
+    "Grit_weights": {
+      "entry": 1.0,
+      "win_bonus": 2.0,
+      "year_spread": 3.0
+    },
+    "normalization": "min-max to 0\u2013100; equal-value sets mapped to 50",
+    "review_flags": {
+      "high_potential": "ais_n >= 70 AND grit_n >= 70",
+      "emerging_leader": "ais_n >= 70",
+      "steady_builder": "grit_n >= 60",
+      "needs_support": "all others"
+    }
+  }
+}
