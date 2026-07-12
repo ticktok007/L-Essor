@@ -1,0 +1,151 @@
+{
+  "project": "Campus Innovation & Engagement Intelligence Hub",
+  "phase": "1 \u2014 Day 14",
+  "summary": {
+    "PASS": 21,
+    "FAIL": 0,
+    "WARN": 0,
+    "MANUAL": 2
+  },
+  "merge_gate_passed": true,
+  "checks": [
+    {
+      "section": "schema_alignment",
+      "item": "startup_profiles.csv has required columns",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "section": "schema_alignment",
+      "item": "profile_feature_scores.csv has required columns",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "section": "schema_alignment",
+      "item": "JSON summary files exist with generated_files key",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "section": "schema_alignment",
+      "item": "All CSV columns use snake_case (no spaces, no camelCase)",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "section": "determinism",
+      "item": "All generator scripts define a SEED constant",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "section": "determinism",
+      "item": "JSON summaries record the seed used",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "section": "determinism",
+      "item": "No datetime.now() or uuid4() without seed in generators",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "section": "determinism",
+      "item": "generate_ecosystem_data.py produces byte-identical output on repeat runs",
+      "status": "PASS",
+      "detail": "MD5 stable: 9651421853c55ae395a3195f512e5f78"
+    },
+    {
+      "section": "referential_integrity",
+      "item": "founder_count in startup_profiles matches founder_link rows",
+      "status": "PASS",
+      "detail": "All 120 startups match"
+    },
+    {
+      "section": "referential_integrity",
+      "item": "startup_funding_timeline startup_ids all exist in startup_profiles",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "section": "referential_integrity",
+      "item": "competition/achievement profile_ids match STU-#### or ALU-#### format",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "section": "realism",
+      "item": "No single funding_stage exceeds 60% of startup records",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "section": "realism",
+      "item": "All defined funding stages appear at least once",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "section": "realism",
+      "item": "pitch_summary unique-text ratio \u2265 0.80",
+      "status": "PASS",
+      "detail": "Ratio = 0.9500"
+    },
+    {
+      "section": "sanity_checks",
+      "item": "sanity_check_report.json exists and shows zero hard failures",
+      "status": "PASS",
+      "detail": "0 failures, 1 warning(s)"
+    },
+    {
+      "section": "sanity_checks",
+      "item": "class_balance_target_labels check passed in report",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "section": "plot_review",
+      "item": "All 6 required distribution plots exist",
+      "status": "PASS",
+      "detail": "All 6 plots present"
+    },
+    {
+      "section": "plot_review",
+      "item": "Plots visually reviewed for degenerate distributions",
+      "status": "MANUAL",
+      "detail": "Open data/processed/plots/ and verify each plot passes review criteria in docs/data-quality/distribution_visualization_spec.md"
+    },
+    {
+      "section": "code_quality",
+      "item": "No TODO / FIXME / stub / pseudocode in generator scripts",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "section": "code_quality",
+      "item": "All generator scripts have main() and __name__ == '__main__' guard",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "section": "code_quality",
+      "item": "All generator scripts auto-create output directory",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "section": "code_quality",
+      "item": "No live external API or requests calls in generators",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "section": "code_quality",
+      "item": "At least one peer (or self-review comment) confirmed determinism",
+      "status": "MANUAL",
+      "detail": "Add a PR comment confirming you re-ran all generators independently and got byte-identical output before merging"
+    }
+  ]
+}

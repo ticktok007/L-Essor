@@ -1,6 +1,7 @@
 {
   "project": "Campus Innovation & Engagement Intelligence Hub",
-  "phase": "1 \u2014 Day 10",
+  "phase": "1 \u2014 Day 10 (patched Day 14)",
+  "seed": 42,
   "total_profiles": 305,
   "average_ais": 14.78,
   "average_grit": 14.51,
@@ -54,6 +55,20 @@
     "steady_builder": 5,
     "emerging_leader": 1
   },
+  "label_distribution": {
+    "success_prediction_label": {
+      "positive_count": 107,
+      "total": 305,
+      "ratio": 0.3508,
+      "in_bounds": true
+    },
+    "at_risk_label": {
+      "positive_count": 152,
+      "total": 305,
+      "ratio": 0.4984,
+      "in_bounds": true
+    }
+  },
   "scoring_notes": {
     "AIS_weights": {
       "win": 5.0,
@@ -69,12 +84,9 @@
       "win_bonus": 2.0,
       "year_spread": 3.0
     },
-    "normalization": "min-max to 0\u2013100; equal-value sets mapped to 50",
-    "review_flags": {
-      "high_potential": "ais_n >= 70 AND grit_n >= 70",
-      "emerging_leader": "ais_n >= 70",
-      "steady_builder": "grit_n >= 60",
-      "needs_support": "all others"
-    }
+    "success_threshold": 2,
+    "risk_threshold": 4,
+    "enforcement_applied": true,
+    "mentorship_hours_note": "Excluded from Phase-1 labels \u2014 not available until Phase 2 PostgreSQL ingestion. Full feature set re-applied in Phase 4."
   }
 }

@@ -1,0 +1,84 @@
+{
+  "project": "Campus Innovation & Engagement Intelligence Hub",
+  "phase": "1 \u2014 Day 14",
+  "total_checks": 5,
+  "passed": 5,
+  "failed": 0,
+  "total_warnings": 1,
+  "checks": [
+    {
+      "check": "class_balance_target_labels",
+      "passed": true,
+      "failures": [],
+      "warnings": [],
+      "detail": {
+        "success_prediction_label": {
+          "positive_count": 107,
+          "total": 305,
+          "ratio": 0.3508
+        },
+        "at_risk_label": {
+          "positive_count": 152,
+          "total": 305,
+          "ratio": 0.4984
+        }
+      }
+    },
+    {
+      "check": "null_scans_required_columns",
+      "passed": true,
+      "failures": [],
+      "warnings": [],
+      "detail": {
+        "student_profiles.csv": "OK",
+        "alumni_profiles.csv": "OK",
+        "startup_profiles.csv": "OK",
+        "investor_mentor_profiles.csv": "OK",
+        "interaction_edges.csv": "OK",
+        "profile_feature_scores.csv": "OK"
+      }
+    },
+    {
+      "check": "outlier_detection_numeric_features",
+      "passed": true,
+      "failures": [],
+      "warnings": [
+        "startup_profiles.csv: column 'mrl_level' not present \u2014 skipping"
+      ],
+      "detail": {
+        "result": "All numeric features within declared bounds"
+      }
+    },
+    {
+      "check": "referential_integrity",
+      "passed": true,
+      "failures": [],
+      "warnings": [],
+      "detail": {
+        "founder_links_startup_ids": "OK",
+        "founder_count_integrity": "OK",
+        "funding_timeline_startup_ids": "OK",
+        "competition_records.csv_profile_ids": "OK",
+        "achievement_records.csv_profile_ids": "OK",
+        "edge_type_validity": "OK"
+      }
+    },
+    {
+      "check": "distribution_realism",
+      "passed": true,
+      "failures": [],
+      "warnings": [],
+      "detail": {
+        "funding_stage_counts": {
+          "pre-seed": 34,
+          "seed": 23,
+          "bootstrapped": 21,
+          "grant": 25,
+          "series-a": 17
+        },
+        "pitch_unique_ratio": 0.95,
+        "graph_avg_degree": 2.86
+      }
+    }
+  ]
+}
