@@ -1,0 +1,107 @@
+{
+  "version": "v1.0",
+  "freeze_date": "2026-07-12",
+  "project": "Campus Innovation & Engagement Intelligence Hub",
+  "tables": {
+    "users": {
+      "rows": 600,
+      "columns": [
+        "user_id",
+        "email",
+        "role",
+        "full_name",
+        "is_active"
+      ],
+      "csv": "data/final/users.csv",
+      "parquet": "data/final/users.parquet"
+    },
+    "startups": {
+      "rows": 120,
+      "columns": [
+        "startup_id",
+        "name",
+        "sector",
+        "subsector",
+        "funding_stage",
+        "trl_level",
+        "mrl_level",
+        "trl_mrl_gap",
+        "founded_year",
+        "hq_city",
+        "team_size",
+        "pitch_summary",
+        "incubation_status",
+        "founder_count"
+      ],
+      "csv": "data/final/startups.csv",
+      "parquet": "data/final/startups.parquet"
+    },
+    "investors": {
+      "rows": 50,
+      "columns": [
+        "profile_id",
+        "firm_name",
+        "mandate_text",
+        "sector_focus",
+        "stage_preference",
+        "check_size_inr",
+        "expertise_tags"
+      ],
+      "csv": "data/final/investors.csv",
+      "parquet": "data/final/investors.parquet"
+    },
+    "interactions": {
+      "rows": 500,
+      "columns": [
+        "edge_id",
+        "source_profile_id",
+        "target_profile_id",
+        "edge_type",
+        "relationship_strength",
+        "interaction_count",
+        "first_interaction_context",
+        "last_interaction_context",
+        "created_at",
+        "outcome",
+        "success_label"
+      ],
+      "csv": "data/final/interactions.csv",
+      "parquet": "data/final/interactions.parquet"
+    },
+    "achievements": {
+      "rows": 250,
+      "columns": [
+        "achievement_id",
+        "profile_id",
+        "category",
+        "title",
+        "issuing_body",
+        "year",
+        "impact_level",
+        "notes",
+        "verified",
+        "nirf_countable"
+      ],
+      "csv": "data/final/achievements.csv",
+      "parquet": "data/final/achievements.parquet"
+    },
+    "competitions": {
+      "rows": 300,
+      "columns": [
+        "competition_id",
+        "profile_id",
+        "name",
+        "competition_type",
+        "year",
+        "participation_role",
+        "result",
+        "team_size",
+        "theme",
+        "nirf_recognised"
+      ],
+      "csv": "data/final/competitions.csv",
+      "parquet": "data/final/competitions.parquet"
+    }
+  },
+  "note": "Frozen synthetic baseline. Do not regenerate silently. Future versions must be derived from this baseline with a new version tag."
+}

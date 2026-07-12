@@ -1,0 +1,251 @@
+achievement_id,profile_id,category,title,issuing_body,year,impact_level,notes,verified,nirf_countable
+ACH000001,ALU-0010,incubator_selection,Admitted — T-Hub LabStart Programme,CIIE.CO Ahmedabad,2020,campus,Recognised at annual convocation ceremony.,false,false
+ACH000002,STU-0095,patent_filing,Patent Application: Multimodal Soil Sensor Array,Indian Patent Office,2025,campus,Outcome used as evidence in grant application.,false,false
+ACH000003,ALU-0049,hackathon_win,Grand Prix — Google Solution Challenge India,NASA,2025,campus,Featured in institution newsletter.,false,false
+ACH000004,STU-0045,publication,Paper in Springer LNCS Vol. 14221,IEEE,2020,regional,Team received ₹50K prize money.,false,false
+ACH000005,ALU-0060,incubator_selection,Selected — NIDHI PRAYAS Cohort 7,DST-NIDHI,2021,national,Presented at national-level summit post-win.,false,false
+ACH000006,ALU-0042,fellowship,Qualcomm Innovation Fellowship India,"PMRF, MHRD",2019,regional,Led to incubation cell admission.,false,false
+ACH000007,ALU-0020,hackathon_win,1st Place — IIT Madras Shaastra Hack,NASA,2020,campus,Led to incubation cell admission.,false,false
+ACH000008,ALU-0152,prototype_completion,Working Prototype of IoT Health Monitor,IIC — Institution's Innovation Cell,2020,campus,Featured in institution newsletter.,false,false
+ACH000009,ALU-0056,hackathon_win,Winner — Smart India Hackathon 2024,IIT Madras,2023,campus,Resulted in follow-on collaboration with industry partner.,false,false
+ACH000010,STU-0291,leadership_role,"Technical Lead, IEEE Student Chapter",IEEE India Council,2019,campus,Resulted in follow-on collaboration with industry partner.,false,false
+ACH000011,STU-0052,prototype_completion,MVP Completion — AI Crop Disease Detector,"Incubation Cell, CIT",2022,national,Recognised at annual convocation ceremony.,false,false
+ACH000012,STU-0056,hackathon_win,Winner — Smart India Hackathon 2024,Google,2022,campus,Presented at national-level summit post-win.,false,false
+ACH000013,ALU-0157,fellowship,Infosys Foundation Fellowship,Infosys Foundation,2021,national,Outcome used as evidence in grant application.,false,false
+ACH000014,ALU-0177,hackathon_win,1st Place — IIT Madras Shaastra Hack,"Ministry of Education, GoI",2025,national,Team received ₹50K prize money.,false,false
+ACH000015,ALU-0018,hackathon_win,Grand Prix — Google Solution Challenge India,Google,2020,national,Covered by regional media.,false,false
+ACH000016,STU-0265,publication,Accepted at ACM SIGCHI 2024,ACM,2020,regional,Resulted in follow-on collaboration with industry partner.,false,false
+ACH000017,ALU-0033,patent_filing,Patent Application: Multimodal Soil Sensor Array,USPTO,2019,campus,Featured in institution newsletter.,false,false
+ACH000018,ALU-0173,incubator_selection,Admitted — T-Hub LabStart Programme,CIIE.CO Ahmedabad,2025,campus,Presented at national-level summit post-win.,false,false
+ACH000019,STU-0106,hackathon_win,Grand Prix — Google Solution Challenge India,"Ministry of Education, GoI",2021,regional,Featured in institution newsletter.,false,false
+ACH000020,STU-0072,patent_filing,Patent Application: Multimodal Soil Sensor Array,USPTO,2023,campus,Presented at national-level summit post-win.,false,false
+ACH000021,STU-0163,leadership_role,"Core Organiser, Annual Innovation Summit",Institution's Innovation Cell,2019,campus,Presented at national-level summit post-win.,false,false
+ACH000022,ALU-0146,incubator_selection,Accepted — CIIE.CO Pre-Incubation,T-Hub Hyderabad,2020,regional,Featured in institution newsletter.,false,false
+ACH000023,ALU-0199,patent_filing,Patent Filed: Adaptive Learning Algorithm (2024),USPTO,2021,regional,Team received ₹50K prize money.,false,false
+ACH000024,ALU-0116,hackathon_win,Winner — Smart India Hackathon 2024,"Ministry of Education, GoI",2024,national,Contributed to NIRF Innovation Achievements count.,false,false
+ACH000025,STU-0063,leadership_role,"President, Entrepreneurship Cell",IEEE India Council,2025,campus,Presented at national-level summit post-win.,false,false
+ACH000026,STU-0001,fellowship,Google Generation Scholar,Google,2022,regional,Contributed to NIRF Innovation Achievements count.,false,false
+ACH000027,ALU-0158,prototype_completion,MVP Completion — AI Crop Disease Detector,"Incubation Cell, CIT",2024,national,Led to incubation cell admission.,false,false
+ACH000028,ALU-0012,prototype_completion,Functional Demo of NLP Invoice Parser,"Dept. of ECE, CIT",2021,national,Presented at national-level summit post-win.,false,false
+ACH000029,STU-0141,hackathon_win,Grand Prix — Google Solution Challenge India,IIT Madras,2025,campus,Resulted in follow-on collaboration with industry partner.,false,false
+ACH000030,STU-0055,fellowship,Prime Minister's Research Fellowship,Infosys Foundation,2019,national,Recognised at annual convocation ceremony.,false,false
+ACH000031,ALU-0104,leadership_role,"Club Captain, AI/ML Research Group",Institution's Innovation Cell,2022,campus,Outcome used as evidence in grant application.,false,false
+ACH000032,STU-0178,leadership_role,"Core Organiser, Annual Innovation Summit",IEEE India Council,2020,regional,Resulted in follow-on collaboration with industry partner.,false,false
+ACH000033,STU-0158,publication,Accepted at ACM SIGCHI 2024,Springer,2020,campus,Featured in institution newsletter.,false,false
+ACH000034,STU-0148,grant_recognition,AIM-iCREATE Finalist,Atal Innovation Mission,2020,campus,Contributed to NIRF Innovation Achievements count.,false,false
+ACH000035,ALU-0136,publication,Paper in Springer LNCS Vol. 14221,IEEE,2022,regional,Outcome used as evidence in grant application.,false,false
+ACH000036,ALU-0094,publication,Accepted at ACM SIGCHI 2024,IEEE,2020,campus,Recognised at annual convocation ceremony.,false,false
+ACH000037,STU-0243,prototype_completion,Hardware Prototype for EV Charging Hub,IIC — Institution's Innovation Cell,2023,regional,Recognised at annual convocation ceremony.,false,false
+ACH000038,ALU-0195,award,Top 30 Under 30 Innovators — Inc42,NASSCOM,2023,campus,Featured in institution newsletter.,false,false
+ACH000039,ALU-0051,hackathon_win,Best Prototype Award — NASA Space Apps,Google,2023,campus,Presented at national-level summit post-win.,false,false
+ACH000040,ALU-0184,hackathon_win,Winner — Smart India Hackathon 2024,NASA,2023,campus,Resulted in follow-on collaboration with industry partner.,false,false
+ACH000041,STU-0012,prototype_completion,Functional Demo of NLP Invoice Parser,IIC — Institution's Innovation Cell,2023,national,Presented at national-level summit post-win.,false,false
+ACH000042,ALU-0132,patent_filing,Patent Application: Multimodal Soil Sensor Array,USPTO,2021,campus,Presented at national-level summit post-win.,false,false
+ACH000043,ALU-0007,patent_filing,Patent Application: Multimodal Soil Sensor Array,Indian Patent Office,2024,campus,Covered by regional media.,false,false
+ACH000044,STU-0299,prototype_completion,Working Prototype of IoT Health Monitor,IIC — Institution's Innovation Cell,2022,campus,Outcome used as evidence in grant application.,false,false
+ACH000045,STU-0285,hackathon_win,Best Prototype Award — NASA Space Apps,IIT Madras,2023,campus,Led to incubation cell admission.,false,false
+ACH000046,STU-0115,hackathon_win,1st Place — IIT Madras Shaastra Hack,IIT Madras,2024,campus,Covered by regional media.,false,false
+ACH000047,STU-0242,leadership_role,"Core Organiser, Annual Innovation Summit",IEEE India Council,2025,regional,Recognised at annual convocation ceremony.,false,false
+ACH000048,STU-0087,incubator_selection,Admitted — T-Hub LabStart Programme,T-Hub Hyderabad,2025,campus,Contributed to NIRF Innovation Achievements count.,false,false
+ACH000049,STU-0244,patent_filing,Provisional Patent: Low-Power Edge AI Module,USPTO,2024,regional,Cited in NIRF Innovation submission.,false,false
+ACH000050,ALU-0054,prototype_completion,Working Prototype of IoT Health Monitor,"Dept. of ECE, CIT",2021,regional,Featured in institution newsletter.,false,false
+ACH000051,ALU-0176,hackathon_win,Grand Prix — Google Solution Challenge India,Google,2021,campus,Outcome used as evidence in grant application.,false,false
+ACH000052,ALU-0100,leadership_role,"Core Organiser, Annual Innovation Summit",Student Council,2020,regional,Contributed to NIRF Innovation Achievements count.,false,false
+ACH000053,ALU-0160,hackathon_win,Grand Prix — Google Solution Challenge India,NASA,2023,regional,Recognised at annual convocation ceremony.,false,false
+ACH000054,STU-0115,hackathon_win,Best Prototype Award — NASA Space Apps,Google,2023,national,Led to incubation cell admission.,false,false
+ACH000055,STU-0274,incubator_selection,Selected — NIDHI PRAYAS Cohort 7,CIIE.CO Ahmedabad,2024,regional,Team received ₹50K prize money.,false,false
+ACH000056,STU-0248,patent_filing,Provisional Patent: Low-Power Edge AI Module,Indian Patent Office,2023,campus,Covered by regional media.,false,false
+ACH000057,STU-0011,leadership_role,"President, Entrepreneurship Cell",Chennai Institute of Technology,2019,campus,Outcome used as evidence in grant application.,false,false
+ACH000058,ALU-0157,hackathon_win,Best Prototype Award — NASA Space Apps,IIT Madras,2024,campus,Cited in NIRF Innovation submission.,false,false
+ACH000059,STU-0095,hackathon_win,Winner — Smart India Hackathon 2024,IIT Madras,2023,regional,Featured in institution newsletter.,false,false
+ACH000060,STU-0134,hackathon_win,Grand Prix — Google Solution Challenge India,IIT Madras,2019,regional,Led to incubation cell admission.,false,false
+ACH000061,STU-0078,leadership_role,"Core Organiser, Annual Innovation Summit",Student Council,2025,campus,Resulted in follow-on collaboration with industry partner.,false,false
+ACH000062,STU-0076,leadership_role,"Club Captain, AI/ML Research Group",Chennai Institute of Technology,2022,campus,Recognised at annual convocation ceremony.,false,false
+ACH000063,STU-0272,leadership_role,"Technical Lead, IEEE Student Chapter",Institution's Innovation Cell,2019,campus,Cited in NIRF Innovation submission.,false,false
+ACH000064,STU-0183,prototype_completion,Functional Demo of NLP Invoice Parser,"Incubation Cell, CIT",2020,regional,Contributed to NIRF Innovation Achievements count.,false,false
+ACH000065,STU-0109,leadership_role,"Core Organiser, Annual Innovation Summit",Student Council,2019,campus,Featured in institution newsletter.,false,false
+ACH000066,STU-0257,prototype_completion,Functional Demo of NLP Invoice Parser,"Incubation Cell, CIT",2022,campus,Recognised at annual convocation ceremony.,false,false
+ACH000067,ALU-0100,fellowship,Infosys Foundation Fellowship,Google,2024,campus,Contributed to NIRF Innovation Achievements count.,false,false
+ACH000068,STU-0280,prototype_completion,Functional Demo of NLP Invoice Parser,IIC — Institution's Innovation Cell,2022,campus,Featured in institution newsletter.,false,false
+ACH000069,STU-0004,prototype_completion,Functional Demo of NLP Invoice Parser,"Dept. of ECE, CIT",2025,regional,Featured in institution newsletter.,false,false
+ACH000070,ALU-0068,prototype_completion,Hardware Prototype for EV Charging Hub,"Dept. of ECE, CIT",2021,campus,Featured in institution newsletter.,false,false
+ACH000071,ALU-0049,incubator_selection,Selected — NIDHI PRAYAS Cohort 7,Anna University,2025,regional,Cited in NIRF Innovation submission.,false,false
+ACH000072,STU-0041,hackathon_win,Grand Prix — Google Solution Challenge India,IIT Madras,2021,regional,Featured in institution newsletter.,false,false
+ACH000073,ALU-0068,grant_recognition,AIM-iCREATE Finalist,BIRAC,2024,campus,Cited in NIRF Innovation submission.,false,false
+ACH000074,STU-0198,hackathon_win,Winner — Smart India Hackathon 2024,IIT Madras,2022,campus,Outcome used as evidence in grant application.,false,false
+ACH000075,STU-0016,grant_recognition,AIM-iCREATE Finalist,BIRAC,2019,campus,Resulted in follow-on collaboration with industry partner.,false,false
+ACH000076,STU-0044,patent_filing,Patent Application: Multimodal Soil Sensor Array,Indian Patent Office,2020,national,Outcome used as evidence in grant application.,false,false
+ACH000077,STU-0217,research_demo,"Poster Presentation, NeurIPS Student Workshop",NeurIPS Foundation,2019,campus,Covered by regional media.,false,false
+ACH000078,STU-0020,research_demo,"Paper Presentation, ICSE 2023",IEEE,2020,regional,Covered by regional media.,false,false
+ACH000079,STU-0052,hackathon_win,Best Prototype Award — NASA Space Apps,"Ministry of Education, GoI",2022,regional,Presented at national-level summit post-win.,false,false
+ACH000080,STU-0109,hackathon_win,Winner — Smart India Hackathon 2024,Google,2023,regional,Cited in NIRF Innovation submission.,false,false
+ACH000081,STU-0208,hackathon_win,Grand Prix — Google Solution Challenge India,NASA,2025,national,Contributed to NIRF Innovation Achievements count.,false,false
+ACH000082,ALU-0144,leadership_role,"Technical Lead, IEEE Student Chapter",Student Council,2025,national,Cited in NIRF Innovation submission.,false,false
+ACH000083,STU-0178,patent_filing,Patent Application: Multimodal Soil Sensor Array,Indian Patent Office,2019,campus,Contributed to NIRF Innovation Achievements count.,false,false
+ACH000084,ALU-0079,hackathon_win,1st Place — IIT Madras Shaastra Hack,Google,2020,national,Recognised at annual convocation ceremony.,false,false
+ACH000085,ALU-0086,hackathon_win,1st Place — IIT Madras Shaastra Hack,"Ministry of Education, GoI",2022,campus,Recognised at annual convocation ceremony.,false,false
+ACH000086,STU-0092,hackathon_win,Best Prototype Award — NASA Space Apps,Google,2024,national,Team received ₹50K prize money.,false,false
+ACH000087,STU-0212,grant_recognition,DST-NIMAT Grant Awardee,MeitY TIDE 2.0,2023,campus,Cited in NIRF Innovation submission.,false,false
+ACH000088,STU-0039,fellowship,Google Generation Scholar,Qualcomm,2023,national,Led to incubation cell admission.,false,false
+ACH000089,STU-0005,incubator_selection,Admitted — T-Hub LabStart Programme,T-Hub Hyderabad,2019,national,Featured in institution newsletter.,false,false
+ACH000090,ALU-0024,prototype_completion,MVP Completion — AI Crop Disease Detector,IIC — Institution's Innovation Cell,2025,regional,Cited in NIRF Innovation submission.,false,false
+ACH000091,STU-0199,leadership_role,"President, Entrepreneurship Cell",IEEE India Council,2024,national,Team received ₹50K prize money.,false,false
+ACH000092,STU-0164,research_demo,Research Demonstration at ICCV 2024,IEEE,2024,campus,Cited in NIRF Innovation submission.,false,false
+ACH000093,ALU-0043,incubator_selection,Inducted — Anna University BioNEST,DST-NIDHI,2019,regional,Outcome used as evidence in grant application.,false,false
+ACH000094,STU-0030,hackathon_win,Grand Prix — Google Solution Challenge India,"Ministry of Education, GoI",2019,national,Team received ₹50K prize money.,false,false
+ACH000095,ALU-0034,prototype_completion,Functional Demo of NLP Invoice Parser,"Incubation Cell, CIT",2024,regional,Resulted in follow-on collaboration with industry partner.,false,false
+ACH000096,STU-0113,leadership_role,"Club Captain, AI/ML Research Group",IEEE India Council,2019,campus,Contributed to NIRF Innovation Achievements count.,false,false
+ACH000097,ALU-0085,publication,Published in IEEE Transactions on Neural Networks,IEEE,2022,regional,Recognised at annual convocation ceremony.,false,false
+ACH000098,STU-0149,fellowship,Google Generation Scholar,Qualcomm,2020,campus,Covered by regional media.,false,false
+ACH000099,STU-0199,research_demo,Demo at NASSCOM AI Symposium,NASSCOM,2020,campus,Recognised at annual convocation ceremony.,false,false
+ACH000100,STU-0062,grant_recognition,TIDE 2.0 Cohort Member,DST India,2019,national,Team received ₹50K prize money.,false,false
+ACH000101,ALU-0052,incubator_selection,Admitted — T-Hub LabStart Programme,CIIE.CO Ahmedabad,2023,campus,Presented at national-level summit post-win.,false,false
+ACH000102,STU-0053,fellowship,Google Generation Scholar,"PMRF, MHRD",2022,national,Team received ₹50K prize money.,false,false
+ACH000103,STU-0222,publication,Paper in Springer LNCS Vol. 14221,ACM,2025,campus,Recognised at annual convocation ceremony.,false,false
+ACH000104,STU-0253,patent_filing,Patent Filed: Adaptive Learning Algorithm (2024),USPTO,2022,regional,Presented at national-level summit post-win.,false,false
+ACH000105,STU-0006,award,DRDO Young Scientist Award,NASSCOM,2019,national,Outcome used as evidence in grant application.,false,false
+ACH000106,STU-0126,hackathon_win,Grand Prix — Google Solution Challenge India,Google,2025,regional,Featured in institution newsletter.,false,false
+ACH000107,STU-0247,research_demo,Research Demonstration at ICCV 2024,IEEE,2024,regional,Cited in NIRF Innovation submission.,false,false
+ACH000108,ALU-0003,hackathon_win,1st Place — IIT Madras Shaastra Hack,"Ministry of Education, GoI",2019,campus,Led to incubation cell admission.,false,false
+ACH000109,ALU-0171,hackathon_win,Winner — Smart India Hackathon 2024,Google,2022,regional,Contributed to NIRF Innovation Achievements count.,false,false
+ACH000110,ALU-0080,leadership_role,"Core Organiser, Annual Innovation Summit",Chennai Institute of Technology,2025,regional,Contributed to NIRF Innovation Achievements count.,false,false
+ACH000111,ALU-0041,fellowship,Prime Minister's Research Fellowship,Infosys Foundation,2022,regional,Presented at national-level summit post-win.,false,false
+ACH000112,STU-0213,prototype_completion,Working Prototype of IoT Health Monitor,"Dept. of ECE, CIT",2021,regional,Recognised at annual convocation ceremony.,false,false
+ACH000113,ALU-0073,research_demo,Research Demonstration at ICCV 2024,IEEE,2022,campus,Presented at national-level summit post-win.,false,false
+ACH000114,ALU-0076,hackathon_win,1st Place — IIT Madras Shaastra Hack,"Ministry of Education, GoI",2023,regional,Cited in NIRF Innovation submission.,false,false
+ACH000115,ALU-0043,hackathon_win,1st Place — IIT Madras Shaastra Hack,"Ministry of Education, GoI",2024,campus,Presented at national-level summit post-win.,false,false
+ACH000116,STU-0215,fellowship,Google Generation Scholar,Infosys Foundation,2021,national,Outcome used as evidence in grant application.,false,false
+ACH000117,STU-0284,grant_recognition,BIRAC BIG Grant Recipient,BIRAC,2021,campus,Team received ₹50K prize money.,false,false
+ACH000118,STU-0126,research_demo,"Paper Presentation, ICSE 2023",NASSCOM,2022,regional,Featured in institution newsletter.,false,false
+ACH000119,ALU-0169,leadership_role,"President, Entrepreneurship Cell",Chennai Institute of Technology,2022,national,Led to incubation cell admission.,false,false
+ACH000120,STU-0079,award,Best Student Innovator — NASSCOM,CII,2021,campus,Covered by regional media.,false,false
+ACH000121,STU-0210,research_demo,Research Demonstration at ICCV 2024,NASSCOM,2022,national,Outcome used as evidence in grant application.,false,false
+ACH000122,ALU-0186,fellowship,Infosys Foundation Fellowship,Qualcomm,2022,regional,Recognised at annual convocation ceremony.,false,false
+ACH000123,STU-0065,leadership_role,"President, Entrepreneurship Cell",IEEE India Council,2025,national,Resulted in follow-on collaboration with industry partner.,false,false
+ACH000124,ALU-0052,incubator_selection,Accepted — CIIE.CO Pre-Incubation,Anna University,2023,regional,Outcome used as evidence in grant application.,false,false
+ACH000125,ALU-0156,publication,Accepted at ACM SIGCHI 2024,ACM,2023,campus,Led to incubation cell admission.,false,false
+ACH000126,STU-0267,hackathon_win,1st Place — IIT Madras Shaastra Hack,Google,2021,national,Recognised at annual convocation ceremony.,false,false
+ACH000127,STU-0292,hackathon_win,Grand Prix — Google Solution Challenge India,IIT Madras,2023,national,Outcome used as evidence in grant application.,false,false
+ACH000128,STU-0180,leadership_role,"Technical Lead, IEEE Student Chapter",IEEE India Council,2020,campus,Resulted in follow-on collaboration with industry partner.,false,false
+ACH000129,ALU-0152,prototype_completion,Hardware Prototype for EV Charging Hub,IIC — Institution's Innovation Cell,2020,campus,Recognised at annual convocation ceremony.,false,false
+ACH000130,ALU-0053,grant_recognition,DST-NIMAT Grant Awardee,MeitY TIDE 2.0,2022,regional,Covered by regional media.,false,false
+ACH000131,STU-0125,prototype_completion,Working Prototype of IoT Health Monitor,IIC — Institution's Innovation Cell,2022,regional,Team received ₹50K prize money.,false,false
+ACH000132,STU-0160,fellowship,Prime Minister's Research Fellowship,Infosys Foundation,2024,regional,Team received ₹50K prize money.,false,false
+ACH000133,STU-0151,fellowship,Qualcomm Innovation Fellowship India,Infosys Foundation,2024,campus,Team received ₹50K prize money.,false,false
+ACH000134,STU-0143,fellowship,Prime Minister's Research Fellowship,Infosys Foundation,2019,campus,Cited in NIRF Innovation submission.,false,false
+ACH000135,STU-0095,incubator_selection,Accepted — CIIE.CO Pre-Incubation,DST-NIDHI,2023,regional,Presented at national-level summit post-win.,false,false
+ACH000136,STU-0285,research_demo,"Poster Presentation, NeurIPS Student Workshop",IEEE,2019,regional,Team received ₹50K prize money.,false,false
+ACH000137,STU-0090,grant_recognition,AIM-iCREATE Finalist,DST India,2022,campus,Presented at national-level summit post-win.,false,false
+ACH000138,STU-0058,research_demo,Demo at NASSCOM AI Symposium,ACM,2020,regional,Contributed to NIRF Innovation Achievements count.,false,false
+ACH000139,ALU-0082,incubator_selection,Selected — NIDHI PRAYAS Cohort 7,CIIE.CO Ahmedabad,2021,campus,Team received ₹50K prize money.,false,false
+ACH000140,STU-0090,fellowship,Google Generation Scholar,Qualcomm,2024,national,Team received ₹50K prize money.,false,false
+ACH000141,ALU-0135,leadership_role,"Core Organiser, Annual Innovation Summit",IEEE India Council,2025,regional,Featured in institution newsletter.,false,false
+ACH000142,ALU-0011,hackathon_win,Grand Prix — Google Solution Challenge India,NASA,2019,national,Presented at national-level summit post-win.,false,false
+ACH000143,STU-0091,patent_filing,Patent Filed: Adaptive Learning Algorithm (2024),USPTO,2024,national,Contributed to NIRF Innovation Achievements count.,false,false
+ACH000144,ALU-0174,hackathon_win,1st Place — IIT Madras Shaastra Hack,IIT Madras,2020,national,Led to incubation cell admission.,false,false
+ACH000145,STU-0044,prototype_completion,Hardware Prototype for EV Charging Hub,"Dept. of ECE, CIT",2021,campus,Team received ₹50K prize money.,false,false
+ACH000146,STU-0003,leadership_role,"Technical Lead, IEEE Student Chapter",Student Council,2021,national,Team received ₹50K prize money.,false,false
+ACH000147,STU-0295,hackathon_win,Grand Prix — Google Solution Challenge India,IIT Madras,2022,national,Cited in NIRF Innovation submission.,false,false
+ACH000148,STU-0284,hackathon_win,Grand Prix — Google Solution Challenge India,"Ministry of Education, GoI",2023,regional,Presented at national-level summit post-win.,false,false
+ACH000149,ALU-0147,research_demo,Demo at NASSCOM AI Symposium,ACM,2024,national,Resulted in follow-on collaboration with industry partner.,false,false
+ACH000150,STU-0018,research_demo,Demo at NASSCOM AI Symposium,NeurIPS Foundation,2023,campus,Resulted in follow-on collaboration with industry partner.,false,false
+ACH000151,STU-0139,research_demo,Demo at NASSCOM AI Symposium,NeurIPS Foundation,2019,campus,Contributed to NIRF Innovation Achievements count.,false,false
+ACH000152,ALU-0065,grant_recognition,BIRAC BIG Grant Recipient,MeitY TIDE 2.0,2021,regional,Featured in institution newsletter.,false,false
+ACH000153,STU-0188,research_demo,Research Demonstration at ICCV 2024,NeurIPS Foundation,2023,campus,Resulted in follow-on collaboration with industry partner.,false,false
+ACH000154,ALU-0009,publication,Accepted at ACM SIGCHI 2024,Springer,2024,regional,Featured in institution newsletter.,false,false
+ACH000155,ALU-0061,prototype_completion,MVP Completion — AI Crop Disease Detector,"Incubation Cell, CIT",2020,regional,Resulted in follow-on collaboration with industry partner.,false,false
+ACH000156,ALU-0122,patent_filing,Patent Application: Multimodal Soil Sensor Array,Indian Patent Office,2019,campus,Outcome used as evidence in grant application.,false,false
+ACH000157,STU-0193,leadership_role,"President, Entrepreneurship Cell",Institution's Innovation Cell,2022,national,Featured in institution newsletter.,false,false
+ACH000158,STU-0018,publication,Accepted at ACM SIGCHI 2024,ACM,2021,regional,Covered by regional media.,false,false
+ACH000159,ALU-0130,publication,Accepted at ACM SIGCHI 2024,IEEE,2024,campus,Featured in institution newsletter.,false,false
+ACH000160,STU-0146,leadership_role,"Technical Lead, IEEE Student Chapter",Student Council,2020,campus,Featured in institution newsletter.,false,false
+ACH000161,STU-0115,incubator_selection,Selected — NIDHI PRAYAS Cohort 7,DST-NIDHI,2025,campus,Contributed to NIRF Innovation Achievements count.,false,false
+ACH000162,STU-0111,hackathon_win,Winner — Smart India Hackathon 2024,"Ministry of Education, GoI",2022,campus,Led to incubation cell admission.,false,false
+ACH000163,ALU-0009,hackathon_win,Winner — Smart India Hackathon 2024,"Ministry of Education, GoI",2025,campus,Presented at national-level summit post-win.,false,false
+ACH000164,STU-0205,leadership_role,"Technical Lead, IEEE Student Chapter",Student Council,2019,campus,Led to incubation cell admission.,false,false
+ACH000165,ALU-0057,award,Top 30 Under 30 Innovators — Inc42,CII,2025,regional,Presented at national-level summit post-win.,false,false
+ACH000166,STU-0070,leadership_role,"President, Entrepreneurship Cell",Chennai Institute of Technology,2023,campus,Cited in NIRF Innovation submission.,false,false
+ACH000167,STU-0176,award,Best Student Innovator — NASSCOM,NASSCOM,2020,national,Team received ₹50K prize money.,false,false
+ACH000168,STU-0190,incubator_selection,Inducted — Anna University BioNEST,DST-NIDHI,2020,national,Contributed to NIRF Innovation Achievements count.,false,false
+ACH000169,STU-0053,incubator_selection,Admitted — T-Hub LabStart Programme,Anna University,2019,regional,Resulted in follow-on collaboration with industry partner.,false,false
+ACH000170,STU-0113,hackathon_win,1st Place — IIT Madras Shaastra Hack,Google,2025,campus,Led to incubation cell admission.,false,false
+ACH000171,STU-0042,prototype_completion,Working Prototype of IoT Health Monitor,IIC — Institution's Innovation Cell,2022,campus,Led to incubation cell admission.,false,false
+ACH000172,ALU-0020,research_demo,"Paper Presentation, ICSE 2023",NeurIPS Foundation,2023,campus,Contributed to NIRF Innovation Achievements count.,false,false
+ACH000173,STU-0072,leadership_role,"Core Organiser, Annual Innovation Summit",Student Council,2020,campus,Team received ₹50K prize money.,false,false
+ACH000174,ALU-0106,grant_recognition,AIM-iCREATE Finalist,BIRAC,2019,campus,Contributed to NIRF Innovation Achievements count.,false,false
+ACH000175,STU-0105,grant_recognition,DST-NIMAT Grant Awardee,BIRAC,2021,national,Resulted in follow-on collaboration with industry partner.,false,false
+ACH000176,ALU-0114,leadership_role,"President, Entrepreneurship Cell",IEEE India Council,2025,campus,Team received ₹50K prize money.,false,false
+ACH000177,STU-0280,leadership_role,"Core Organiser, Annual Innovation Summit",Student Council,2022,regional,Contributed to NIRF Innovation Achievements count.,false,false
+ACH000178,STU-0126,award,Top 30 Under 30 Innovators — Inc42,CII,2025,campus,Featured in institution newsletter.,false,false
+ACH000179,STU-0217,leadership_role,"Technical Lead, IEEE Student Chapter",IEEE India Council,2019,campus,Recognised at annual convocation ceremony.,false,false
+ACH000180,STU-0017,publication,Paper in Springer LNCS Vol. 14221,IEEE,2020,campus,Resulted in follow-on collaboration with industry partner.,false,false
+ACH000181,STU-0099,hackathon_win,Winner — Smart India Hackathon 2024,Google,2025,campus,Led to incubation cell admission.,false,false
+ACH000182,STU-0141,grant_recognition,TIDE 2.0 Cohort Member,MeitY TIDE 2.0,2025,national,Outcome used as evidence in grant application.,false,false
+ACH000183,STU-0033,hackathon_win,Grand Prix — Google Solution Challenge India,"Ministry of Education, GoI",2022,campus,Contributed to NIRF Innovation Achievements count.,false,false
+ACH000184,STU-0037,incubator_selection,Selected — NIDHI PRAYAS Cohort 7,T-Hub Hyderabad,2023,regional,Led to incubation cell admission.,false,false
+ACH000185,STU-0169,fellowship,Qualcomm Innovation Fellowship India,Qualcomm,2020,campus,Contributed to NIRF Innovation Achievements count.,false,false
+ACH000186,STU-0113,research_demo,"Paper Presentation, ICSE 2023",ACM,2022,regional,Covered by regional media.,false,false
+ACH000187,ALU-0101,research_demo,Demo at NASSCOM AI Symposium,ACM,2023,national,Presented at national-level summit post-win.,false,false
+ACH000188,STU-0292,grant_recognition,TIDE 2.0 Cohort Member,BIRAC,2019,regional,Covered by regional media.,false,false
+ACH000189,ALU-0058,publication,Paper in Springer LNCS Vol. 14221,Springer,2019,regional,Resulted in follow-on collaboration with industry partner.,false,false
+ACH000190,ALU-0139,incubator_selection,Accepted — CIIE.CO Pre-Incubation,CIIE.CO Ahmedabad,2022,campus,Cited in NIRF Innovation submission.,false,false
+ACH000191,ALU-0020,leadership_role,"President, Entrepreneurship Cell",Chennai Institute of Technology,2025,campus,Resulted in follow-on collaboration with industry partner.,false,false
+ACH000192,STU-0016,hackathon_win,Best Prototype Award — NASA Space Apps,"Ministry of Education, GoI",2022,regional,Contributed to NIRF Innovation Achievements count.,false,false
+ACH000193,ALU-0132,prototype_completion,Hardware Prototype for EV Charging Hub,"Incubation Cell, CIT",2024,campus,Recognised at annual convocation ceremony.,false,false
+ACH000194,ALU-0087,award,DRDO Young Scientist Award,Inc42 Media,2023,campus,Team received ₹50K prize money.,false,false
+ACH000195,STU-0211,hackathon_win,Best Prototype Award — NASA Space Apps,Google,2023,national,Resulted in follow-on collaboration with industry partner.,false,false
+ACH000196,ALU-0007,hackathon_win,Best Prototype Award — NASA Space Apps,Google,2020,campus,Featured in institution newsletter.,false,false
+ACH000197,STU-0045,publication,Published in IEEE Transactions on Neural Networks,ACM,2021,campus,Presented at national-level summit post-win.,false,false
+ACH000198,STU-0232,incubator_selection,Selected — NIDHI PRAYAS Cohort 7,DST-NIDHI,2023,campus,Featured in institution newsletter.,false,false
+ACH000199,STU-0126,prototype_completion,Functional Demo of NLP Invoice Parser,IIC — Institution's Innovation Cell,2020,campus,Featured in institution newsletter.,false,false
+ACH000200,ALU-0010,grant_recognition,TIDE 2.0 Cohort Member,Atal Innovation Mission,2024,regional,Cited in NIRF Innovation submission.,false,false
+ACH000201,STU-0258,incubator_selection,Inducted — Anna University BioNEST,T-Hub Hyderabad,2019,regional,Outcome used as evidence in grant application.,false,false
+ACH000202,STU-0016,publication,Published in IEEE Transactions on Neural Networks,Springer,2025,regional,Team received ₹50K prize money.,false,false
+ACH000203,STU-0072,leadership_role,"Core Organiser, Annual Innovation Summit",Chennai Institute of Technology,2023,campus,Team received ₹50K prize money.,false,false
+ACH000204,STU-0155,hackathon_win,Best Prototype Award — NASA Space Apps,Google,2022,campus,Featured in institution newsletter.,false,false
+ACH000205,ALU-0123,grant_recognition,TIDE 2.0 Cohort Member,MeitY TIDE 2.0,2024,campus,Presented at national-level summit post-win.,false,false
+ACH000206,STU-0245,leadership_role,"President, Entrepreneurship Cell",IEEE India Council,2020,campus,Led to incubation cell admission.,false,false
+ACH000207,ALU-0056,research_demo,"Paper Presentation, ICSE 2023",ACM,2024,national,Cited in NIRF Innovation submission.,false,false
+ACH000208,STU-0140,hackathon_win,Winner — Smart India Hackathon 2024,NASA,2025,national,Outcome used as evidence in grant application.,false,false
+ACH000209,STU-0044,hackathon_win,Grand Prix — Google Solution Challenge India,"Ministry of Education, GoI",2019,national,Featured in institution newsletter.,false,false
+ACH000210,ALU-0006,leadership_role,"President, Entrepreneurship Cell",Institution's Innovation Cell,2021,regional,Featured in institution newsletter.,false,false
+ACH000211,STU-0144,incubator_selection,Admitted — T-Hub LabStart Programme,DST-NIDHI,2023,regional,Featured in institution newsletter.,false,false
+ACH000212,ALU-0007,research_demo,Demo at NASSCOM AI Symposium,ACM,2019,campus,Featured in institution newsletter.,false,false
+ACH000213,ALU-0021,patent_filing,Patent Application: Multimodal Soil Sensor Array,USPTO,2025,regional,Cited in NIRF Innovation submission.,false,false
+ACH000214,STU-0224,fellowship,Google Generation Scholar,"PMRF, MHRD",2020,campus,Led to incubation cell admission.,false,false
+ACH000215,STU-0261,incubator_selection,Selected — NIDHI PRAYAS Cohort 7,Anna University,2023,campus,Featured in institution newsletter.,false,false
+ACH000216,ALU-0134,leadership_role,"Core Organiser, Annual Innovation Summit",IEEE India Council,2021,national,Covered by regional media.,false,false
+ACH000217,ALU-0077,incubator_selection,Accepted — CIIE.CO Pre-Incubation,DST-NIDHI,2024,national,Presented at national-level summit post-win.,false,false
+ACH000218,STU-0056,hackathon_win,1st Place — IIT Madras Shaastra Hack,NASA,2023,campus,Resulted in follow-on collaboration with industry partner.,false,false
+ACH000219,STU-0125,fellowship,Google Generation Scholar,Qualcomm,2022,campus,Contributed to NIRF Innovation Achievements count.,false,false
+ACH000220,STU-0262,fellowship,Infosys Foundation Fellowship,"PMRF, MHRD",2025,regional,Led to incubation cell admission.,false,false
+ACH000221,STU-0165,leadership_role,"Core Organiser, Annual Innovation Summit",Student Council,2025,regional,Contributed to NIRF Innovation Achievements count.,false,false
+ACH000222,STU-0281,patent_filing,Patent Filed: Adaptive Learning Algorithm (2024),USPTO,2022,regional,Resulted in follow-on collaboration with industry partner.,false,false
+ACH000223,STU-0103,grant_recognition,DST-NIMAT Grant Awardee,MeitY TIDE 2.0,2023,campus,Contributed to NIRF Innovation Achievements count.,false,false
+ACH000224,STU-0058,prototype_completion,Hardware Prototype for EV Charging Hub,IIC — Institution's Innovation Cell,2024,campus,Recognised at annual convocation ceremony.,false,false
+ACH000225,STU-0189,grant_recognition,AIM-iCREATE Finalist,DST India,2019,campus,Led to incubation cell admission.,false,false
+ACH000226,STU-0085,leadership_role,"President, Entrepreneurship Cell",IEEE India Council,2020,regional,Covered by regional media.,false,false
+ACH000227,ALU-0121,publication,Accepted at ACM SIGCHI 2024,ACM,2022,national,Covered by regional media.,false,false
+ACH000228,ALU-0036,leadership_role,"Club Captain, AI/ML Research Group",IEEE India Council,2019,campus,Covered by regional media.,false,false
+ACH000229,ALU-0087,incubator_selection,Admitted — T-Hub LabStart Programme,DST-NIDHI,2019,national,Presented at national-level summit post-win.,false,false
+ACH000230,STU-0092,prototype_completion,Functional Demo of NLP Invoice Parser,"Incubation Cell, CIT",2021,regional,Covered by regional media.,false,false
+ACH000231,ALU-0140,hackathon_win,Best Prototype Award — NASA Space Apps,IIT Madras,2019,national,Covered by regional media.,false,false
+ACH000232,STU-0121,award,Best Student Innovator — NASSCOM,DRDO,2025,national,Team received ₹50K prize money.,false,false
+ACH000233,STU-0053,publication,Published in IEEE Transactions on Neural Networks,IEEE,2024,campus,Led to incubation cell admission.,false,false
+ACH000234,STU-0053,leadership_role,"Core Organiser, Annual Innovation Summit",IEEE India Council,2022,national,Presented at national-level summit post-win.,false,false
+ACH000235,STU-0290,leadership_role,"Technical Lead, IEEE Student Chapter",Institution's Innovation Cell,2020,campus,Covered by regional media.,false,false
+ACH000236,STU-0269,hackathon_win,1st Place — IIT Madras Shaastra Hack,Google,2020,campus,Team received ₹50K prize money.,false,false
+ACH000237,ALU-0181,hackathon_win,1st Place — IIT Madras Shaastra Hack,NASA,2024,campus,Cited in NIRF Innovation submission.,false,false
+ACH000238,ALU-0134,grant_recognition,TIDE 2.0 Cohort Member,BIRAC,2019,regional,Recognised at annual convocation ceremony.,false,false
+ACH000239,STU-0241,incubator_selection,Inducted — Anna University BioNEST,CIIE.CO Ahmedabad,2023,national,Presented at national-level summit post-win.,false,false
+ACH000240,STU-0047,grant_recognition,BIRAC BIG Grant Recipient,MeitY TIDE 2.0,2023,regional,Led to incubation cell admission.,false,false
+ACH000241,ALU-0080,award,Young Entrepreneur Award — CII,NASSCOM,2023,campus,Covered by regional media.,false,false
+ACH000242,ALU-0048,research_demo,"Paper Presentation, ICSE 2023",NeurIPS Foundation,2019,campus,Outcome used as evidence in grant application.,false,false
+ACH000243,STU-0267,incubator_selection,Selected — NIDHI PRAYAS Cohort 7,CIIE.CO Ahmedabad,2019,national,Team received ₹50K prize money.,false,false
+ACH000244,STU-0288,fellowship,Infosys Foundation Fellowship,Qualcomm,2021,national,Led to incubation cell admission.,false,false
+ACH000245,STU-0271,prototype_completion,Hardware Prototype for EV Charging Hub,IIC — Institution's Innovation Cell,2020,campus,Team received ₹50K prize money.,false,false
+ACH000246,STU-0155,patent_filing,Provisional Patent: Low-Power Edge AI Module,USPTO,2019,campus,Recognised at annual convocation ceremony.,false,false
+ACH000247,STU-0037,leadership_role,"Core Organiser, Annual Innovation Summit",Student Council,2020,regional,Contributed to NIRF Innovation Achievements count.,false,false
+ACH000248,STU-0053,hackathon_win,Winner — Smart India Hackathon 2024,Google,2021,national,Outcome used as evidence in grant application.,false,false
+ACH000249,STU-0115,research_demo,Research Demonstration at ICCV 2024,NeurIPS Foundation,2019,campus,Cited in NIRF Innovation submission.,false,false
+ACH000250,STU-0185,publication,Published in IEEE Transactions on Neural Networks,Springer,2023,national,Presented at national-level summit post-win.,false,false

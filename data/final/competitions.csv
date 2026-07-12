@@ -1,0 +1,301 @@
+competition_id,profile_id,name,competition_type,year,participation_role,result,team_size,theme,nirf_recognised
+CMP00001,STU-0186,IIM Ahmedabad Eureka!,hackathon,2022,winner,Special Jury Prize,2,CleanTech & Sustainability,false
+CMP00002,STU-0188,Anna University Innovation Challenge,ideathon,2019,winner,Special Jury Prize,2,Smart Cities & GovTech,false
+CMP00003,ALU-0131,Anna University Innovation Challenge,startup_pitch,2021,participant,Shortlisted in top 50,5,CleanTech & Sustainability,false
+CMP00004,ALU-0182,TOYCATHON,product_showcase,2024,finalist,Top 10 finalist,5,Women Empowerment & Social Impact,false
+CMP00005,ALU-0184,TiE Entrepreneurial Challenge,design_sprint,2019,mentor_judge,Evaluated 30 teams as domain expert judge,0,Deep Tech & AI/ML,false
+CMP00006,STU-0056,Microsoft Imagine Cup,innovation_challenge,2020,finalist,Top 5 finalist,3,Deep Tech & AI/ML,false
+CMP00007,STU-0147,Anna University Innovation Challenge,product_showcase,2024,mentor_judge,Mentored 5 finalist teams,0,FinTech & Financial Inclusion,false
+CMP00008,ALU-0041,NASSCOM 10K Startups,startup_pitch,2024,winner,Best Innovation Award,1,Healthcare & MedTech,false
+CMP00009,STU-0173,National Entrepreneurship Challenge (IIT Bombay),product_showcase,2020,finalist,Top 10 finalist,4,EdTech & Skill Development,false
+CMP00010,ALU-0140,Startup Tamil Nadu Ideathon,demo_day,2022,participant,Shortlisted in top 50,4,Healthcare & MedTech,false
+CMP00011,ALU-0083,Smart India Hackathon,startup_pitch,2025,participant,Participated,5,AgriTech & Rural Development,false
+CMP00012,STU-0255,CII Young Indians Innovation Challenge,ideathon,2021,participant,Participated,3,FinTech & Financial Inclusion,false
+CMP00013,ALU-0014,NASSCOM 10K Startups,hackathon,2025,participant,Completed submission,1,CleanTech & Sustainability,false
+CMP00014,ALU-0024,Kerala Startup Mission Demo Day,design_sprint,2021,mentor_judge,Mentored 5 finalist teams,0,Deep Tech & AI/ML,false
+CMP00015,ALU-0051,India Innovation Challenge Design Contest,startup_pitch,2025,organizer,Organised successfully; 400+ participants,0,AgriTech & Rural Development,false
+CMP00016,STU-0020,CII Young Indians Innovation Challenge,innovation_challenge,2024,participant,Shortlisted in top 50,2,AgriTech & Rural Development,false
+CMP00017,ALU-0155,NASSCOM 10K Startups,hackathon,2021,winner,Special Jury Prize,1,Deep Tech & AI/ML,false
+CMP00018,STU-0280,Kerala Startup Mission Demo Day,hackathon,2023,organizer,Coordinated 3 tracks; 200 teams,0,Healthcare & MedTech,false
+CMP00019,STU-0021,TOYCATHON,ideathon,2019,finalist,National finalist,4,Cybersecurity,false
+CMP00020,STU-0259,India Innovation Challenge Design Contest,ideathon,2020,participant,Completed submission,2,Healthcare & MedTech,false
+CMP00021,STU-0104,Vernacular AI Hackathon by AI4Bharat,startup_pitch,2023,participant,Completed submission,5,FinTech & Financial Inclusion,false
+CMP00022,STU-0126,Kerala Startup Mission Demo Day,hackathon,2021,participant,Participated,1,EdTech & Skill Development,false
+CMP00023,STU-0205,NIDHI Prayas Demo Day,product_showcase,2023,finalist,National finalist,2,Smart Cities & GovTech,false
+CMP00024,STU-0165,TOYCATHON,design_sprint,2022,winner,3rd Place,2,Cybersecurity,false
+CMP00025,STU-0014,NASA Space Apps Challenge,hackathon,2025,participant,Participated,5,Cybersecurity,false
+CMP00026,STU-0126,NASA Space Apps Challenge,ideathon,2024,participant,Participated,1,CleanTech & Sustainability,false
+CMP00027,ALU-0004,NIDHI Prayas Demo Day,demo_day,2019,finalist,Top 5 finalist,1,FinTech & Financial Inclusion,false
+CMP00028,ALU-0069,Anna University Innovation Challenge,demo_day,2024,organizer,Coordinated 3 tracks; 200 teams,0,EdTech & Skill Development,false
+CMP00029,STU-0010,Microsoft Imagine Cup,ideathon,2024,participant,Participated,2,Smart Cities & GovTech,false
+CMP00030,STU-0275,NASA Space Apps Challenge,startup_pitch,2025,participant,Shortlisted in top 50,3,FinTech & Financial Inclusion,false
+CMP00031,ALU-0168,NIDHI Prayas Demo Day,product_showcase,2022,participant,Shortlisted in top 50,4,Deep Tech & AI/ML,false
+CMP00032,STU-0116,Microsoft Imagine Cup,ideathon,2024,finalist,Top 10 finalist,1,FinTech & Financial Inclusion,false
+CMP00033,ALU-0195,National Entrepreneurship Challenge (IIT Bombay),ideathon,2022,participant,Completed submission,2,Women Empowerment & Social Impact,false
+CMP00034,STU-0030,Microsoft Imagine Cup,demo_day,2022,participant,Shortlisted in top 50,1,Deep Tech & AI/ML,false
+CMP00035,STU-0268,Anna University Innovation Challenge,hackathon,2024,participant,Participated,5,Women Empowerment & Social Impact,false
+CMP00036,ALU-0047,Vernacular AI Hackathon by AI4Bharat,design_sprint,2024,winner,2nd Place,5,EdTech & Skill Development,false
+CMP00037,STU-0255,India Innovation Challenge Design Contest,startup_pitch,2024,participant,Completed submission,4,FinTech & Financial Inclusion,false
+CMP00038,STU-0056,Smart India Hackathon,ideathon,2020,winner,Special Jury Prize,5,Cybersecurity,false
+CMP00039,STU-0077,India Innovation Challenge Design Contest,startup_pitch,2020,organizer,Organised successfully; 400+ participants,0,Smart Cities & GovTech,false
+CMP00040,ALU-0051,CII Young Indians Innovation Challenge,design_sprint,2024,mentor_judge,Evaluated 30 teams as domain expert judge,0,Deep Tech & AI/ML,false
+CMP00041,STU-0081,Sequoia Surge Campus Pitch,demo_day,2025,participant,Participated,5,Cybersecurity,false
+CMP00042,ALU-0158,Anna University Innovation Challenge,hackathon,2022,participant,Shortlisted in top 50,1,EdTech & Skill Development,false
+CMP00043,STU-0017,BIRAC BIG Grant Pitching Forum,hackathon,2025,participant,Participated,1,Women Empowerment & Social Impact,false
+CMP00044,STU-0058,BIRAC BIG Grant Pitching Forum,innovation_challenge,2024,mentor_judge,Mentored 5 finalist teams,0,Cybersecurity,false
+CMP00045,STU-0056,CII Young Indians Innovation Challenge,product_showcase,2022,mentor_judge,Mentored 5 finalist teams,0,Smart Cities & GovTech,false
+CMP00046,ALU-0185,IIT Madras Shaastra Hackathon,ideathon,2022,finalist,National finalist,1,EdTech & Skill Development,false
+CMP00047,STU-0003,Anna University Innovation Challenge,startup_pitch,2025,winner,2nd Place,3,Logistics & Supply Chain,false
+CMP00048,STU-0109,TOYCATHON,innovation_challenge,2022,finalist,National finalist,2,Deep Tech & AI/ML,false
+CMP00049,STU-0201,TiE Entrepreneurial Challenge,hackathon,2025,participant,Completed submission,4,AgriTech & Rural Development,false
+CMP00050,ALU-0047,Google Solution Challenge,product_showcase,2022,finalist,Top 10 finalist,1,Women Empowerment & Social Impact,false
+CMP00051,ALU-0169,National Entrepreneurship Challenge (IIT Bombay),design_sprint,2020,participant,Shortlisted in top 50,4,Healthcare & MedTech,false
+CMP00052,STU-0053,T-Hub LabStart Cohort,product_showcase,2023,finalist,Top 10 finalist,4,Logistics & Supply Chain,false
+CMP00053,STU-0178,Microsoft Imagine Cup,hackathon,2022,winner,2nd Place,5,Women Empowerment & Social Impact,false
+CMP00054,ALU-0129,Kerala Startup Mission Demo Day,ideathon,2025,organizer,Coordinated 3 tracks; 200 teams,0,AgriTech & Rural Development,false
+CMP00055,ALU-0002,Sequoia Surge Campus Pitch,product_showcase,2020,participant,Shortlisted in top 50,2,Deep Tech & AI/ML,false
+CMP00056,STU-0115,IIM Ahmedabad Eureka!,product_showcase,2024,finalist,National finalist,5,Smart Cities & GovTech,false
+CMP00057,STU-0223,TiE Entrepreneurial Challenge,innovation_challenge,2023,winner,Special Jury Prize,3,Smart Cities & GovTech,false
+CMP00058,STU-0183,Vernacular AI Hackathon by AI4Bharat,design_sprint,2024,organizer,Organised successfully; 400+ participants,0,Smart Cities & GovTech,false
+CMP00059,ALU-0130,India Innovation Challenge Design Contest,design_sprint,2023,winner,3rd Place,4,Logistics & Supply Chain,false
+CMP00060,STU-0014,Vernacular AI Hackathon by AI4Bharat,hackathon,2019,participant,Shortlisted in top 50,4,FinTech & Financial Inclusion,false
+CMP00061,STU-0205,NIDHI Prayas Demo Day,product_showcase,2025,participant,Participated,2,CleanTech & Sustainability,false
+CMP00062,STU-0064,IIM Ahmedabad Eureka!,innovation_challenge,2025,finalist,Top 10 finalist,5,Healthcare & MedTech,false
+CMP00063,STU-0105,Kerala Startup Mission Demo Day,product_showcase,2024,participant,Shortlisted in top 50,5,AgriTech & Rural Development,false
+CMP00064,ALU-0099,CII Young Indians Innovation Challenge,design_sprint,2025,winner,Special Jury Prize,3,Healthcare & MedTech,false
+CMP00065,ALU-0127,Anna University Innovation Challenge,design_sprint,2019,organizer,Coordinated 3 tracks; 200 teams,0,Healthcare & MedTech,false
+CMP00066,ALU-0154,CII Young Indians Innovation Challenge,ideathon,2024,winner,2nd Place,3,Women Empowerment & Social Impact,false
+CMP00067,STU-0202,TiE Entrepreneurial Challenge,startup_pitch,2022,finalist,National finalist,2,EdTech & Skill Development,false
+CMP00068,STU-0053,Google Solution Challenge,demo_day,2019,participant,Participated,4,CleanTech & Sustainability,false
+CMP00069,STU-0165,National Entrepreneurship Challenge (IIT Bombay),product_showcase,2021,finalist,Top 10 finalist,1,Smart Cities & GovTech,false
+CMP00070,STU-0041,Microsoft Imagine Cup,startup_pitch,2023,finalist,Top 10 finalist,1,Women Empowerment & Social Impact,false
+CMP00071,STU-0141,National Entrepreneurship Challenge (IIT Bombay),design_sprint,2021,winner,3rd Place,1,Smart Cities & GovTech,false
+CMP00072,ALU-0056,NASA Space Apps Challenge,product_showcase,2023,finalist,Top 10 finalist,2,Deep Tech & AI/ML,false
+CMP00073,STU-0095,IIT Madras Shaastra Hackathon,innovation_challenge,2020,finalist,Top 5 finalist,3,Smart Cities & GovTech,false
+CMP00074,STU-0126,India Innovation Challenge Design Contest,design_sprint,2025,participant,Participated,1,EdTech & Skill Development,false
+CMP00075,STU-0247,Kerala Startup Mission Demo Day,design_sprint,2020,finalist,Top 5 finalist,1,Smart Cities & GovTech,false
+CMP00076,ALU-0096,NIDHI Prayas Demo Day,design_sprint,2024,participant,Participated,3,Healthcare & MedTech,false
+CMP00077,STU-0053,Vernacular AI Hackathon by AI4Bharat,demo_day,2022,organizer,Coordinated 3 tracks; 200 teams,0,Healthcare & MedTech,false
+CMP00078,STU-0198,Anna University Innovation Challenge,design_sprint,2019,participant,Completed submission,1,FinTech & Financial Inclusion,false
+CMP00079,STU-0068,TiE Entrepreneurial Challenge,ideathon,2024,mentor_judge,Evaluated 30 teams as domain expert judge,0,AgriTech & Rural Development,false
+CMP00080,STU-0107,TiE Entrepreneurial Challenge,design_sprint,2025,organizer,Coordinated 3 tracks; 200 teams,0,Deep Tech & AI/ML,false
+CMP00081,STU-0158,Smart India Hackathon,demo_day,2024,finalist,Top 10 finalist,3,Healthcare & MedTech,false
+CMP00082,STU-0183,NIDHI Prayas Demo Day,design_sprint,2019,participant,Participated,5,AgriTech & Rural Development,false
+CMP00083,ALU-0098,Sequoia Surge Campus Pitch,ideathon,2022,organizer,Coordinated 3 tracks; 200 teams,0,Deep Tech & AI/ML,false
+CMP00084,STU-0122,BIRAC BIG Grant Pitching Forum,hackathon,2024,participant,Shortlisted in top 50,5,EdTech & Skill Development,false
+CMP00085,STU-0047,NASA Space Apps Challenge,startup_pitch,2023,winner,Special Jury Prize,1,CleanTech & Sustainability,false
+CMP00086,STU-0089,IIM Ahmedabad Eureka!,product_showcase,2022,winner,3rd Place,4,Deep Tech & AI/ML,false
+CMP00087,ALU-0186,NASSCOM 10K Startups,design_sprint,2020,winner,1st Place,2,Deep Tech & AI/ML,false
+CMP00088,ALU-0003,Microsoft Imagine Cup,startup_pitch,2024,winner,Special Jury Prize,3,Healthcare & MedTech,false
+CMP00089,STU-0145,Google Solution Challenge,hackathon,2019,finalist,National finalist,5,Women Empowerment & Social Impact,false
+CMP00090,STU-0088,IIM Ahmedabad Eureka!,innovation_challenge,2024,participant,Completed submission,3,AgriTech & Rural Development,false
+CMP00091,STU-0115,Microsoft Imagine Cup,innovation_challenge,2020,participant,Completed submission,2,Women Empowerment & Social Impact,false
+CMP00092,STU-0118,NASSCOM 10K Startups,ideathon,2025,winner,2nd Place,5,Healthcare & MedTech,false
+CMP00093,STU-0141,NASA Space Apps Challenge,startup_pitch,2024,organizer,Coordinated 3 tracks; 200 teams,0,EdTech & Skill Development,false
+CMP00094,ALU-0199,Anna University Innovation Challenge,startup_pitch,2020,participant,Participated,2,EdTech & Skill Development,false
+CMP00095,STU-0199,Anna University Innovation Challenge,demo_day,2022,participant,Participated,3,Women Empowerment & Social Impact,false
+CMP00096,STU-0157,National Entrepreneurship Challenge (IIT Bombay),design_sprint,2021,finalist,National finalist,3,Deep Tech & AI/ML,false
+CMP00097,STU-0253,CII Young Indians Innovation Challenge,ideathon,2024,participant,Shortlisted in top 50,4,CleanTech & Sustainability,false
+CMP00098,ALU-0040,India Innovation Challenge Design Contest,demo_day,2022,winner,2nd Place,3,CleanTech & Sustainability,false
+CMP00099,STU-0180,Kerala Startup Mission Demo Day,hackathon,2025,finalist,Top 10 finalist,3,FinTech & Financial Inclusion,false
+CMP00100,STU-0270,NASA Space Apps Challenge,ideathon,2019,organizer,Organised successfully; 400+ participants,0,Healthcare & MedTech,false
+CMP00101,ALU-0115,National Entrepreneurship Challenge (IIT Bombay),innovation_challenge,2019,winner,1st Place,5,CleanTech & Sustainability,false
+CMP00102,ALU-0184,Microsoft Imagine Cup,startup_pitch,2022,finalist,National finalist,2,Women Empowerment & Social Impact,false
+CMP00103,STU-0138,Sequoia Surge Campus Pitch,design_sprint,2023,winner,3rd Place,1,Deep Tech & AI/ML,false
+CMP00104,STU-0245,Kerala Startup Mission Demo Day,ideathon,2020,participant,Participated,5,FinTech & Financial Inclusion,false
+CMP00105,ALU-0051,National Entrepreneurship Challenge (IIT Bombay),ideathon,2025,participant,Participated,2,Cybersecurity,false
+CMP00106,STU-0225,India Innovation Challenge Design Contest,innovation_challenge,2019,mentor_judge,Evaluated 30 teams as domain expert judge,0,CleanTech & Sustainability,false
+CMP00107,STU-0212,Vernacular AI Hackathon by AI4Bharat,product_showcase,2021,participant,Participated,4,Cybersecurity,false
+CMP00108,STU-0041,Anna University Innovation Challenge,hackathon,2024,organizer,Organised successfully; 400+ participants,0,Logistics & Supply Chain,false
+CMP00109,STU-0270,National Entrepreneurship Challenge (IIT Bombay),design_sprint,2023,finalist,Top 5 finalist,2,Deep Tech & AI/ML,false
+CMP00110,STU-0080,Vernacular AI Hackathon by AI4Bharat,startup_pitch,2022,finalist,Top 5 finalist,2,Logistics & Supply Chain,false
+CMP00111,ALU-0199,India Innovation Challenge Design Contest,design_sprint,2019,participant,Shortlisted in top 50,5,FinTech & Financial Inclusion,false
+CMP00112,STU-0079,Vernacular AI Hackathon by AI4Bharat,ideathon,2021,participant,Participated,2,FinTech & Financial Inclusion,false
+CMP00113,STU-0122,CII Young Indians Innovation Challenge,demo_day,2025,participant,Shortlisted in top 50,3,EdTech & Skill Development,false
+CMP00114,ALU-0191,TiE Entrepreneurial Challenge,design_sprint,2020,finalist,Top 5 finalist,4,Healthcare & MedTech,false
+CMP00115,STU-0165,Microsoft Imagine Cup,ideathon,2023,participant,Participated,1,Women Empowerment & Social Impact,false
+CMP00116,STU-0265,NASSCOM 10K Startups,design_sprint,2022,participant,Participated,5,Women Empowerment & Social Impact,false
+CMP00117,STU-0291,NASA Space Apps Challenge,innovation_challenge,2022,finalist,National finalist,5,Cybersecurity,false
+CMP00118,STU-0225,T-Hub LabStart Cohort,design_sprint,2020,organizer,Organised successfully; 400+ participants,0,Women Empowerment & Social Impact,false
+CMP00119,STU-0126,NIDHI Prayas Demo Day,innovation_challenge,2024,winner,2nd Place,3,Cybersecurity,false
+CMP00120,STU-0236,Startup Tamil Nadu Ideathon,demo_day,2020,finalist,Top 10 finalist,1,Healthcare & MedTech,false
+CMP00121,ALU-0130,Microsoft Imagine Cup,design_sprint,2019,participant,Completed submission,2,Cybersecurity,false
+CMP00122,STU-0115,Vernacular AI Hackathon by AI4Bharat,product_showcase,2019,organizer,Organised successfully; 400+ participants,0,EdTech & Skill Development,false
+CMP00123,ALU-0024,Smart India Hackathon,product_showcase,2024,finalist,Top 10 finalist,4,Logistics & Supply Chain,false
+CMP00124,STU-0141,T-Hub LabStart Cohort,innovation_challenge,2025,participant,Participated,4,Deep Tech & AI/ML,false
+CMP00125,STU-0101,T-Hub LabStart Cohort,innovation_challenge,2021,participant,Completed submission,4,AgriTech & Rural Development,false
+CMP00126,STU-0291,Kerala Startup Mission Demo Day,design_sprint,2022,organizer,Organised successfully; 400+ participants,0,CleanTech & Sustainability,false
+CMP00127,STU-0008,National Entrepreneurship Challenge (IIT Bombay),design_sprint,2019,participant,Completed submission,5,Healthcare & MedTech,false
+CMP00128,ALU-0024,T-Hub LabStart Cohort,startup_pitch,2019,participant,Participated,2,Deep Tech & AI/ML,false
+CMP00129,STU-0268,BIRAC BIG Grant Pitching Forum,demo_day,2023,finalist,Top 5 finalist,3,Women Empowerment & Social Impact,false
+CMP00130,ALU-0107,TiE Entrepreneurial Challenge,demo_day,2023,participant,Completed submission,5,Cybersecurity,false
+CMP00131,STU-0045,India Innovation Challenge Design Contest,startup_pitch,2021,participant,Completed submission,5,Smart Cities & GovTech,false
+CMP00132,STU-0142,Google Solution Challenge,ideathon,2020,winner,Best Innovation Award,4,FinTech & Financial Inclusion,false
+CMP00133,ALU-0111,Anna University Innovation Challenge,product_showcase,2023,participant,Completed submission,5,Healthcare & MedTech,false
+CMP00134,STU-0006,NASA Space Apps Challenge,product_showcase,2020,participant,Completed submission,4,Women Empowerment & Social Impact,false
+CMP00135,STU-0270,CII Young Indians Innovation Challenge,startup_pitch,2019,participant,Participated,5,Healthcare & MedTech,false
+CMP00136,ALU-0056,IIM Ahmedabad Eureka!,ideathon,2023,winner,Best Innovation Award,1,FinTech & Financial Inclusion,false
+CMP00137,STU-0011,TiE Entrepreneurial Challenge,product_showcase,2024,finalist,Top 5 finalist,5,CleanTech & Sustainability,false
+CMP00138,STU-0141,Vernacular AI Hackathon by AI4Bharat,ideathon,2020,participant,Completed submission,5,FinTech & Financial Inclusion,false
+CMP00139,STU-0245,Smart India Hackathon,innovation_challenge,2019,finalist,Top 5 finalist,3,Deep Tech & AI/ML,false
+CMP00140,ALU-0116,National Entrepreneurship Challenge (IIT Bombay),innovation_challenge,2023,participant,Shortlisted in top 50,1,EdTech & Skill Development,false
+CMP00141,ALU-0024,National Entrepreneurship Challenge (IIT Bombay),startup_pitch,2021,organizer,Coordinated 3 tracks; 200 teams,0,CleanTech & Sustainability,false
+CMP00142,ALU-0166,Startup Tamil Nadu Ideathon,design_sprint,2019,participant,Participated,3,FinTech & Financial Inclusion,false
+CMP00143,ALU-0024,NASA Space Apps Challenge,design_sprint,2021,participant,Participated,3,EdTech & Skill Development,false
+CMP00144,STU-0017,National Entrepreneurship Challenge (IIT Bombay),startup_pitch,2024,winner,3rd Place,4,Deep Tech & AI/ML,false
+CMP00145,ALU-0048,Sequoia Surge Campus Pitch,ideathon,2022,finalist,Top 10 finalist,5,Healthcare & MedTech,false
+CMP00146,STU-0070,Startup Tamil Nadu Ideathon,ideathon,2025,finalist,Top 5 finalist,2,AgriTech & Rural Development,false
+CMP00147,ALU-0062,Vernacular AI Hackathon by AI4Bharat,design_sprint,2019,winner,Best Innovation Award,3,AgriTech & Rural Development,false
+CMP00148,ALU-0051,NASA Space Apps Challenge,design_sprint,2020,participant,Shortlisted in top 50,4,Smart Cities & GovTech,false
+CMP00149,STU-0276,NASSCOM 10K Startups,ideathon,2024,participant,Completed submission,2,Cybersecurity,false
+CMP00150,STU-0248,NIDHI Prayas Demo Day,innovation_challenge,2020,winner,2nd Place,2,AgriTech & Rural Development,false
+CMP00151,STU-0160,Google Solution Challenge,hackathon,2019,winner,3rd Place,4,Women Empowerment & Social Impact,false
+CMP00152,STU-0044,India Innovation Challenge Design Contest,startup_pitch,2023,participant,Completed submission,3,Cybersecurity,false
+CMP00153,STU-0141,NASSCOM 10K Startups,product_showcase,2023,organizer,Coordinated 3 tracks; 200 teams,0,CleanTech & Sustainability,false
+CMP00154,STU-0132,TOYCATHON,design_sprint,2025,participant,Completed submission,4,Cybersecurity,false
+CMP00155,ALU-0060,IIT Madras Shaastra Hackathon,demo_day,2025,mentor_judge,Evaluated 30 teams as domain expert judge,0,FinTech & Financial Inclusion,false
+CMP00156,STU-0017,Sequoia Surge Campus Pitch,startup_pitch,2024,finalist,Top 10 finalist,1,Healthcare & MedTech,false
+CMP00157,STU-0104,Anna University Innovation Challenge,startup_pitch,2023,finalist,Top 5 finalist,3,FinTech & Financial Inclusion,false
+CMP00158,STU-0276,India Innovation Challenge Design Contest,design_sprint,2021,finalist,Top 10 finalist,3,FinTech & Financial Inclusion,false
+CMP00159,ALU-0130,IIT Madras Shaastra Hackathon,startup_pitch,2025,finalist,Top 10 finalist,4,CleanTech & Sustainability,false
+CMP00160,STU-0135,National Entrepreneurship Challenge (IIT Bombay),ideathon,2020,finalist,National finalist,1,CleanTech & Sustainability,false
+CMP00161,ALU-0143,Startup Tamil Nadu Ideathon,innovation_challenge,2020,winner,Special Jury Prize,2,Cybersecurity,false
+CMP00162,ALU-0132,India Innovation Challenge Design Contest,innovation_challenge,2025,winner,2nd Place,5,Logistics & Supply Chain,false
+CMP00163,ALU-0008,NIDHI Prayas Demo Day,design_sprint,2025,winner,Best Innovation Award,5,Healthcare & MedTech,false
+CMP00164,STU-0168,TOYCATHON,innovation_challenge,2025,participant,Completed submission,3,Cybersecurity,false
+CMP00165,ALU-0161,Anna University Innovation Challenge,startup_pitch,2021,winner,1st Place,3,Logistics & Supply Chain,false
+CMP00166,ALU-0053,Smart India Hackathon,demo_day,2019,finalist,Top 5 finalist,3,Women Empowerment & Social Impact,false
+CMP00167,STU-0016,NASSCOM 10K Startups,product_showcase,2021,participant,Completed submission,3,Smart Cities & GovTech,false
+CMP00168,ALU-0158,NASA Space Apps Challenge,demo_day,2023,finalist,Top 5 finalist,3,Cybersecurity,false
+CMP00169,STU-0172,Anna University Innovation Challenge,demo_day,2024,finalist,Top 10 finalist,5,Women Empowerment & Social Impact,false
+CMP00170,STU-0082,NASSCOM 10K Startups,startup_pitch,2020,participant,Participated,3,Smart Cities & GovTech,false
+CMP00171,STU-0274,Kerala Startup Mission Demo Day,ideathon,2022,finalist,National finalist,3,Cybersecurity,false
+CMP00172,ALU-0056,Sequoia Surge Campus Pitch,demo_day,2020,winner,3rd Place,2,Healthcare & MedTech,false
+CMP00173,STU-0258,NASA Space Apps Challenge,innovation_challenge,2020,participant,Participated,4,EdTech & Skill Development,false
+CMP00174,STU-0013,TOYCATHON,hackathon,2025,participant,Shortlisted in top 50,4,Logistics & Supply Chain,false
+CMP00175,STU-0107,NIDHI Prayas Demo Day,design_sprint,2020,winner,1st Place,1,Deep Tech & AI/ML,false
+CMP00176,STU-0291,Sequoia Surge Campus Pitch,ideathon,2020,participant,Participated,2,Logistics & Supply Chain,false
+CMP00177,STU-0036,IIT Madras Shaastra Hackathon,product_showcase,2021,winner,1st Place,4,Cybersecurity,false
+CMP00178,STU-0013,Sequoia Surge Campus Pitch,innovation_challenge,2024,mentor_judge,Mentored 5 finalist teams,0,Logistics & Supply Chain,false
+CMP00179,ALU-0168,National Entrepreneurship Challenge (IIT Bombay),demo_day,2023,participant,Completed submission,5,CleanTech & Sustainability,false
+CMP00180,ALU-0024,CII Young Indians Innovation Challenge,product_showcase,2019,organizer,Coordinated 3 tracks; 200 teams,0,Cybersecurity,false
+CMP00181,STU-0267,Microsoft Imagine Cup,startup_pitch,2019,participant,Shortlisted in top 50,1,Logistics & Supply Chain,false
+CMP00182,ALU-0053,IIM Ahmedabad Eureka!,demo_day,2023,winner,2nd Place,1,Cybersecurity,false
+CMP00183,ALU-0007,Smart India Hackathon,product_showcase,2022,mentor_judge,Mentored 5 finalist teams,0,CleanTech & Sustainability,false
+CMP00184,STU-0013,IIT Madras Shaastra Hackathon,innovation_challenge,2022,finalist,Top 10 finalist,5,Deep Tech & AI/ML,false
+CMP00185,ALU-0100,Startup Tamil Nadu Ideathon,innovation_challenge,2021,participant,Participated,1,Deep Tech & AI/ML,false
+CMP00186,STU-0279,IIM Ahmedabad Eureka!,ideathon,2024,finalist,National finalist,5,CleanTech & Sustainability,false
+CMP00187,STU-0187,Microsoft Imagine Cup,startup_pitch,2019,participant,Participated,4,Women Empowerment & Social Impact,false
+CMP00188,STU-0126,TiE Entrepreneurial Challenge,startup_pitch,2019,finalist,National finalist,2,Healthcare & MedTech,false
+CMP00189,STU-0191,Google Solution Challenge,startup_pitch,2021,mentor_judge,Evaluated 30 teams as domain expert judge,0,FinTech & Financial Inclusion,false
+CMP00190,STU-0239,NASA Space Apps Challenge,innovation_challenge,2019,winner,1st Place,4,AgriTech & Rural Development,false
+CMP00191,STU-0017,IIT Madras Shaastra Hackathon,demo_day,2024,participant,Shortlisted in top 50,1,Smart Cities & GovTech,false
+CMP00192,STU-0058,NIDHI Prayas Demo Day,product_showcase,2022,participant,Participated,1,Logistics & Supply Chain,false
+CMP00193,STU-0257,Startup Tamil Nadu Ideathon,product_showcase,2019,finalist,Top 10 finalist,1,AgriTech & Rural Development,false
+CMP00194,STU-0254,TOYCATHON,innovation_challenge,2022,participant,Shortlisted in top 50,1,Logistics & Supply Chain,false
+CMP00195,ALU-0185,Startup Tamil Nadu Ideathon,ideathon,2021,finalist,Top 10 finalist,3,FinTech & Financial Inclusion,false
+CMP00196,STU-0141,Vernacular AI Hackathon by AI4Bharat,hackathon,2021,finalist,Top 10 finalist,4,CleanTech & Sustainability,false
+CMP00197,STU-0224,Google Solution Challenge,innovation_challenge,2024,participant,Participated,4,Smart Cities & GovTech,false
+CMP00198,STU-0123,Startup Tamil Nadu Ideathon,product_showcase,2020,participant,Shortlisted in top 50,1,Healthcare & MedTech,false
+CMP00199,ALU-0187,Kerala Startup Mission Demo Day,innovation_challenge,2021,finalist,National finalist,1,AgriTech & Rural Development,false
+CMP00200,ALU-0047,TOYCATHON,hackathon,2021,participant,Participated,2,Logistics & Supply Chain,false
+CMP00201,ALU-0200,CII Young Indians Innovation Challenge,startup_pitch,2023,winner,2nd Place,3,Cybersecurity,false
+CMP00202,ALU-0087,IIT Madras Shaastra Hackathon,ideathon,2020,winner,1st Place,3,Healthcare & MedTech,false
+CMP00203,ALU-0024,IIM Ahmedabad Eureka!,design_sprint,2024,finalist,Top 5 finalist,4,AgriTech & Rural Development,false
+CMP00204,ALU-0057,Anna University Innovation Challenge,ideathon,2022,finalist,National finalist,3,Women Empowerment & Social Impact,false
+CMP00205,STU-0071,Vernacular AI Hackathon by AI4Bharat,innovation_challenge,2022,organizer,Organised successfully; 400+ participants,0,CleanTech & Sustainability,false
+CMP00206,ALU-0076,Sequoia Surge Campus Pitch,hackathon,2025,winner,Special Jury Prize,5,Deep Tech & AI/ML,false
+CMP00207,ALU-0073,Kerala Startup Mission Demo Day,innovation_challenge,2021,winner,1st Place,1,Logistics & Supply Chain,false
+CMP00208,ALU-0155,India Innovation Challenge Design Contest,product_showcase,2023,winner,2nd Place,2,Women Empowerment & Social Impact,false
+CMP00209,ALU-0030,Google Solution Challenge,hackathon,2023,participant,Shortlisted in top 50,1,Healthcare & MedTech,false
+CMP00210,STU-0183,TOYCATHON,innovation_challenge,2019,winner,2nd Place,4,AgriTech & Rural Development,false
+CMP00211,ALU-0098,India Innovation Challenge Design Contest,design_sprint,2023,participant,Completed submission,5,CleanTech & Sustainability,false
+CMP00212,STU-0073,Smart India Hackathon,innovation_challenge,2024,participant,Participated,4,EdTech & Skill Development,false
+CMP00213,STU-0063,IIT Madras Shaastra Hackathon,design_sprint,2024,finalist,National finalist,4,Smart Cities & GovTech,false
+CMP00214,STU-0273,Vernacular AI Hackathon by AI4Bharat,hackathon,2024,winner,1st Place,1,CleanTech & Sustainability,false
+CMP00215,STU-0016,Google Solution Challenge,hackathon,2024,participant,Participated,2,Logistics & Supply Chain,false
+CMP00216,ALU-0144,CII Young Indians Innovation Challenge,design_sprint,2024,participant,Participated,2,Logistics & Supply Chain,false
+CMP00217,STU-0109,National Entrepreneurship Challenge (IIT Bombay),startup_pitch,2024,winner,Best Innovation Award,4,Deep Tech & AI/ML,false
+CMP00218,STU-0185,BIRAC BIG Grant Pitching Forum,demo_day,2023,organizer,Organised successfully; 400+ participants,0,Smart Cities & GovTech,false
+CMP00219,ALU-0154,IIT Madras Shaastra Hackathon,startup_pitch,2023,finalist,National finalist,3,Smart Cities & GovTech,false
+CMP00220,ALU-0141,Anna University Innovation Challenge,design_sprint,2020,participant,Completed submission,5,Logistics & Supply Chain,false
+CMP00221,STU-0261,IIT Madras Shaastra Hackathon,demo_day,2022,participant,Completed submission,4,Healthcare & MedTech,false
+CMP00222,STU-0017,Vernacular AI Hackathon by AI4Bharat,innovation_challenge,2021,winner,3rd Place,1,CleanTech & Sustainability,false
+CMP00223,ALU-0023,Smart India Hackathon,product_showcase,2025,mentor_judge,Evaluated 30 teams as domain expert judge,0,CleanTech & Sustainability,false
+CMP00224,STU-0097,TOYCATHON,demo_day,2021,organizer,Organised successfully; 400+ participants,0,FinTech & Financial Inclusion,false
+CMP00225,STU-0256,CII Young Indians Innovation Challenge,startup_pitch,2025,participant,Shortlisted in top 50,3,EdTech & Skill Development,false
+CMP00226,STU-0223,NASA Space Apps Challenge,ideathon,2021,finalist,National finalist,4,FinTech & Financial Inclusion,false
+CMP00227,STU-0098,Kerala Startup Mission Demo Day,ideathon,2021,finalist,National finalist,1,Women Empowerment & Social Impact,false
+CMP00228,ALU-0043,IIT Madras Shaastra Hackathon,product_showcase,2022,participant,Participated,4,EdTech & Skill Development,false
+CMP00229,STU-0012,Startup Tamil Nadu Ideathon,hackathon,2021,organizer,Organised successfully; 400+ participants,0,Logistics & Supply Chain,false
+CMP00230,ALU-0144,Microsoft Imagine Cup,startup_pitch,2023,participant,Completed submission,2,FinTech & Financial Inclusion,false
+CMP00231,ALU-0103,Sequoia Surge Campus Pitch,product_showcase,2023,participant,Completed submission,5,Logistics & Supply Chain,false
+CMP00232,STU-0297,Startup Tamil Nadu Ideathon,innovation_challenge,2020,participant,Shortlisted in top 50,3,EdTech & Skill Development,false
+CMP00233,STU-0051,BIRAC BIG Grant Pitching Forum,demo_day,2021,finalist,National finalist,1,Deep Tech & AI/ML,false
+CMP00234,STU-0134,Microsoft Imagine Cup,demo_day,2023,finalist,National finalist,2,Cybersecurity,false
+CMP00235,STU-0201,BIRAC BIG Grant Pitching Forum,design_sprint,2024,participant,Completed submission,5,AgriTech & Rural Development,false
+CMP00236,ALU-0141,Anna University Innovation Challenge,ideathon,2023,participant,Shortlisted in top 50,1,EdTech & Skill Development,false
+CMP00237,ALU-0075,IIT Madras Shaastra Hackathon,innovation_challenge,2021,finalist,Top 5 finalist,3,Women Empowerment & Social Impact,false
+CMP00238,STU-0174,IIT Madras Shaastra Hackathon,design_sprint,2025,finalist,Top 5 finalist,4,Women Empowerment & Social Impact,false
+CMP00239,STU-0240,TiE Entrepreneurial Challenge,ideathon,2021,participant,Participated,2,EdTech & Skill Development,false
+CMP00240,STU-0249,Kerala Startup Mission Demo Day,innovation_challenge,2025,participant,Participated,3,Healthcare & MedTech,false
+CMP00241,ALU-0013,Sequoia Surge Campus Pitch,demo_day,2019,participant,Participated,3,AgriTech & Rural Development,false
+CMP00242,STU-0209,BIRAC BIG Grant Pitching Forum,design_sprint,2025,winner,2nd Place,3,Logistics & Supply Chain,false
+CMP00243,STU-0145,Smart India Hackathon,demo_day,2023,finalist,National finalist,5,Healthcare & MedTech,false
+CMP00244,STU-0291,TiE Entrepreneurial Challenge,product_showcase,2024,participant,Participated,5,CleanTech & Sustainability,false
+CMP00245,STU-0009,NASA Space Apps Challenge,demo_day,2024,participant,Completed submission,3,Smart Cities & GovTech,false
+CMP00246,STU-0300,Startup Tamil Nadu Ideathon,innovation_challenge,2022,organizer,Organised successfully; 400+ participants,0,Logistics & Supply Chain,false
+CMP00247,ALU-0024,India Innovation Challenge Design Contest,product_showcase,2023,mentor_judge,Evaluated 30 teams as domain expert judge,0,Logistics & Supply Chain,false
+CMP00248,ALU-0024,Sequoia Surge Campus Pitch,design_sprint,2024,participant,Participated,1,Healthcare & MedTech,false
+CMP00249,ALU-0013,Anna University Innovation Challenge,demo_day,2022,participant,Completed submission,2,Healthcare & MedTech,false
+CMP00250,ALU-0064,IIM Ahmedabad Eureka!,innovation_challenge,2023,participant,Shortlisted in top 50,3,Healthcare & MedTech,false
+CMP00251,STU-0031,BIRAC BIG Grant Pitching Forum,startup_pitch,2020,finalist,Top 5 finalist,2,Smart Cities & GovTech,false
+CMP00252,STU-0090,Startup Tamil Nadu Ideathon,design_sprint,2024,organizer,Organised successfully; 400+ participants,0,Women Empowerment & Social Impact,false
+CMP00253,ALU-0128,CII Young Indians Innovation Challenge,design_sprint,2020,organizer,Organised successfully; 400+ participants,0,Deep Tech & AI/ML,false
+CMP00254,ALU-0160,BIRAC BIG Grant Pitching Forum,innovation_challenge,2020,mentor_judge,Mentored 5 finalist teams,0,FinTech & Financial Inclusion,false
+CMP00255,STU-0208,Microsoft Imagine Cup,startup_pitch,2024,finalist,National finalist,5,FinTech & Financial Inclusion,false
+CMP00256,ALU-0144,NASSCOM 10K Startups,startup_pitch,2019,participant,Participated,5,Logistics & Supply Chain,false
+CMP00257,STU-0189,Anna University Innovation Challenge,product_showcase,2020,mentor_judge,Evaluated 30 teams as domain expert judge,0,Healthcare & MedTech,false
+CMP00258,ALU-0122,IIM Ahmedabad Eureka!,demo_day,2024,winner,Best Innovation Award,3,FinTech & Financial Inclusion,false
+CMP00259,STU-0135,NASSCOM 10K Startups,hackathon,2025,winner,1st Place,5,Women Empowerment & Social Impact,false
+CMP00260,STU-0237,Kerala Startup Mission Demo Day,innovation_challenge,2020,participant,Completed submission,1,Smart Cities & GovTech,false
+CMP00261,STU-0138,Vernacular AI Hackathon by AI4Bharat,product_showcase,2023,participant,Shortlisted in top 50,4,Smart Cities & GovTech,false
+CMP00262,STU-0126,India Innovation Challenge Design Contest,innovation_challenge,2020,participant,Shortlisted in top 50,2,AgriTech & Rural Development,false
+CMP00263,STU-0277,T-Hub LabStart Cohort,innovation_challenge,2024,participant,Participated,2,AgriTech & Rural Development,false
+CMP00264,STU-0013,Anna University Innovation Challenge,product_showcase,2022,participant,Shortlisted in top 50,2,Deep Tech & AI/ML,false
+CMP00265,ALU-0090,Anna University Innovation Challenge,demo_day,2023,participant,Participated,5,Women Empowerment & Social Impact,false
+CMP00266,STU-0040,Vernacular AI Hackathon by AI4Bharat,hackathon,2022,finalist,National finalist,4,Healthcare & MedTech,false
+CMP00267,STU-0016,BIRAC BIG Grant Pitching Forum,demo_day,2024,organizer,Organised successfully; 400+ participants,0,Healthcare & MedTech,false
+CMP00268,STU-0051,TiE Entrepreneurial Challenge,startup_pitch,2022,finalist,National finalist,4,CleanTech & Sustainability,false
+CMP00269,ALU-0173,NASSCOM 10K Startups,demo_day,2021,winner,3rd Place,5,Healthcare & MedTech,false
+CMP00270,ALU-0175,Sequoia Surge Campus Pitch,hackathon,2024,finalist,Top 10 finalist,5,EdTech & Skill Development,false
+CMP00271,ALU-0051,Microsoft Imagine Cup,demo_day,2022,participant,Completed submission,3,Cybersecurity,false
+CMP00272,STU-0207,Sequoia Surge Campus Pitch,hackathon,2021,participant,Shortlisted in top 50,3,FinTech & Financial Inclusion,false
+CMP00273,STU-0094,Google Solution Challenge,ideathon,2022,winner,1st Place,3,EdTech & Skill Development,false
+CMP00274,STU-0126,Kerala Startup Mission Demo Day,innovation_challenge,2022,finalist,Top 5 finalist,5,Deep Tech & AI/ML,false
+CMP00275,ALU-0044,National Entrepreneurship Challenge (IIT Bombay),product_showcase,2024,participant,Participated,2,FinTech & Financial Inclusion,false
+CMP00276,STU-0053,T-Hub LabStart Cohort,startup_pitch,2021,organizer,Organised successfully; 400+ participants,0,Cybersecurity,false
+CMP00277,STU-0121,Microsoft Imagine Cup,innovation_challenge,2019,participant,Participated,5,CleanTech & Sustainability,false
+CMP00278,STU-0017,BIRAC BIG Grant Pitching Forum,product_showcase,2019,participant,Shortlisted in top 50,5,Cybersecurity,false
+CMP00279,ALU-0188,Sequoia Surge Campus Pitch,demo_day,2022,participant,Completed submission,1,Women Empowerment & Social Impact,false
+CMP00280,STU-0058,NIDHI Prayas Demo Day,design_sprint,2024,finalist,Top 10 finalist,5,AgriTech & Rural Development,false
+CMP00281,STU-0057,IIT Madras Shaastra Hackathon,hackathon,2020,participant,Participated,1,Women Empowerment & Social Impact,false
+CMP00282,ALU-0040,NASA Space Apps Challenge,hackathon,2019,winner,3rd Place,4,FinTech & Financial Inclusion,false
+CMP00283,ALU-0130,NASSCOM 10K Startups,demo_day,2024,participant,Shortlisted in top 50,5,Smart Cities & GovTech,false
+CMP00284,ALU-0007,Anna University Innovation Challenge,startup_pitch,2022,mentor_judge,Evaluated 30 teams as domain expert judge,0,EdTech & Skill Development,false
+CMP00285,STU-0067,IIM Ahmedabad Eureka!,demo_day,2020,winner,Special Jury Prize,1,CleanTech & Sustainability,false
+CMP00286,ALU-0007,TiE Entrepreneurial Challenge,ideathon,2020,participant,Shortlisted in top 50,5,Healthcare & MedTech,false
+CMP00287,STU-0013,NASA Space Apps Challenge,demo_day,2024,participant,Completed submission,5,CleanTech & Sustainability,false
+CMP00288,STU-0266,Vernacular AI Hackathon by AI4Bharat,design_sprint,2023,participant,Shortlisted in top 50,3,FinTech & Financial Inclusion,false
+CMP00289,ALU-0024,India Innovation Challenge Design Contest,demo_day,2025,finalist,Top 5 finalist,2,Women Empowerment & Social Impact,false
+CMP00290,STU-0199,Smart India Hackathon,hackathon,2019,participant,Shortlisted in top 50,4,EdTech & Skill Development,false
+CMP00291,ALU-0125,T-Hub LabStart Cohort,hackathon,2021,winner,2nd Place,3,Logistics & Supply Chain,false
+CMP00292,STU-0012,TiE Entrepreneurial Challenge,ideathon,2021,winner,2nd Place,3,EdTech & Skill Development,false
+CMP00293,STU-0126,Anna University Innovation Challenge,product_showcase,2019,participant,Completed submission,1,Smart Cities & GovTech,false
+CMP00294,STU-0030,NASSCOM 10K Startups,innovation_challenge,2021,participant,Completed submission,3,Cybersecurity,false
+CMP00295,STU-0140,India Innovation Challenge Design Contest,innovation_challenge,2024,organizer,Organised successfully; 400+ participants,0,Cybersecurity,false
+CMP00296,ALU-0174,T-Hub LabStart Cohort,ideathon,2019,organizer,Coordinated 3 tracks; 200 teams,0,Logistics & Supply Chain,false
+CMP00297,ALU-0024,BIRAC BIG Grant Pitching Forum,design_sprint,2019,participant,Completed submission,2,Women Empowerment & Social Impact,false
+CMP00298,STU-0068,Microsoft Imagine Cup,startup_pitch,2025,finalist,Top 5 finalist,1,Smart Cities & GovTech,false
+CMP00299,ALU-0099,NASSCOM 10K Startups,design_sprint,2019,mentor_judge,Evaluated 30 teams as domain expert judge,0,CleanTech & Sustainability,false
+CMP00300,STU-0033,NIDHI Prayas Demo Day,demo_day,2019,winner,3rd Place,4,AgriTech & Rural Development,false
