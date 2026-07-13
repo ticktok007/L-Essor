@@ -1,0 +1,22 @@
+services:
+  postgres:
+    image: pgvector/pgvector:pg16
+    container_name: campushub-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: campushub
+      POSTGRES_USER: campushub
+      POSTGRES_PASSWORD: campushub
+    ports:
+      - "5432:5432"
+    volumes:
+      - campushub_pgdata:/var/lib/postgresql/data
+      - ./init:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U campushub -d campushub"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  campushub_pgdata:
