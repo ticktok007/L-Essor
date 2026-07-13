@@ -1,0 +1,7 @@
+from django.apps import AppConfig
+
+
+class EcosystemConfig(AppConfig):
+    default_auto_field = "django.db.models.BigAutoField"
+    name               = "ecosystem"
+    verbose_name       = "Ecosystem — Campus Innovation & Engagement Intelligence Hub"

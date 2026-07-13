@@ -166,11 +166,13 @@ def classify_outcome(role: str, result: str) -> str:
     role   = (role   or "").lower().strip()
     result = (result or "").lower().strip()
 
+    # Role-based overrides — checked first, always win
     if role == "organizer":
         return "organizer"
     if role == "mentor_judge":
         return "mentor_judge"
 
+    # Place keywords — most specific first
     for kw in ["1st", "first", "grand prix", "gold"]:
         if kw in result:
             return "first_place"
@@ -183,20 +185,28 @@ def classify_outcome(role: str, result: str) -> str:
     for kw in ["special", "best innovation", "jury", "award"]:
         if kw in result:
             return "special_award"
-    for kw in ["top 5", "top-5", "finalist"]:
-        if kw in result:
-            return "finalist_top5"
-    for kw in ["top 10", "top-10", "national finalist", "shortlist"]:
-        if kw in result:
-            return "finalist_top10"
-    for kw in ["shortlisted", "top 50", "top 30", "top 20"]:
+
+    # Shortlisted — checked BEFORE generic finalist to avoid "top 50" → top5
+    for kw in ["top 50", "top 30", "top 20", "shortlisted", "shortlist"]:
         if kw in result:
             return "shortlisted"
+
+    # Top-10 finalist — checked BEFORE top-5 to avoid "national finalist" → top5
+    for kw in ["top 10", "top-10", "national finalist"]:
+        if kw in result:
+            return "finalist_top10"
+
+    # Top-5 finalist — only after more specific checks above
+    for kw in ["top 5", "top-5", "top 3", "finalist"]:
+        if kw in result:
+            return "finalist_top5"
+
+    # Participation
     for kw in ["participated", "completed", "submitted", "participation"]:
         if kw in result:
             return "participated"
 
-    # fallback: if winner role present but unrecognised wording
+    # Role-based fallbacks when result string is ambiguous
     if role == "winner":
         return "first_place"
     if role == "finalist":
