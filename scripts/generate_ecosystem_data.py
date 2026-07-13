@@ -1,13 +1,9 @@
 """
 generate_ecosystem_data.py
-Campus Innovation & Engagement Intelligence Hub
-Phase 1 — Synthetic Data Foundation
+Campus Innovation & Engagement Intelligence Hub — Phase 1 (updated Day 15)
 
-Generates three CSVs and one JSON summary into data/synthetic/.
-Run with: python generate_ecosystem_data.py
-
-Requirements: pip install faker
-Python 3.11+
+Structured skills format added: each skill is now a dict with
+confidence=0.10 (self-declared baseline) ready for Phase 6 NER upgrades.
 """
 
 import csv
@@ -17,27 +13,15 @@ from pathlib import Path
 
 from faker import Faker
 
-# ---------------------------------------------------------------------------
-# Seed + output config
-# ---------------------------------------------------------------------------
-
 SEED = 42
 random.seed(SEED)
 
 OUTPUT_DIR = Path(__file__).parent.parent / "data" / "synthetic"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-# ---------------------------------------------------------------------------
-# Record counts — edit here to scale up
-# ---------------------------------------------------------------------------
-
-NUM_STUDENTS = 300
-NUM_ALUMNI = 200
-NUM_INVESTORS_MENTORS = 100   # split ~50/50 investor/mentor
-
-# ---------------------------------------------------------------------------
-# Domain vocabularies
-# ---------------------------------------------------------------------------
+NUM_STUDENTS          = 300
+NUM_ALUMNI            = 200
+NUM_INVESTORS_MENTORS = 100
 
 DEPARTMENTS = [
     "Computer Science & Engineering",
@@ -53,16 +37,16 @@ DEPARTMENTS = [
 ]
 
 DEGREES = {
-    "Computer Science & Engineering": "B.E. Computer Science & Engineering",
-    "Electronics & Communication Engineering": "B.E. Electronics & Communication Engineering",
-    "Mechanical Engineering": "B.E. Mechanical Engineering",
-    "Civil Engineering": "B.E. Civil Engineering",
-    "Information Technology": "B.Tech Information Technology",
-    "Electrical Engineering": "B.E. Electrical Engineering",
-    "Biotechnology": "B.Tech Biotechnology",
-    "Chemical Engineering": "B.E. Chemical Engineering",
-    "Artificial Intelligence & Machine Learning": "B.E. Computer Science & Engineering (AI/ML)",
-    "Data Science & Business Analytics": "B.Tech Data Science & Business Analytics",
+    "Computer Science & Engineering":              "B.E. Computer Science & Engineering",
+    "Electronics & Communication Engineering":     "B.E. Electronics & Communication Engineering",
+    "Mechanical Engineering":                      "B.E. Mechanical Engineering",
+    "Civil Engineering":                           "B.E. Civil Engineering",
+    "Information Technology":                      "B.Tech Information Technology",
+    "Electrical Engineering":                      "B.E. Electrical Engineering",
+    "Biotechnology":                               "B.Tech Biotechnology",
+    "Chemical Engineering":                        "B.E. Chemical Engineering",
+    "Artificial Intelligence & Machine Learning":  "B.E. Computer Science & Engineering (AI/ML)",
+    "Data Science & Business Analytics":           "B.Tech Data Science & Business Analytics",
 }
 
 SKILL_POOL = [
@@ -122,20 +106,20 @@ ENGAGEMENT_PREFERENCES = [
 
 MANDATE_TEMPLATES = [
     "Looking to back early-stage {sector} startups with strong technical founders and a clear path to $1M ARR.",
-    "Focused on {sector} and {sector2} opportunities at the pre-seed and seed stage. Prefer founding teams with domain expertise.",
-    "Investing in {sector} companies solving real-world problems in India and Southeast Asia. Cheque size ₹{check}L.",
-    "Passionate about {sector} and the intersection of AI with traditional industries. Happy to co-invest at seed stage.",
-    "Sector-agnostic but deeply interested in {sector} and {sector2}. Looking for missionaries, not mercenaries.",
-    "Supporting {sector} founders building for Bharat. Prefer B2B SaaS models with strong unit economics from day one.",
-    "Deep operational experience in {sector}. Happy to mentor or invest at the pre-seed stage; focus is on team quality.",
+    "Focused on {sector} and {sector2} opportunities at the pre-seed and seed stage.",
+    "Investing in {sector} companies solving real-world problems in India and Southeast Asia.",
+    "Passionate about {sector} and the intersection of AI with traditional industries.",
+    "Sector-agnostic but deeply interested in {sector} and {sector2}.",
+    "Supporting {sector} founders building for Bharat. Prefer B2B SaaS models.",
+    "Deep operational experience in {sector}. Happy to mentor or invest at pre-seed.",
 ]
 
 MENTOR_MANDATE_TEMPLATES = [
     "Happy to mentor early-stage founders on {tag} and {tag2}. Prefer weekly async check-ins.",
-    "Offering guidance on {tag} for student entrepreneurs and early incubatees. No investment; mentorship only.",
+    "Offering guidance on {tag} for student entrepreneurs and early incubatees.",
     "Available for advisory sessions on {tag}, {tag2}, and navigating the Indian startup ecosystem.",
-    "Mentoring founders on {tag} with a focus on first-principles thinking and sustainable growth.",
-    "Open to mentoring student startups on {tag} and {tag2}. Prefer founders who have done their homework.",
+    "Mentoring founders on {tag} with a focus on first-principles thinking.",
+    "Open to mentoring student startups on {tag} and {tag2}.",
 ]
 
 CURRENT_STATUSES = [
@@ -144,16 +128,41 @@ CURRENT_STATUSES = [
     "Project Researcher", "Club Lead",
 ]
 
-# ---------------------------------------------------------------------------
-# Helpers
-# ---------------------------------------------------------------------------
-
 fake = Faker("en_IN")
 Faker.seed(SEED)
 
 
-def _skills(n: int = 5) -> str:
-    return "|".join(random.sample(SKILL_POOL, min(n, len(SKILL_POOL))))
+# ── Structured skills helper ───────────────────────────────────────────────────
+
+def _structured_skills(n: int = 5) -> str:
+    """
+    Returns a JSON string representing a list of skill dicts.
+    Each skill starts with confidence=0.10 (self-declared baseline).
+    Schema is forward-compatible with Phase 6 NER upgrades which will
+    add evidence entries and raise confidence scores.
+
+    Format:
+    [
+      {
+        "skill": "Python",
+        "confidence": 0.10,
+        "level": "unknown",
+        "sources": ["self_declared"]
+      },
+      ...
+    ]
+    """
+    selected = random.sample(SKILL_POOL, min(n, len(SKILL_POOL)))
+    skill_list = [
+        {
+            "skill":      s,
+            "confidence": 0.10,
+            "level":      "unknown",    # upgraded to beginner/intermediate/advanced in Phase 6
+            "sources":    ["self_declared"],
+        }
+        for s in selected
+    ]
+    return json.dumps(skill_list)
 
 
 def _expertise(n: int = 4) -> str:
@@ -165,13 +174,9 @@ def _sectors(n: int = 2) -> list[str]:
 
 
 def _cohort_and_grad(is_student: bool) -> tuple[str, int]:
-    if is_student:
-        entry = random.randint(2022, 2025)
-    else:
-        entry = random.randint(2008, 2021)
-    grad = entry + 4
-    cohort = f"{entry}–{grad}"
-    return cohort, grad
+    entry = random.randint(2022, 2025) if is_student else random.randint(2008, 2021)
+    grad  = entry + 4
+    return f"{entry}–{grad}", grad
 
 
 def _employment_history(current_company: str, current_title: str, n_past: int = 2) -> str:
@@ -179,60 +184,55 @@ def _employment_history(current_company: str, current_title: str, n_past: int = 
     for _ in range(n_past):
         history.append({
             "company": random.choice(COMPANIES),
-            "title": random.choice(TITLES),
-            "years": f"{random.randint(1, 4)}",
+            "title":   random.choice(TITLES),
+            "years":   str(random.randint(1, 4)),
         })
     history.append({
         "company": current_company,
-        "title": current_title,
-        "years": f"{random.randint(1, 5)} (current)",
+        "title":   current_title,
+        "years":   f"{random.randint(1, 5)} (current)",
     })
     return json.dumps(history)
 
 
 def _check_size() -> int:
-    tiers = [0, 500_000, 1_000_000, 2_500_000, 5_000_000, 10_000_000, 25_000_000]
-    return random.choice(tiers)
+    return random.choice([0, 500_000, 1_000_000, 2_500_000, 5_000_000, 10_000_000, 25_000_000])
 
 
 def _mandate(role: str, sectors: list[str], expertise: list[str], check_inr: int) -> str:
     if role == "investor":
-        template = random.choice(MANDATE_TEMPLATES)
-        check_label = str(check_inr // 100_000) if check_inr else "10"
-        s1, s2 = (sectors + sectors)[:2]
-        return (
-            template
-            .replace("{sector}", s1)
-            .replace("{sector2}", s2)
-            .replace("{check}", check_label)
-        )
-    else:
-        template = random.choice(MENTOR_MANDATE_TEMPLATES)
-        t1 = expertise[0] if expertise else "Product Strategy"
-        t2 = expertise[1] if len(expertise) > 1 else "Fundraising"
-        return template.replace("{tag}", t1).replace("{tag2}", t2)
+        template  = random.choice(MANDATE_TEMPLATES)
+        check_lbl = str(check_inr // 100_000) if check_inr else "10"
+        s1, s2    = (sectors + sectors)[:2]
+        return (template
+                .replace("{sector}", s1)
+                .replace("{sector2}", s2)
+                .replace("{check}", check_lbl))
+    template = random.choice(MENTOR_MANDATE_TEMPLATES)
+    t1 = expertise[0] if expertise else "Product Strategy"
+    t2 = expertise[1] if len(expertise) > 1 else "Fundraising"
+    return template.replace("{tag}", t1).replace("{tag2}", t2)
 
 
-# ---------------------------------------------------------------------------
-# Generators
-# ---------------------------------------------------------------------------
+# ── Generators ────────────────────────────────────────────────────────────────
 
 def generate_students(n: int) -> list[dict]:
     rows = []
     for i in range(1, n + 1):
-        dept = random.choice(DEPARTMENTS)
+        dept   = random.choice(DEPARTMENTS)
         cohort, grad_year = _cohort_and_grad(is_student=True)
         rows.append({
-            "student_id": f"STU{i:05d}",
-            "full_name": fake.name(),
-            "email": fake.unique.email(),
-            "role": "student",
-            "cohort": cohort,
-            "department": dept,
-            "degree": DEGREES[dept],
-            "graduation_year": grad_year,
-            "current_status": random.choice(CURRENT_STATUSES),
-            "skills": _skills(random.randint(3, 7)),
+            "student_id":       f"STU{i:05d}",
+            "full_name":        fake.name(),
+            "email":            fake.unique.email(),
+            "role":             "student",
+            "cohort":           cohort,
+            "department":       dept,
+            "degree":           DEGREES[dept],
+            "graduation_year":  grad_year,
+            "current_status":   random.choice(CURRENT_STATUSES),
+            # Structured JSON skills — confidence 0.10 baseline, Phase 6 upgrades later
+            "skills":           _structured_skills(random.randint(3, 7)),
             "achievements_count": random.randint(0, 12),
         })
     return rows
@@ -241,23 +241,25 @@ def generate_students(n: int) -> list[dict]:
 def generate_alumni(n: int) -> list[dict]:
     rows = []
     for i in range(1, n + 1):
-        dept = random.choice(DEPARTMENTS)
+        dept    = random.choice(DEPARTMENTS)
         cohort, grad_year = _cohort_and_grad(is_student=False)
         company = random.choice(COMPANIES)
-        title = random.choice(TITLES)
+        title   = random.choice(TITLES)
         rows.append({
-            "alumni_id": f"ALM{i:05d}",
-            "full_name": fake.name(),
-            "email": fake.unique.email(),
-            "role": "alumni",
-            "cohort": cohort,
-            "department": dept,
-            "degree": DEGREES[dept],
-            "graduation_year": grad_year,
-            "current_company": company,
-            "current_title": title,
-            "employment_history": _employment_history(company, title, n_past=random.randint(1, 3)),
-            "skills": _skills(random.randint(4, 8)),
+            "alumni_id":          f"ALM{i:05d}",
+            "full_name":          fake.name(),
+            "email":              fake.unique.email(),
+            "role":               "alumni",
+            "cohort":             cohort,
+            "department":         dept,
+            "degree":             DEGREES[dept],
+            "graduation_year":    grad_year,
+            "current_company":    company,
+            "current_title":      title,
+            "employment_history": _employment_history(company, title,
+                                                       n_past=random.randint(1, 3)),
+            # Structured JSON skills — confidence 0.10 baseline, Phase 6 upgrades later
+            "skills":             _structured_skills(random.randint(4, 8)),
             "mentorship_interest": random.choice(["yes", "no", "maybe"]),
         })
     return rows
@@ -266,28 +268,26 @@ def generate_alumni(n: int) -> list[dict]:
 def generate_investors_mentors(n: int) -> list[dict]:
     rows = []
     for i in range(1, n + 1):
-        role = "investor" if i <= n // 2 else "mentor"
-        sectors = _sectors(2)
+        role     = "investor" if i <= n // 2 else "mentor"
+        sectors  = _sectors(2)
         exp_list = random.sample(EXPERTISE_TAGS_POOL, 4)
-        check = _check_size() if role == "investor" else 0
+        check    = _check_size() if role == "investor" else 0
         rows.append({
-            "profile_id": f"INV{i:05d}" if role == "investor" else f"MEN{i:05d}",
-            "full_name": fake.name(),
-            "email": fake.unique.email(),
-            "role": role,
-            "organization": fake.company(),
-            "sector_focus": "|".join(sectors),
-            "check_size_inr": check,
-            "expertise_tags": "|".join(exp_list),
-            "mandate_text": _mandate(role, sectors, exp_list, check),
+            "profile_id":          f"INV{i:05d}" if role == "investor" else f"MEN{i:05d}",
+            "full_name":           fake.name(),
+            "email":               fake.unique.email(),
+            "role":                role,
+            "organization":        fake.company(),
+            "sector_focus":        "|".join(sectors),
+            "check_size_inr":      check,
+            "expertise_tags":      "|".join(exp_list),
+            "mandate_text":        _mandate(role, sectors, exp_list, check),
             "engagement_preference": random.choice(ENGAGEMENT_PREFERENCES),
         })
     return rows
 
 
-# ---------------------------------------------------------------------------
-# Writers
-# ---------------------------------------------------------------------------
+# ── Writers ────────────────────────────────────────────────────────────────────
 
 def write_csv(path: Path, rows: list[dict]) -> None:
     if not rows:
@@ -301,44 +301,51 @@ def write_csv(path: Path, rows: list[dict]) -> None:
 
 def write_summary(path: Path, counts: dict[str, int]) -> None:
     summary = {
-        "project": "Campus Innovation & Engagement Intelligence Hub",
-        "phase": "1 — Synthetic Data Foundation",
-        "seed": SEED,
+        "project":         "Campus Innovation & Engagement Intelligence Hub",
+        "phase":           "1 — Synthetic Data Foundation",
+        "seed":            SEED,
+        "skills_format":   "structured_json_v1",
+        "skills_note":     (
+            "Each skill is a dict with confidence=0.10 (self-declared baseline). "
+            "Phase 6 NER pipeline upgrades confidence when certificate evidence found. "
+            "Phase 7 mentor endorsement adds further confidence boosts."
+        ),
         "generated_files": counts,
-        "total_records": sum(counts.values()),
-        "note": "Entirely synthetic data. No real PII. Safe for build and demo.",
+        "total_records":   sum(counts.values()),
+        "note":            "Entirely synthetic data. No real PII. Safe for build and demo.",
     }
     with open(path, "w", encoding="utf-8") as f:
         json.dump(summary, f, indent=2)
     print(f"  ✓ {path.name}")
 
 
-# ---------------------------------------------------------------------------
-# Main
-# ---------------------------------------------------------------------------
-
 def main() -> None:
     print("Campus Innovation & Engagement Intelligence Hub")
-    print("Phase 1 — Synthetic Data Generator\n")
+    print("Phase 1 — Synthetic Data Generator (skills: structured JSON v1)\n")
 
     students = generate_students(NUM_STUDENTS)
-    alumni = generate_alumni(NUM_ALUMNI)
-    inv_men = generate_investors_mentors(NUM_INVESTORS_MENTORS)
+    alumni   = generate_alumni(NUM_ALUMNI)
+    inv_men  = generate_investors_mentors(NUM_INVESTORS_MENTORS)
 
-    write_csv(OUTPUT_DIR / "student_profiles.csv", students)
-    write_csv(OUTPUT_DIR / "alumni_profiles.csv", alumni)
-    write_csv(OUTPUT_DIR / "investor_mentor_profiles.csv", inv_men)
+    write_csv(OUTPUT_DIR / "student_profiles.csv",          students)
+    write_csv(OUTPUT_DIR / "alumni_profiles.csv",           alumni)
+    write_csv(OUTPUT_DIR / "investor_mentor_profiles.csv",  inv_men)
 
     write_summary(
         OUTPUT_DIR / "generation_summary.json",
         {
-            "student_profiles.csv": len(students),
-            "alumni_profiles.csv": len(alumni),
+            "student_profiles.csv":         len(students),
+            "alumni_profiles.csv":          len(alumni),
             "investor_mentor_profiles.csv": len(inv_men),
         },
     )
 
     print(f"\nAll files written to: {OUTPUT_DIR.resolve()}")
+    print("\nSkills format: structured JSON with confidence=0.10 baseline")
+    print("Example skill entry:")
+    import json as _json
+    sample = _json.loads(students[0]["skills"])[0]
+    print(f"  {_json.dumps(sample, indent=4)}")
 
 
 if __name__ == "__main__":

@@ -2,6 +2,8 @@
   "project": "Campus Innovation & Engagement Intelligence Hub",
   "phase": "1 \u2014 Synthetic Data Foundation",
   "seed": 42,
+  "skills_format": "structured_json_v1",
+  "skills_note": "Each skill is a dict with confidence=0.10 (self-declared baseline). Phase 6 NER pipeline upgrades confidence when certificate evidence found. Phase 7 mentor endorsement adds further confidence boosts.",
   "generated_files": {
     "student_profiles.csv": 300,
     "alumni_profiles.csv": 200,

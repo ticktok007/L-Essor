@@ -1,0 +1,79 @@
+{
+  "project": "Campus Innovation & Engagement Intelligence Hub",
+  "phase": "1 \u2014 Day 15",
+  "seed": 42,
+  "total_profiles": 305,
+  "score_stats": {
+    "mean": 15.97,
+    "median": 8.8,
+    "max": 140.25,
+    "min": 0.0
+  },
+  "skill_level_distribution": {
+    "Developing": 68,
+    "Intermediate": 46,
+    "Beginner": 173,
+    "Advanced": 4,
+    "Proficient": 13,
+    "Expert": 1
+  },
+  "top_5_profiles": [
+    {
+      "profile_id": "STU-0126",
+      "raw_skill_score": 140.25,
+      "skill_level": "Expert"
+    },
+    {
+      "profile_id": "STU-0017",
+      "raw_skill_score": 119.32,
+      "skill_level": "Advanced"
+    },
+    {
+      "profile_id": "ALU-0024",
+      "raw_skill_score": 111.3,
+      "skill_level": "Advanced"
+    },
+    {
+      "profile_id": "ALU-0056",
+      "raw_skill_score": 108.75,
+      "skill_level": "Advanced"
+    },
+    {
+      "profile_id": "ALU-0155",
+      "raw_skill_score": 87.0,
+      "skill_level": "Advanced"
+    }
+  ],
+  "scoring_constants": {
+    "team_size_multipliers": {
+      "1": 2.0,
+      "2": 1.5,
+      "3": 1.2,
+      "4": 0.8,
+      "5": 0.6,
+      "6": 0.4
+    },
+    "tier_multipliers": {
+      "S": 2.5,
+      "A": 2.0,
+      "B": 1.5,
+      "C": 1.0,
+      "D": 0.6
+    },
+    "internship_base_points": {
+      "paid_by_student": 2.0,
+      "unpaid": 8.0,
+      "stipend": 18.0,
+      "paid": 25.0
+    },
+    "paid_by_student_cap": 3.0,
+    "skill_level_bands": {
+      "Beginner": 0,
+      "Developing": 11,
+      "Intermediate": 26,
+      "Proficient": 51,
+      "Advanced": 81,
+      "Expert": 120
+    }
+  }
+}
