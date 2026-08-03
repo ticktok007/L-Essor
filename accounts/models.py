@@ -61,6 +61,13 @@ class User(AbstractBaseUser, PermissionsMixin):
         db_table = "auth_user"
         verbose_name = "User"
         verbose_name_plural = "Users"
+        indexes = [
+            models.Index(fields=["role"], name="auth_user_role_btree_idx"),
+        ]
+
+    class Meta:  # on User model
+        db_table = "auth_user"
+        indexes = [models.Index(fields=["role"], name="user_role_idx"),]
 
     def __str__(self) -> str:
         return f"{self.full_name} <{self.email}> [{self.role}]"
@@ -84,9 +91,18 @@ class Profile(models.Model):
     location        = models.CharField(max_length=120, blank=True)
     created_at      = models.DateTimeField(auto_now_add=True)
     updated_at      = models.DateTimeField(auto_now=True)
+    at_risk_flag = models.BooleanField(default=False)
+    achievement_impact_score = models.FloatField(default=0.0)
+    grit_index = models.FloatField(default=0.0)
+    profile_completion_pct = models.FloatField(default=0.0)
 
     class Meta:
         db_table = "accounts_profile"
+        indexes = [ models.Index(fields=["department"], name="prof_dept_idx"),]
+
+    class Meta:
+        db_table = "accounts_profile"
+        indexes = [models.Index(fields=["department"], name="prof_dept_idx"),]
 
     def __str__(self) -> str:
         return f"Profile({self.user.full_name})"

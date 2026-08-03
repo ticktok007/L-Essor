@@ -1,0 +1,2013 @@
+openapi: 3.0.3
+info:
+  title: Campus Innovation & Engagement Intelligence Hub API
+  version: 1.0.0
+  description: AI-driven platform for semantic matchmaking, graph intelligence, and
+    predictive analytics.
+paths:
+  /api/v1/accounts/profile/{id}/:
+    get:
+      operationId: v1_accounts_profile_retrieve
+      description: Access-controlled endpoint. Students are restricted to 'Self' only.
+      summary: Restricted Profile Detail
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: string
+          format: uuid
+        required: true
+      tags:
+      - Accounts
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ProfileSummary'
+          description: ''
+  /api/v1/auth/token/:
+    post:
+      operationId: v1_auth_token_create
+      description: |-
+        Takes a set of user credentials and returns an access and refresh JSON web
+        token pair to prove the authentication of those credentials.
+      tags:
+      - v1
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/TokenObtainPairRequest'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/TokenObtainPairRequest'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/TokenObtainPairRequest'
+        required: true
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TokenObtainPair'
+          description: ''
+  /api/v1/auth/token/refresh/:
+    post:
+      operationId: v1_auth_token_refresh_create
+      description: |-
+        Takes a refresh type JSON web token and returns an access type JSON web
+        token if the refresh token is valid.
+      tags:
+      - v1
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/TokenRefreshRequest'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/TokenRefreshRequest'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/TokenRefreshRequest'
+        required: true
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TokenRefresh'
+          description: ''
+  /api/v1/dashboard/my/:
+    get:
+      operationId: v1_dashboard_my_retrieve
+      description: Returns personal metrics for students or institutional aggregates
+        for leadership.
+      summary: Role-based aggregate dashboard
+      tags:
+      - Dashboard
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: {}
+              examples:
+                StudentDashboard:
+                  value:
+                    profile:
+                      full_name: Sanjay
+                    achievements_count: 12
+                    startups_count: 1
+                  summary: Student Dashboard
+                LeadershipDashboard:
+                  value:
+                    total_students: 5000
+                    active_startups: 42
+                    total_funding_inr: 15000000
+                  summary: Leadership Dashboard
+          description: ''
+  /api/v1/ecosystem/achievements/:
+    get:
+      operationId: v1_ecosystem_achievements_list
+      description: ViewSet for individual and startup achievements/awards.
+      tags:
+      - Ecosystem - Portfolio
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Achievement'
+          description: ''
+    post:
+      operationId: v1_ecosystem_achievements_create
+      description: ViewSet for individual and startup achievements/awards.
+      tags:
+      - Ecosystem - Portfolio
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AchievementRequest'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/AchievementRequest'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/AchievementRequest'
+        required: true
+      security:
+      - jwtAuth: []
+      responses:
+        '201':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Achievement'
+          description: ''
+  /api/v1/ecosystem/achievements/{id}/:
+    get:
+      operationId: v1_ecosystem_achievements_retrieve
+      description: ViewSet for individual and startup achievements/awards.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: string
+          format: uuid
+        description: A UUID string identifying this achievement.
+        required: true
+      tags:
+      - Ecosystem - Portfolio
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Achievement'
+          description: ''
+    put:
+      operationId: v1_ecosystem_achievements_update
+      description: ViewSet for individual and startup achievements/awards.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: string
+          format: uuid
+        description: A UUID string identifying this achievement.
+        required: true
+      tags:
+      - Ecosystem - Portfolio
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AchievementRequest'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/AchievementRequest'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/AchievementRequest'
+        required: true
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Achievement'
+          description: ''
+    patch:
+      operationId: v1_ecosystem_achievements_partial_update
+      description: ViewSet for individual and startup achievements/awards.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: string
+          format: uuid
+        description: A UUID string identifying this achievement.
+        required: true
+      tags:
+      - Ecosystem - Portfolio
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PatchedAchievementRequest'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/PatchedAchievementRequest'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/PatchedAchievementRequest'
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Achievement'
+          description: ''
+    delete:
+      operationId: v1_ecosystem_achievements_destroy
+      description: ViewSet for individual and startup achievements/awards.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: string
+          format: uuid
+        description: A UUID string identifying this achievement.
+        required: true
+      tags:
+      - Ecosystem - Portfolio
+      security:
+      - jwtAuth: []
+      responses:
+        '204':
+          description: No response body
+  /api/v1/ecosystem/competitions/:
+    get:
+      operationId: v1_ecosystem_competitions_list
+      description: ViewSet for managing hackathons and innovation challenges.
+      tags:
+      - Ecosystem - Events
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Competition'
+          description: ''
+    post:
+      operationId: v1_ecosystem_competitions_create
+      description: ViewSet for managing hackathons and innovation challenges.
+      tags:
+      - Ecosystem - Events
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CompetitionRequest'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/CompetitionRequest'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/CompetitionRequest'
+        required: true
+      security:
+      - jwtAuth: []
+      responses:
+        '201':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Competition'
+          description: ''
+  /api/v1/ecosystem/competitions/{id}/:
+    get:
+      operationId: v1_ecosystem_competitions_retrieve
+      description: ViewSet for managing hackathons and innovation challenges.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: string
+          format: uuid
+        description: A UUID string identifying this competition.
+        required: true
+      tags:
+      - Ecosystem - Events
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Competition'
+          description: ''
+    put:
+      operationId: v1_ecosystem_competitions_update
+      description: ViewSet for managing hackathons and innovation challenges.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: string
+          format: uuid
+        description: A UUID string identifying this competition.
+        required: true
+      tags:
+      - Ecosystem - Events
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CompetitionRequest'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/CompetitionRequest'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/CompetitionRequest'
+        required: true
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Competition'
+          description: ''
+    patch:
+      operationId: v1_ecosystem_competitions_partial_update
+      description: ViewSet for managing hackathons and innovation challenges.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: string
+          format: uuid
+        description: A UUID string identifying this competition.
+        required: true
+      tags:
+      - Ecosystem - Events
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PatchedCompetitionRequest'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/PatchedCompetitionRequest'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/PatchedCompetitionRequest'
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Competition'
+          description: ''
+    delete:
+      operationId: v1_ecosystem_competitions_destroy
+      description: ViewSet for managing hackathons and innovation challenges.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: string
+          format: uuid
+        description: A UUID string identifying this competition.
+        required: true
+      tags:
+      - Ecosystem - Events
+      security:
+      - jwtAuth: []
+      responses:
+        '204':
+          description: No response body
+  /api/v1/ecosystem/interactions/:
+    get:
+      operationId: v1_ecosystem_interactions_list
+      description: ViewSet for tracking mentor sessions and investor matches.
+      tags:
+      - Ecosystem - Social Graph
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/InteractionSummary'
+          description: ''
+    post:
+      operationId: v1_ecosystem_interactions_create
+      description: ViewSet for tracking mentor sessions and investor matches.
+      tags:
+      - Ecosystem - Social Graph
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/InteractionSummaryRequest'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/InteractionSummaryRequest'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/InteractionSummaryRequest'
+        required: true
+      security:
+      - jwtAuth: []
+      responses:
+        '201':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/InteractionSummary'
+          description: ''
+  /api/v1/ecosystem/interactions/{id}/:
+    get:
+      operationId: v1_ecosystem_interactions_retrieve
+      description: ViewSet for tracking mentor sessions and investor matches.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: string
+          format: uuid
+        description: A UUID string identifying this interaction.
+        required: true
+      tags:
+      - Ecosystem - Social Graph
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/InteractionSummary'
+          description: ''
+    put:
+      operationId: v1_ecosystem_interactions_update
+      description: ViewSet for tracking mentor sessions and investor matches.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: string
+          format: uuid
+        description: A UUID string identifying this interaction.
+        required: true
+      tags:
+      - Ecosystem - Social Graph
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/InteractionSummaryRequest'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/InteractionSummaryRequest'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/InteractionSummaryRequest'
+        required: true
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/InteractionSummary'
+          description: ''
+    patch:
+      operationId: v1_ecosystem_interactions_partial_update
+      description: ViewSet for tracking mentor sessions and investor matches.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: string
+          format: uuid
+        description: A UUID string identifying this interaction.
+        required: true
+      tags:
+      - Ecosystem - Social Graph
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PatchedInteractionSummaryRequest'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/PatchedInteractionSummaryRequest'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/PatchedInteractionSummaryRequest'
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/InteractionSummary'
+          description: ''
+    delete:
+      operationId: v1_ecosystem_interactions_destroy
+      description: ViewSet for tracking mentor sessions and investor matches.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: string
+          format: uuid
+        description: A UUID string identifying this interaction.
+        required: true
+      tags:
+      - Ecosystem - Social Graph
+      security:
+      - jwtAuth: []
+      responses:
+        '204':
+          description: No response body
+  /api/v1/ecosystem/investors/:
+    get:
+      operationId: v1_ecosystem_investors_list
+      description: ViewSet for managing investor profiles and mandates.
+      tags:
+      - Ecosystem - Investors
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Investor'
+          description: ''
+    post:
+      operationId: v1_ecosystem_investors_create
+      description: ViewSet for managing investor profiles and mandates.
+      tags:
+      - Ecosystem - Investors
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/InvestorRequest'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/InvestorRequest'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/InvestorRequest'
+        required: true
+      security:
+      - jwtAuth: []
+      responses:
+        '201':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Investor'
+          description: ''
+  /api/v1/ecosystem/investors/{id}/:
+    get:
+      operationId: v1_ecosystem_investors_retrieve
+      description: ViewSet for managing investor profiles and mandates.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: string
+          format: uuid
+        description: A UUID string identifying this investor.
+        required: true
+      tags:
+      - Ecosystem - Investors
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Investor'
+          description: ''
+    put:
+      operationId: v1_ecosystem_investors_update
+      description: ViewSet for managing investor profiles and mandates.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: string
+          format: uuid
+        description: A UUID string identifying this investor.
+        required: true
+      tags:
+      - Ecosystem - Investors
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/InvestorRequest'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/InvestorRequest'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/InvestorRequest'
+        required: true
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Investor'
+          description: ''
+    patch:
+      operationId: v1_ecosystem_investors_partial_update
+      description: ViewSet for managing investor profiles and mandates.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: string
+          format: uuid
+        description: A UUID string identifying this investor.
+        required: true
+      tags:
+      - Ecosystem - Investors
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PatchedInvestorRequest'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/PatchedInvestorRequest'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/PatchedInvestorRequest'
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Investor'
+          description: ''
+    delete:
+      operationId: v1_ecosystem_investors_destroy
+      description: ViewSet for managing investor profiles and mandates.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: string
+          format: uuid
+        description: A UUID string identifying this investor.
+        required: true
+      tags:
+      - Ecosystem - Investors
+      security:
+      - jwtAuth: []
+      responses:
+        '204':
+          description: No response body
+  /api/v1/ecosystem/mentors/:
+    get:
+      operationId: v1_ecosystem_mentors_list
+      description: ViewSet for managing mentor expertise and availability.
+      tags:
+      - Ecosystem - Mentors
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Mentor'
+          description: ''
+    post:
+      operationId: v1_ecosystem_mentors_create
+      description: ViewSet for managing mentor expertise and availability.
+      tags:
+      - Ecosystem - Mentors
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/MentorRequest'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/MentorRequest'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/MentorRequest'
+        required: true
+      security:
+      - jwtAuth: []
+      responses:
+        '201':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Mentor'
+          description: ''
+  /api/v1/ecosystem/mentors/{id}/:
+    get:
+      operationId: v1_ecosystem_mentors_retrieve
+      description: ViewSet for managing mentor expertise and availability.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: string
+          format: uuid
+        description: A UUID string identifying this mentor.
+        required: true
+      tags:
+      - Ecosystem - Mentors
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Mentor'
+          description: ''
+    put:
+      operationId: v1_ecosystem_mentors_update
+      description: ViewSet for managing mentor expertise and availability.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: string
+          format: uuid
+        description: A UUID string identifying this mentor.
+        required: true
+      tags:
+      - Ecosystem - Mentors
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/MentorRequest'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/MentorRequest'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/MentorRequest'
+        required: true
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Mentor'
+          description: ''
+    patch:
+      operationId: v1_ecosystem_mentors_partial_update
+      description: ViewSet for managing mentor expertise and availability.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: string
+          format: uuid
+        description: A UUID string identifying this mentor.
+        required: true
+      tags:
+      - Ecosystem - Mentors
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PatchedMentorRequest'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/PatchedMentorRequest'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/PatchedMentorRequest'
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Mentor'
+          description: ''
+    delete:
+      operationId: v1_ecosystem_mentors_destroy
+      description: ViewSet for managing mentor expertise and availability.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: string
+          format: uuid
+        description: A UUID string identifying this mentor.
+        required: true
+      tags:
+      - Ecosystem - Mentors
+      security:
+      - jwtAuth: []
+      responses:
+        '204':
+          description: No response body
+  /api/v1/ecosystem/startups/:
+    get:
+      operationId: v1_ecosystem_startups_list
+      description: ViewSet for managing student and alumni startups.
+      tags:
+      - Ecosystem - Startups
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Startup'
+          description: ''
+    post:
+      operationId: v1_ecosystem_startups_create
+      description: ViewSet for managing student and alumni startups.
+      summary: Register a startup
+      tags:
+      - Ecosystem - Startups
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/StartupRequest'
+            examples:
+              StartupRequest:
+                value:
+                  startup_name: MediTech AI
+                  pitch_summary: AI for rural diagnostics
+                  sector: HealthTech
+                  stage: mvp
+                  trl: 4
+                summary: Startup Request
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/StartupRequest'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/StartupRequest'
+        required: true
+      security:
+      - jwtAuth: []
+      responses:
+        '201':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Startup'
+              examples:
+                StartupRequest:
+                  value:
+                    startup_name: MediTech AI
+                    pitch_summary: AI for rural diagnostics
+                    sector: HealthTech
+                    stage: mvp
+                    trl: 4
+                  summary: Startup Request
+          description: ''
+  /api/v1/ecosystem/startups/{id}/:
+    get:
+      operationId: v1_ecosystem_startups_retrieve
+      description: ViewSet for managing student and alumni startups.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: string
+          format: uuid
+        description: A UUID string identifying this startup.
+        required: true
+      tags:
+      - Ecosystem - Startups
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Startup'
+          description: ''
+    put:
+      operationId: v1_ecosystem_startups_update
+      description: ViewSet for managing student and alumni startups.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: string
+          format: uuid
+        description: A UUID string identifying this startup.
+        required: true
+      tags:
+      - Ecosystem - Startups
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/StartupRequest'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/StartupRequest'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/StartupRequest'
+        required: true
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Startup'
+          description: ''
+    patch:
+      operationId: v1_ecosystem_startups_partial_update
+      description: ViewSet for managing student and alumni startups.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: string
+          format: uuid
+        description: A UUID string identifying this startup.
+        required: true
+      tags:
+      - Ecosystem - Startups
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PatchedStartupRequest'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/PatchedStartupRequest'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/PatchedStartupRequest'
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Startup'
+          description: ''
+    delete:
+      operationId: v1_ecosystem_startups_destroy
+      description: ViewSet for managing student and alumni startups.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: string
+          format: uuid
+        description: A UUID string identifying this startup.
+        required: true
+      tags:
+      - Ecosystem - Startups
+      security:
+      - jwtAuth: []
+      responses:
+        '204':
+          description: No response body
+  /api/v1/graph/ecosystem/:
+    get:
+      operationId: v1_graph_ecosystem_retrieve
+      summary: Export ecosystem graph
+      tags:
+      - Graph Intelligence
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: {}
+          description: ''
+  /api/v1/match/investor/:
+    get:
+      operationId: v1_match_investor_retrieve
+      description: Uses pgvector cosine similarity to match startups with investor
+        mandates.
+      summary: Semantic investor matchmaking
+      tags:
+      - Matching
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: {}
+              examples:
+                MatchResult:
+                  value:
+                  - investor_name: Alumni Ventures
+                    compatibility_score: 0.94
+                    match_reason: High overlap in HealthTech sector and seed-stage
+                      mandate.
+                  summary: Match Result
+          description: ''
+  /api/v1/predict/startup-success/:
+    post:
+      operationId: v1_predict_startup_success_create
+      summary: Predict startup success probability
+      tags:
+      - Predictive Analytics
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SuccessPredictionRequest'
+            examples:
+              Prediction:
+                value:
+                  success_probability: 0.78
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/SuccessPredictionRequest'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/SuccessPredictionRequest'
+        required: true
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PredictionResponse'
+              examples:
+                Prediction:
+                  value:
+                    success_probability: 0.78
+          description: ''
+components:
+  schemas:
+    Achievement:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+          readOnly: true
+        category:
+          $ref: '#/components/schemas/CategoryEnum'
+        title:
+          type: string
+          maxLength: 240
+        rank_or_prize:
+          type: string
+          maxLength: 120
+        date:
+          type: string
+          format: date
+          nullable: true
+        verified:
+          type: boolean
+        certificate_path:
+          type: string
+          maxLength: 512
+        ner_confidence:
+          type: number
+          format: double
+          nullable: true
+        topic_tags: {}
+        nirf_countable:
+          type: boolean
+        created_at:
+          type: string
+          format: date-time
+          readOnly: true
+        updated_at:
+          type: string
+          format: date-time
+          readOnly: true
+        profile:
+          type: string
+          format: uuid
+        startup:
+          type: string
+          format: uuid
+          nullable: true
+        competition:
+          type: string
+          format: uuid
+          nullable: true
+      required:
+      - created_at
+      - id
+      - profile
+      - title
+      - updated_at
+    AchievementRequest:
+      type: object
+      properties:
+        category:
+          $ref: '#/components/schemas/CategoryEnum'
+        title:
+          type: string
+          minLength: 1
+          maxLength: 240
+        rank_or_prize:
+          type: string
+          maxLength: 120
+        date:
+          type: string
+          format: date
+          nullable: true
+        verified:
+          type: boolean
+        certificate_path:
+          type: string
+          maxLength: 512
+        ner_confidence:
+          type: number
+          format: double
+          nullable: true
+        topic_tags: {}
+        nirf_countable:
+          type: boolean
+        profile:
+          type: string
+          format: uuid
+        startup:
+          type: string
+          format: uuid
+          nullable: true
+        competition:
+          type: string
+          format: uuid
+          nullable: true
+      required:
+      - profile
+      - title
+    CategoryEnum:
+      enum:
+      - competition
+      - patent
+      - publication
+      - tech_transfer
+      - leadership
+      - project
+      - internship
+      - fellowship
+      - award
+      type: string
+      description: |-
+        * `competition` - Competition
+        * `patent` - Patent
+        * `publication` - Publication
+        * `tech_transfer` - Tech Transfer
+        * `leadership` - Leadership
+        * `project` - Project
+        * `internship` - Internship
+        * `fellowship` - Fellowship
+        * `award` - Award
+    Competition:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+          readOnly: true
+        name:
+          type: string
+          maxLength: 200
+        organiser:
+          type: string
+          maxLength: 150
+        event_date:
+          type: string
+          format: date
+          nullable: true
+        deadline:
+          type: string
+          format: date
+          nullable: true
+        nirf_recognised:
+          type: boolean
+        eligible_roles: {}
+        created_at:
+          type: string
+          format: date-time
+          readOnly: true
+        updated_at:
+          type: string
+          format: date-time
+          readOnly: true
+        created_by:
+          type: string
+          format: uuid
+          nullable: true
+      required:
+      - created_at
+      - id
+      - name
+      - updated_at
+    CompetitionRequest:
+      type: object
+      properties:
+        name:
+          type: string
+          minLength: 1
+          maxLength: 200
+        organiser:
+          type: string
+          maxLength: 150
+        event_date:
+          type: string
+          format: date
+          nullable: true
+        deadline:
+          type: string
+          format: date
+          nullable: true
+        nirf_recognised:
+          type: boolean
+        eligible_roles: {}
+        created_by:
+          type: string
+          format: uuid
+          nullable: true
+      required:
+      - name
+    InteractionSummary:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+          readOnly: true
+        actor:
+          type: string
+          format: uuid
+        actor_name:
+          type: string
+          readOnly: true
+        target:
+          type: string
+          format: uuid
+        target_name:
+          type: string
+          readOnly: true
+        type:
+          $ref: '#/components/schemas/TypeEnum'
+        outcome:
+          $ref: '#/components/schemas/OutcomeEnum'
+        created_at:
+          type: string
+          format: date-time
+          readOnly: true
+      required:
+      - actor
+      - actor_name
+      - created_at
+      - id
+      - target
+      - target_name
+      - type
+    InteractionSummaryRequest:
+      type: object
+      properties:
+        actor:
+          type: string
+          format: uuid
+        target:
+          type: string
+          format: uuid
+        type:
+          $ref: '#/components/schemas/TypeEnum'
+        outcome:
+          $ref: '#/components/schemas/OutcomeEnum'
+      required:
+      - actor
+      - target
+      - type
+    Investor:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+          readOnly: true
+        user:
+          type: string
+          format: uuid
+        full_name:
+          type: string
+          readOnly: true
+        firm_name:
+          type: string
+          maxLength: 150
+        designation:
+          type: string
+          maxLength: 120
+        mandate:
+          type: string
+        sectors: {}
+        stages: {}
+        check_size_min:
+          type: string
+          format: decimal
+          pattern: ^-?\d{0,13}(?:\.\d{0,2})?$
+          nullable: true
+        check_size_max:
+          type: string
+          format: decimal
+          pattern: ^-?\d{0,13}(?:\.\d{0,2})?$
+          nullable: true
+        portfolio_count:
+          type: integer
+          maximum: 9223372036854775807
+          minimum: 0
+          format: int64
+        website_url:
+          oneOf:
+          - type: string
+            format: uri
+            maxLength: 200
+          - type: string
+            maxLength: 0
+        linkedin_url:
+          oneOf:
+          - type: string
+            format: uri
+            maxLength: 200
+          - type: string
+            maxLength: 0
+        is_active:
+          type: boolean
+      required:
+      - firm_name
+      - full_name
+      - id
+      - user
+    InvestorRequest:
+      type: object
+      properties:
+        user:
+          type: string
+          format: uuid
+        firm_name:
+          type: string
+          minLength: 1
+          maxLength: 150
+        designation:
+          type: string
+          maxLength: 120
+        mandate:
+          type: string
+        sectors: {}
+        stages: {}
+        check_size_min:
+          type: string
+          format: decimal
+          pattern: ^-?\d{0,13}(?:\.\d{0,2})?$
+          nullable: true
+        check_size_max:
+          type: string
+          format: decimal
+          pattern: ^-?\d{0,13}(?:\.\d{0,2})?$
+          nullable: true
+        portfolio_count:
+          type: integer
+          maximum: 9223372036854775807
+          minimum: 0
+          format: int64
+        website_url:
+          oneOf:
+          - type: string
+            format: uri
+            maxLength: 200
+          - type: string
+            maxLength: 0
+        linkedin_url:
+          oneOf:
+          - type: string
+            format: uri
+            maxLength: 200
+          - type: string
+            maxLength: 0
+        is_active:
+          type: boolean
+      required:
+      - firm_name
+      - user
+    Mentor:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+          readOnly: true
+        full_name:
+          type: string
+          readOnly: true
+        expertise_areas: {}
+        current_role:
+          type: string
+          maxLength: 150
+        organization:
+          type: string
+          maxLength: 150
+        years_of_experience:
+          type: integer
+          maximum: 9223372036854775807
+          minimum: 0
+          format: int64
+          nullable: true
+        availability_hours_per_month:
+          type: integer
+          maximum: 9223372036854775807
+          minimum: 0
+          format: int64
+          nullable: true
+        bio:
+          type: string
+        linkedin_url:
+          oneOf:
+          - type: string
+            format: uri
+            maxLength: 200
+          - type: string
+            maxLength: 0
+        is_active:
+          type: boolean
+        created_at:
+          type: string
+          format: date-time
+          readOnly: true
+        updated_at:
+          type: string
+          format: date-time
+          readOnly: true
+        user:
+          type: string
+          format: uuid
+      required:
+      - created_at
+      - full_name
+      - id
+      - updated_at
+      - user
+    MentorRequest:
+      type: object
+      properties:
+        expertise_areas: {}
+        current_role:
+          type: string
+          maxLength: 150
+        organization:
+          type: string
+          maxLength: 150
+        years_of_experience:
+          type: integer
+          maximum: 9223372036854775807
+          minimum: 0
+          format: int64
+          nullable: true
+        availability_hours_per_month:
+          type: integer
+          maximum: 9223372036854775807
+          minimum: 0
+          format: int64
+          nullable: true
+        bio:
+          type: string
+        linkedin_url:
+          oneOf:
+          - type: string
+            format: uri
+            maxLength: 200
+          - type: string
+            maxLength: 0
+        is_active:
+          type: boolean
+        user:
+          type: string
+          format: uuid
+      required:
+      - user
+    OutcomeEnum:
+      enum:
+      - pending
+      - accepted
+      - declined
+      - closed
+      type: string
+      description: |-
+        * `pending` - Pending
+        * `accepted` - Accepted
+        * `declined` - Declined
+        * `closed` - Closed
+    PatchedAchievementRequest:
+      type: object
+      properties:
+        category:
+          $ref: '#/components/schemas/CategoryEnum'
+        title:
+          type: string
+          minLength: 1
+          maxLength: 240
+        rank_or_prize:
+          type: string
+          maxLength: 120
+        date:
+          type: string
+          format: date
+          nullable: true
+        verified:
+          type: boolean
+        certificate_path:
+          type: string
+          maxLength: 512
+        ner_confidence:
+          type: number
+          format: double
+          nullable: true
+        topic_tags: {}
+        nirf_countable:
+          type: boolean
+        profile:
+          type: string
+          format: uuid
+        startup:
+          type: string
+          format: uuid
+          nullable: true
+        competition:
+          type: string
+          format: uuid
+          nullable: true
+    PatchedCompetitionRequest:
+      type: object
+      properties:
+        name:
+          type: string
+          minLength: 1
+          maxLength: 200
+        organiser:
+          type: string
+          maxLength: 150
+        event_date:
+          type: string
+          format: date
+          nullable: true
+        deadline:
+          type: string
+          format: date
+          nullable: true
+        nirf_recognised:
+          type: boolean
+        eligible_roles: {}
+        created_by:
+          type: string
+          format: uuid
+          nullable: true
+    PatchedInteractionSummaryRequest:
+      type: object
+      properties:
+        actor:
+          type: string
+          format: uuid
+        target:
+          type: string
+          format: uuid
+        type:
+          $ref: '#/components/schemas/TypeEnum'
+        outcome:
+          $ref: '#/components/schemas/OutcomeEnum'
+    PatchedInvestorRequest:
+      type: object
+      properties:
+        user:
+          type: string
+          format: uuid
+        firm_name:
+          type: string
+          minLength: 1
+          maxLength: 150
+        designation:
+          type: string
+          maxLength: 120
+        mandate:
+          type: string
+        sectors: {}
+        stages: {}
+        check_size_min:
+          type: string
+          format: decimal
+          pattern: ^-?\d{0,13}(?:\.\d{0,2})?$
+          nullable: true
+        check_size_max:
+          type: string
+          format: decimal
+          pattern: ^-?\d{0,13}(?:\.\d{0,2})?$
+          nullable: true
+        portfolio_count:
+          type: integer
+          maximum: 9223372036854775807
+          minimum: 0
+          format: int64
+        website_url:
+          oneOf:
+          - type: string
+            format: uri
+            maxLength: 200
+          - type: string
+            maxLength: 0
+        linkedin_url:
+          oneOf:
+          - type: string
+            format: uri
+            maxLength: 200
+          - type: string
+            maxLength: 0
+        is_active:
+          type: boolean
+    PatchedMentorRequest:
+      type: object
+      properties:
+        expertise_areas: {}
+        current_role:
+          type: string
+          maxLength: 150
+        organization:
+          type: string
+          maxLength: 150
+        years_of_experience:
+          type: integer
+          maximum: 9223372036854775807
+          minimum: 0
+          format: int64
+          nullable: true
+        availability_hours_per_month:
+          type: integer
+          maximum: 9223372036854775807
+          minimum: 0
+          format: int64
+          nullable: true
+        bio:
+          type: string
+        linkedin_url:
+          oneOf:
+          - type: string
+            format: uri
+            maxLength: 200
+          - type: string
+            maxLength: 0
+        is_active:
+          type: boolean
+        user:
+          type: string
+          format: uuid
+    PatchedStartupRequest:
+      type: object
+      properties:
+        founder:
+          type: string
+          format: uuid
+        startup_name:
+          type: string
+          minLength: 1
+          maxLength: 150
+        tagline:
+          type: string
+          maxLength: 250
+        pitch_summary:
+          type: string
+        sector:
+          type: string
+          maxLength: 100
+        stage:
+          $ref: '#/components/schemas/StageEnum'
+        trl:
+          type: integer
+          maximum: 9223372036854775807
+          minimum: 0
+          format: int64
+          nullable: true
+        website_url:
+          oneOf:
+          - type: string
+            format: uri
+            maxLength: 200
+          - type: string
+            maxLength: 0
+        deck_url:
+          oneOf:
+          - type: string
+            format: uri
+            maxLength: 200
+          - type: string
+            maxLength: 0
+        team_size:
+          type: integer
+          maximum: 9223372036854775807
+          minimum: 0
+          format: int64
+        is_active:
+          type: boolean
+    PredictionResponse:
+      type: object
+      properties:
+        success_probability:
+          type: number
+          format: double
+      required:
+      - success_probability
+    ProfileSummary:
+      type: object
+      description: Minimal representation for listings.
+      properties:
+        id:
+          type: string
+          format: uuid
+          readOnly: true
+        full_name:
+          type: string
+          readOnly: true
+        department:
+          type: string
+          maxLength: 120
+        headline:
+          type: string
+          maxLength: 200
+      required:
+      - full_name
+      - id
+    StageEnum:
+      enum:
+      - idea
+      - mvp
+      - early_revenue
+      - growth
+      type: string
+      description: |-
+        * `idea` - Idea
+        * `mvp` - MVP
+        * `early_revenue` - Early Revenue
+        * `growth` - Growth
+    Startup:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+          readOnly: true
+        founder:
+          type: string
+          format: uuid
+        startup_name:
+          type: string
+          maxLength: 150
+        tagline:
+          type: string
+          maxLength: 250
+        pitch_summary:
+          type: string
+        sector:
+          type: string
+          maxLength: 100
+        stage:
+          $ref: '#/components/schemas/StageEnum'
+        trl:
+          type: integer
+          maximum: 9223372036854775807
+          minimum: 0
+          format: int64
+          nullable: true
+        website_url:
+          oneOf:
+          - type: string
+            format: uri
+            maxLength: 200
+          - type: string
+            maxLength: 0
+        deck_url:
+          oneOf:
+          - type: string
+            format: uri
+            maxLength: 200
+          - type: string
+            maxLength: 0
+        team_size:
+          type: integer
+          maximum: 9223372036854775807
+          minimum: 0
+          format: int64
+        is_active:
+          type: boolean
+        created_at:
+          type: string
+          format: date-time
+          readOnly: true
+        updated_at:
+          type: string
+          format: date-time
+          readOnly: true
+      required:
+      - created_at
+      - founder
+      - id
+      - startup_name
+      - updated_at
+    StartupRequest:
+      type: object
+      properties:
+        founder:
+          type: string
+          format: uuid
+        startup_name:
+          type: string
+          minLength: 1
+          maxLength: 150
+        tagline:
+          type: string
+          maxLength: 250
+        pitch_summary:
+          type: string
+        sector:
+          type: string
+          maxLength: 100
+        stage:
+          $ref: '#/components/schemas/StageEnum'
+        trl:
+          type: integer
+          maximum: 9223372036854775807
+          minimum: 0
+          format: int64
+          nullable: true
+        website_url:
+          oneOf:
+          - type: string
+            format: uri
+            maxLength: 200
+          - type: string
+            maxLength: 0
+        deck_url:
+          oneOf:
+          - type: string
+            format: uri
+            maxLength: 200
+          - type: string
+            maxLength: 0
+        team_size:
+          type: integer
+          maximum: 9223372036854775807
+          minimum: 0
+          format: int64
+        is_active:
+          type: boolean
+      required:
+      - founder
+      - startup_name
+    SuccessPredictionRequest:
+      type: object
+      properties:
+        success_probability:
+          type: number
+          format: double
+        status:
+          type: string
+          minLength: 1
+      required:
+      - status
+      - success_probability
+    TokenObtainPair:
+      type: object
+      properties:
+        access:
+          type: string
+          readOnly: true
+        refresh:
+          type: string
+          readOnly: true
+      required:
+      - access
+      - refresh
+    TokenObtainPairRequest:
+      type: object
+      properties:
+        email:
+          type: string
+          writeOnly: true
+          minLength: 1
+        password:
+          type: string
+          writeOnly: true
+          minLength: 1
+      required:
+      - email
+      - password
+    TokenRefresh:
+      type: object
+      properties:
+        access:
+          type: string
+          readOnly: true
+      required:
+      - access
+    TokenRefreshRequest:
+      type: object
+      properties:
+        refresh:
+          type: string
+          writeOnly: true
+          minLength: 1
+      required:
+      - refresh
+    TypeEnum:
+      enum:
+      - mentorship
+      - funding_match
+      - club_membership
+      - competition_team
+      - mou
+      type: string
+      description: |-
+        * `mentorship` - Mentorship
+        * `funding_match` - Funding Match
+        * `club_membership` - Club Membership
+        * `competition_team` - Competition Team
+        * `mou` - MoU
+  securitySchemes:
+    jwtAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT

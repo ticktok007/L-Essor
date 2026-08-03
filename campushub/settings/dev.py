@@ -26,3 +26,11 @@ LOGGING = {
         "level":    "DEBUG",
     },
 }
+
+REST_FRAMEWORK.update({
+    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
+})
+
+import sys
+if 'spectacular' in sys.argv:
+    print(f"DEBUG: Schema Class is {REST_FRAMEWORK['DEFAULT_SCHEMA_CLASS']}")

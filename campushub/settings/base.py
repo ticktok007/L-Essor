@@ -26,8 +26,11 @@ INSTALLED_APPS = [
     "accounts",
     "ecosystem",
     "matching",
+    'rest_framework_simplejwt',
+    'drf_spectacular',
     "analytics",
     "graph",
+    "dashboard",
     "portfolio",
 ]
 AUTH_USER_MODEL = "accounts.User"
@@ -91,8 +94,20 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 # ── Django REST Framework ─────────────────────────────────────────────────────
 REST_FRAMEWORK = {
-    "DEFAULT_RENDERER_CLASSES":  ["rest_framework.renderers.JSONRenderer"],
-    "DEFAULT_PARSER_CLASSES":    ["rest_framework.parsers.JSONParser"],
-    "DEFAULT_PERMISSION_CLASSES": ["rest_framework.permissions.IsAuthenticated"],
-    # Authentication classes wired in Phase 2 (simplejwt)
+    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+    ],
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.IsAuthenticated',
+    ],
 }
+
+SPECTACULAR_SETTINGS = {
+    'TITLE': 'Campus Innovation & Engagement Intelligence Hub API',
+    'DESCRIPTION': 'AI-driven platform for semantic matchmaking, graph intelligence, and predictive analytics.',
+    'VERSION': '1.0.0',
+    'SERVE_INCLUDE_SCHEMA': False,
+    'COMPONENT_SPLIT_REQUEST': True,
+}
+

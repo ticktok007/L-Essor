@@ -1,35 +1,34 @@
 # Week 5 Review
 **Project:** Campus Innovation & Engagement Intelligence Hub
-**Phase:** 2 — Backend Foundation
-**Review date:** Week 5 close
+**Phase:** 2 — Backend Foundation (Day 25 close)
+**Author:** Sanjay (24AM0100), Chennai Institute of Technology
 
-## Completed This Week
+## Completed this week
 
-| Item | Status |
+| Day | Deliverable |
 |---|---|
-| `ProfileSerializer` with nested achievements + interactions | ✅ Done |
-| `StartupSerializer` with nested achievements + interactions | ✅ Done |
-| `InvestorSerializer` with read-only `profile_summary` | ✅ Done |
-| `AchievementSerializer` with read-only `competition_summary` | ✅ Done |
-| All nested fields confirmed read-only | ✅ Done |
-| No circular serializer expansion verified | ✅ Done |
-| Field naming aligned with model layer | ✅ Done |
-| Serializer review completed — all checks passed | ✅ Done |
+| Day 21–24 | DRF serializers, ViewSets, bulk `load_synthetic_data`, pgvector columns + ivfflat ANN indexes |
+| Day 25 | B-tree indexes on `role`, `department`, `funding_stage`, `sector`; `scripts/load_test_filtered_queries.py` |
 
-## Decisions Locked
-- Nested history is read-only on parent serializers; writes use dedicated endpoints.
-- `MentorSerializer` deferred to Week 6 alongside Mentor ViewSet — not required for Phase 2 matching engine MVP.
-- Computed fields (`betweenness_centrality`, `pagerank_score`, `success_probability`, `trl_mrl_gap`) are `read_only=True` — written by background Celery tasks, not by API clients.
-- `InvestorSerializer` exposes `profile_summary` as a condensed nested read, not the full `ProfileSerializer`, to avoid payload bloat.
+## Performance check
 
-## Risks / Follow-ups
+- Ran `python scripts/load_test_filtered_queries.py` after synthetic load.
+- Workload: users by `role`, profiles by `department`, startups by `funding_stage` / `sector`, plus one combined startup filter — same shapes as leadership dashboard list endpoints.
+- Script reports total and average ms over 25 iterations; re-run after scaling toward **20,000+ profiles** to confirm latency stays acceptable.
 
-| Risk | Action |
-|---|---|
-| `outgoing_interactions` and `incoming_interactions` on large profiles could return large payloads | Add pagination to interaction list endpoints in ViewSet layer (Week 6) |
-| `AchievementSerializer.certificate_path` is a raw string path — no signed URL yet | Wire `django-storages` + S3 signed URL generation before Phase 6 |
-| `ProfileSerializer.skills_list` is a JSONField — frontend must parse as array | Document in API spec; add JSONField validation in Week 6 |
+## Indexing status
 
-## Exit Status
-**Week 5 complete. Serializer foundation locked.**
-Phase 2 continues with ViewSets and routing (Days 22–25).
+| Column | Table / model | Index name | Type |
+|---|---|---|---|
+| `role` | `auth_user` / `User` | `auth_user_role_btree_idx` | B-tree |
+| `department` | `accounts_profile` / `Profile` | `accounts_profile_department_btree_idx` | B-tree |
+| `funding_stage` | `ecosystem_startup` / `Startup` | `ecosystem_startup_funding_stage_btree_idx` | B-tree |
+| `sector` | `ecosystem_startup` / `Startup` | `ecosystem_startup_sector_btree_idx` | B-tree |
+
+Migrations: `accounts/migrations/0002_add_profile_filter_indexes.py`, `ecosystem/migrations/0002_add_startup_filter_indexes.py`.
+
+## Notes
+
+- `Startup.funding_stage` indexed alongside `sector` to match synthetic CSV / master schema; populated on ingest via `load_synthetic_data`.
+- Department filter benchmark uses equality (B-tree friendly); portal search may still use `icontains` — add trigram/GiST only if explain plans show sequential scans at scale.
+- Capture `EXPLAIN ANALYZE` for any query over budget before Phase 3 matching load tests.

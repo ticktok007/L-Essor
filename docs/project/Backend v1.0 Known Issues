@@ -1,0 +1,13 @@
+# Backend v1.0 Known Issues
+
+| Issue | Severity | Workaround | Planned Fix |
+|:---|:---|:---|:---|
+| ML Prediction Drift | Medium | Re-run synthetic generator to balance labels | Phase 8 (MLOps) |
+| Large Graph Latency | Low | Filter graph by department | Phase 5 (Sub-graphs) |
+| Local Media Storage | Low | Use base64 for small certificate previews | Phase 6 (S3 Integration) |
+| Missing Role Endorsements | Low | Manual verification in Admin | Phase 7 (Mentor Portal) |
+
+## Deferred Items (Post-MVP)
+- Real-time WebSocket notifications for matches.
+- Automated Alumni LinkedIn data enrichment (Pending Legal).
+- Multi-institutional tenant support.
